@@ -11,10 +11,10 @@ The project uses Grobid to extract structured information from PDF files and Pyt
 
 ## Objectives
 The main objectives of this project are:
-- build a reproducible pipeline for extracting structured information from scientific PDFs
-- analyze a collection of 10 open-access papers on artificial intelligence in healthcare
-- generate visual and tabular outputs based on abstracts, figures, and links
-- document the methodology and validation process clearly in the repository
+- Build a reproducible pipeline for extracting structured information from scientific PDFs
+- Analyze a collection of 10 open-access papers on artificial intelligence in healthcare
+- Generate visual and tabular outputs based on abstracts, figures, and links
+- Document the methodology and validation process clearly in the repository
 
 ## Input dataset
 The input dataset consists of 10 open-access articles in PDF format about artificial intelligence in healthcare.
