@@ -25,6 +25,21 @@ The metadata of the selected papers is available in:
 The PDF files are stored in:
 - `data/raw_pdfs/`
 
+A short summary of the dataset is shown below:
+
+| ID | Short title | Source | Year |
+|----|-------------|--------|------|
+| 1 | Transforming the practice of medicine | PMC | 2021 |
+| 2 | Artificial intelligence in healthcare (Review) | PMC | 2024 |
+| 3 | Decision-Making in Healthcare | PMC | 2024 |
+| 4 | History, Present Innovations, and Future Possibilities | PMC | 2024 |
+| 5 | Benefits and Risks of AI in Health Care | PMC | 2024 |
+| 6 | Open Access Data in democratizing healthcare AI | PLOS Digital Health | 2024 |
+| 7 | Bias in medical AI | PLOS Digital Health | 2024 |
+| 8 | Ensuring fairness and mitigating bias | PLOS Digital Health | 2025 |
+| 9 | Applications, challenges, and future directions | Frontiers in Digital Health | 2025 |
+| 10 | Clinical decision support and adverse events | Frontiers in Digital Health | 2025 |
+
 ## Repository structure
 - `data/raw_pdfs/`: input PDF articles
 - `data/tei_xml/`: Grobid output in TEI XML format
@@ -41,7 +56,7 @@ The PDF files are stored in:
 Clone the repository and install dependencies:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/estebanmoreno04/grobid-open-access-analysis.git
 cd grobid-open-access-analysis
 pip install -r requirements.txt
 ```
@@ -115,11 +130,12 @@ To validate the extracted links, the final CSV output was manually compared with
 This repository includes:
 - input metadata
 - input PDF files
+- extracted TEI XML files
 - extraction scripts
 - analysis scripts
 - generated outputs
 
-The use of Grobid in Docker improves reproducibility by ensuring a consistent environment for PDF processing. The Python dependencies required to run the analysis are listed in `requirements.txt`.
+The project currently uses Docker to run Grobid in a consistent environment for PDF processing. The Python dependencies required to run the analysis are listed in `requirements.txt`. Full containerization of the complete experiment could be added in future work.
 
 ## Limitations
 Some limitations should be considered:
