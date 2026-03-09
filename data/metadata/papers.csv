@@ -1,0 +1,11 @@
+id,title,source,year,pdf_url,pdf_filename,notes
+1,"Artificial intelligence in healthcare: transforming the practice of medicine","PMC",2021,"https://pmc.ncbi.nlm.nih.gov/articles/PMC8285156/","paper_01.pdf","selected"
+2,"Artificial intelligence in healthcare (Review)","PMC",2024,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11582508/","paper_02.pdf","selected"
+3,"Artificial Intelligence and Decision-Making in Healthcare: A Thematic Analysis of a Systematic Review of Reviews","PMC",2024,"https://pmc.ncbi.nlm.nih.gov/articles/PMC10916499/","paper_03.pdf","selected"
+4,"Artificial Intelligence and Healthcare: A Journey through History, Present Innovations, and Future Possibilities","PMC",2024,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11122160/","paper_04.pdf","selected"
+5,"Benefits and Risks of AI in Health Care: Narrative Review","PMC",2024,"https://pmc.ncbi.nlm.nih.gov/articles/PMC11612599/","paper_05.pdf","selected"
+6,"The role of Open Access Data in democratizing healthcare AI: A pathway to research enhancement, patient well-being and treatment equity in Andalusia, Spain","PLOS Digital Health",2024,"https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000599","paper_06.pdf","selected"
+7,"Bias in medical AI: Implications for clinical decision-making","PLOS Digital Health",2024,"https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000651","paper_07.pdf","selected"
+8,"AI-driven healthcare: A review on ensuring fairness and mitigating bias","PLOS Digital Health",2025,"https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000864","paper_08.pdf","selected"
+9,"Artificial intelligence in healthcare: applications, challenges, and future directions. A narrative review informed by international, multidisciplinary expertise","Frontiers in Digital Health",2025,"https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1644041/full","paper_09.pdf","selected"
+10,"Artificial intelligence in clinical decision support and the prediction of adverse events","Frontiers in Digital Health",2025,"https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2025.1403047/full","paper_10.pdf","selected"
