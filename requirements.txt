@@ -3,3 +3,4 @@ matplotlib
 wordcloud
 beautifulsoup4
 lxml
+grobid-client-python
