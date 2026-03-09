@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial intelligence in healthcare: transforming the practice of medicine</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Elsevier BV</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2021-07">2021-07</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Junaid</forename><surname>Bajwa</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Usman</forename><surname>Munir</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Aditya</forename><surname>Nori</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Bryan</forename><surname>Williams</surname></persName>
+						</author>
+						<title level="a" type="main">Artificial intelligence in healthcare: transforming the practice of medicine</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Future Healthcare Journal</title>
+						<title level="j" type="abbrev">Future Healthcare Journal</title>
+						<idno type="ISSN">2514-6645</idno>
+						<imprint>
+							<publisher>Elsevier BV</publisher>
+							<biblScope unit="volume">8</biblScope>
+							<biblScope unit="issue">2</biblScope>
+							<biblScope unit="page" from="e188" to="e194"/>
+							<date type="published" when="2021-07" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">C4D8D56EAAD311DFAFF7731591F33EB8</idno>
+					<idno type="DOI">10.7861/fhj.2021-0095</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>AI, digital health</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Artificial intelligence (AI) is a powerful and disruptive area of computer science, with the potential to fundamentally transform the practice of medicine and the delivery of healthcare. In this review article, we outline recent breakthroughs in the application of AI in healthcare, describe a roadmap to building effective, reliable and safe AI systems, and discuss the possible future direction of AI augmented healthcare systems.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Healthcare systems around the world face significant challenges in achieving the 'quadruple aim' for healthcare: improve population health, improve the patient's experience of care, enhance caregiver experience and reduce the rising cost of care. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr">[3]</ref> Ageing populations, growing burden of chronic diseases and rising costs of healthcare globally are challenging governments, payers, regulators and providers to innovate and transform models of healthcare delivery. Moreover, against a backdrop now catalysed by the global pandemic, healthcare systems find themselves challenged to 'perform' (deliver effective, high-quality care) and 'transform' care at scale by leveraging real-world data driven insights directly into patient care. The pandemic has also highlighted the shortages in healthcare workforce and inequities in the access to care, previously articulated by The King's Fund and the World Health Organization (Box 1). <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5</ref> The application of technology and artificial intelligence (AI) in healthcare has the potential to address some of these supplyand-demand challenges. The increasing availability of multimodal data (genomics, economic, demographic, clinical and phenotypic) coupled with technology innovations in mobile, internet of things (IoT), computing power and data security herald Authors: A chief medical scientist, Microsoft Research, Cambridge, UK; B research program manager, Microsoft Research, Cambridge, UK; C head of health intelligence, Microsoft Research, Cambridge, UK; D chair of medicine, University College London, London, UK and director, NIHR UCLH Biomedical Research Centre, London, UK a moment of convergence between healthcare and technology to fundamentally transform models of healthcare delivery through AI-augmented healthcare systems.</p><p>In particular, cloud computing is enabling the transition of effective and safe AI systems into mainstream healthcare delivery. Cloud computing is providing the computing capacity for the analysis of considerably large amounts of data, at higher speeds and lower costs compared with historic 'on premises' infrastructure of healthcare organisations. Indeed, we observe that many technology providers are increasingly seeking to partner with healthcare organisations to drive AI-driven medical innovation enabled by cloud computing and technology-related transformation (Box 2). <ref type="bibr">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref> Here, we summarise recent breakthroughs in the application of AI in healthcare, describe a roadmap to building effective AI systems and discuss the possible future direction of AI augmented healthcare systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ABSTRACT Box 1. Workforce challenges in the next decade</head><p>By 2030, the gap between supply of and demand for staff employed by NHS trusts could increase to almost 250,000 fulltime equivalent posts. <ref type="bibr" target="#b3">4</ref> Based on the current trends and needs of the global population by 2030, the world will have 18 million fewer healthcare professionals (especially marked differences in the developing world), including 5 million fewer doctors than society will require.</p><p>5 Box 2. Quotes from technology leaders Satya Nadella, chief executive officer, Microsoft: 'AI is perhaps the most transformational technology of our time, and healthcare is perhaps AI's most pressing application.' 6 Tim Cook, chief executive officer, Apple: '[Healthcare] is a business opportunity … if you look at it, medical health activity is the largest or second-largest component of the economy.' 7 Google Health: 'We think that AI is poised to transform medicine, delivering new, assistive technologies that will empower doctors to better serve their patients. Machine learning has dozens of possible application areas, but healthcare stands out as a remarkable opportunity to benefit people.' 8 e189 Artificial Intelligence in healthcare</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>What is artificial intelligence?</head><p>Simply put, AI refers to the science and engineering of making intelligent machines, through algorithms or a set of rules, which the machine follows to mimic human cognitive functions, such as learning and problem solving. <ref type="bibr" target="#b8">9</ref> AI systems have the potential to anticipate problems or deal with issues as they come up and, as such, operate in an intentional, intelligent and adaptive manner. <ref type="bibr" target="#b9">10</ref> AI's strength is in its ability to learn and recognise patterns and relationships from large multidimensional and multimodal datasets; for example, AI systems could translate a patient's entire medical record into a single number that represents a likely diagnosis. <ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12</ref> Moreover, AI systems are dynamic and autonomous, learning and adapting as more data become available. <ref type="bibr" target="#b12">13</ref> AI is not one ubiquitous, universal technology, rather, it represents several subfields (such as machine learning and deep learning) that, individually or in combination, add intelligence to applications. Machine learning (ML) refers to the study of algorithms that allow computer programs to automatically improve through experience. <ref type="bibr" target="#b13">14</ref> ML itself may be categorised as 'supervised', 'unsupervised' and 'reinforcement learning' (RL), and there is ongoing research in various sub-fields including 'semisupervised', 'self-supervised' and 'multi-instance' ML.</p><p>&gt; Supervised learning leverages labelled data (annotated information); for example, using labelled X-ray images of known tumours to detect tumours in new images. 15 &gt; 'Unsupervised learning' attempts to extract information from data without labels; for example, categorising groups of patients with similar symptoms to identify a common cause. 16 &gt; In RL, computational agents learn by trial and error, or by expert demonstration. The algorithm learns by developing a strategy to maximise rewards. Of note, major breakthroughs in AI in recent years have been based on RL. &gt; Deep learning (DL) is a class of algorithms that learns by using a large, many-layered collection of connected processes and exposing these processors to a vast set of examples. DL has emerged as the predominant method in AI today driving improvements in areas such as image and speech recognition. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> How to build effective and trusted AI-augmented healthcare systems?</p><p>Despite more than a decade of significant focus, the use and adoption of AI in clinical practice remains limited, with many AI products for healthcare still at the design and develop stage. <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref> While there are different ways to build AI systems for healthcare, far too often there are attempts to force square pegs into round holes ie find healthcare problems to apply AI solutions to without due consideration to local context (such as clinical workflows, user needs, trust, safety and ethical implications).</p><p>We hold the view that AI amplifies and augments, rather than replaces, human intelligence. Hence, when building AI systems in healthcare, it is key to not replace the important elements of the human interaction in medicine but to focus it, and improve the efficiency and effectiveness of that interaction. Moreover, AI innovations in healthcare will come through an in-depth, humancentred understanding of the complexity of patient journeys and care pathways.</p><p>In Fig 1, we describe a problem-driven, human-centred approach, adapted from frameworks by Wiens et al, Care and Sendak to building effective and reliable AI-augmented healthcare systems. <ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref><ref type="bibr" target="#b25">[25]</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design and develop</head><p>The first stage is to design and develop AI solutions for the right problems using a human-centred AI and experimentation approach and engaging appropriate stakeholders, especially the healthcare users themselves.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Stakeholder engagement and co-creation</head><p>Build a multidisciplinary team including computer and social scientists, operational and research leadership, and clinical stakeholders (physician, caregivers and patients) and subject experts (eg for biomedical scientists) that would include authorisers, motivators, financiers, conveners, connectors, implementers and champions. <ref type="bibr" target="#b26">26</ref> A multi-stakeholder team brings the technical, strategic, operational expertise to define problems, goals, success metrics and intermediate milestones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Human-centred AI</head><p>A human-centred AI approach combines an ethnographic understanding of health systems, with AI. Through user-designed research, first understand the key problems (we suggest using a qualitative study design to understand 'what is the problem', 'why is it a problem', 'to whom does it matter', 'why has it not been addressed before' and 'why is it not getting attention') including the needs, constraints and workflows in healthcare organisations, and the facilitators and barriers to the integration of AI within the clinical context. After defining key problems, the next step is to identify which problems are appropriate for AI to solve, whether there is availability of applicable datasets to build and later evaluate AI. By contextualising algorithms in an existing workflow, AI systems would operate within existing norms and practices Design and develop IdenƟfy the right problem Stakeholder engagement Understand context: end user needs and clinical workflows Ethical implicaƟons ExperimentaƟon Evaluate and validate StaƟsƟcal validity Failure modes Clinical uƟlity Economic uƟlity Diffuse and scale Development modality Regulatory approvals Model updates Reimbursement and payment Monitor and maintain Post-market surveillance Safety monitoring ProspecƟve performance Junaid Bajwa, Usman Munir, Aditya Nori and Bryan Williams to ensure adoption, providing appropriate solutions to existing problems for the end user.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimentation</head><p>The focus should be on piloting of new stepwise experiments to build AI tools, using tight feedback loops from stakeholders to facilitate rapid experiential learning and incremental changes. <ref type="bibr" target="#b27">27</ref> The experiments would allow the trying out of new ideas simultaneously, exploring to see which one works, learn what works and what doesn't, and why. <ref type="bibr" target="#b28">28</ref> Experimentation and feedback will help to elucidate the purpose and intended uses for the AI system: the likely end users and the potential harm and ethical implications of AI system to them (for instance, data privacy, security, equity and safety).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluate and validate</head><p>Next, we must iteratively evaluate and validate the predictions made by the AI tool to test how well it is functioning. This is critical, and evaluation is based on three dimensions: statistical validity, clinical utility and economic utility.</p><formula xml:id="formula_0">&gt;</formula><p>Statistical validity is understanding the performance of AI on metrics of accuracy, reliability, robustness, stability and calibration. High model performance on retrospective, in silico settings is not sufficient to demonstrate clinical utility or impact. &gt; To determine clinical utility, evaluate the algorithm in a realtime environment on a hold-out and temporal validation set (eg longitudinal and external geographic datasets) to demonstrate clinical effectiveness and generalisability. 25 &gt; Economic utility quantifies the net benefit relative to the cost from the investment in the AI system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Scale and diffuse</head><p>Many AI systems are initially designed to solve a problem at one healthcare system based on the patient population specific to that location and context. Scale up of AI systems requires special attention to deployment modalities, model updates, the regulatory system, variation between systems and reimbursement environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monitor and maintain</head><p>Even after an AI system has been deployed clinically, it must be continually monitored and maintained to monitor for risks and adverse events using effective post-market surveillance. Healthcare organisations, regulatory bodies and AI developers should cooperate to collate and analyse the relevant datasets for AI performance, clinical and safety-related risks, and adverse events. <ref type="bibr" target="#b29">29</ref> What are the current and future use cases of AI in healthcare?</p><p>AI can enable healthcare systems to achieve their 'quadruple aim' by democratising and standardising a future of connected and AI augmented care, precision diagnostics, precision therapeutics and, ultimately, precision medicine (Table <ref type="table" target="#tab_3">1</ref>). <ref type="bibr" target="#b30">30</ref>  AI today (and in the near future)</p><p>Currently, AI systems are not reasoning engines ie cannot reason the same way as human physicians, who can draw upon 'common sense' or 'clinical intuition and experience'. <ref type="bibr" target="#b11">12</ref> Instead, AI resembles a signal translator, translating patterns from datasets. AI systems today are beginning to be adopted by healthcare organisations to automate time consuming, high volume repetitive tasks. Moreover, there is considerable progress in demonstrating the use of AI in precision diagnostics (eg diabetic retinopathy and radiotherapy planning).</p><p>AI in the medium term (the next 5-10 years)</p><p>In the medium term, we propose that there will be significant progress in the development of powerful algorithms that are efficient (eg require less data to train), able to use unlabelled data, and can combine disparate structured and unstructured data including imaging, electronic health data, multi-omic, behavioural and pharmacological data. In addition, healthcare organisations and medical practices will evolve from being adopters of AI platforms, to becoming co-innovators with technology partners in the development of novel AI systems for precision therapeutics.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI in the long term (&gt;10 years)</head><p>In the long term, AI systems will become more intelligent, enabling AI healthcare systems achieve a state of precision medicine through AI-augmented healthcare and connected care. Healthcare will shift from the traditional one-size-fits-all form of medicine to a preventative, personalised, data-driven disease management model that achieves improved patient outcomes (improved patient and clinical experiences of care) in a more costeffective delivery system.</p><p>Connected/augmented care AI could significantly reduce inefficiency in healthcare, improve patient flow and experience, and enhance caregiver experience and patient safety through the care pathway; for example, AI could be applied to the remote monitoring of patients (eg intelligent telehealth through wearables/sensors) to identify and provide timely care of patients at risk of deterioration.</p><p>In the long term, we expect that healthcare clinics, hospitals, social care services, patients and caregivers to be all connected to a single, interoperable digital infrastructure using passive sensors in combination with ambient intelligence. <ref type="bibr" target="#b31">31</ref> Following are two AI applications in connected care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Virtual assistants and AI chatbots</head><p>AI chatbots (such as those used in Babylon (<ref type="url" target="http://www.babylonhealth.com">www.babylonhealth.  com</ref>) and Ada (<ref type="url" target="http://www.babylonhealth.com">https://ada.com)</ref>) are being used by patients to identify symptoms and recommend further actions in community and primary care settings. AI chatbots can be integrated with wearable devices such as smartwatches to provide insights to both patients and caregivers in improving their behaviour, sleep and general wellness.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ambient and intelligent care</head><p>We also note the emergence of ambient sensing without the need for any peripherals.</p><p>&gt; Emerald (<ref type="url" target="http://www.emeraldinno.com">www.emeraldinno.com</ref>): a wireless, touchless sensor and machine learning platform for remote monitoring of sleep, breathing and behaviour, founded by Massachusetts Institute of Technology faculty and researchers. &gt; Google nest: claiming to monitor sleep (including sleep disturbances like cough) using motion and sound sensors. 32 &gt; A recently published article exploring the ability to use smart speakers to contactlessly monitor heart rhythms. 33 &gt; Automation and ambient clinical intelligence: AI systems leveraging natural language processing (NLP) technology have the potential to automate administrative tasks such as documenting patient visits in electronic health records, optimising clinical workflow and enabling clinicians to focus more time on caring for patients (eg Nuance Dragon Ambient eXperience (<ref type="url" target="http://www.nuance.com/healthcare/ambient-clinical-intelligence.html">www.nuance.com/healthcare/ambient-clinical- intelligence.html</ref>)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Precision diagnostics</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diagnostic imaging</head><p>The automated classification of medical images is the leading AI application today. A recent review of AI/ML-based medical devices approved in the USA and Europe from 2015-2020 found that more than half (129 (58%) devices in the USA and 126 (53%) devices in Europe) were approved or CE marked for radiological use. <ref type="bibr" target="#b34">34</ref> Studies have demonstrated AI's ability to meet or exceed the performance of human experts in imagebased diagnoses from several medical specialties including pneumonia in radiology (a convolutional neural network trained with labelled frontal chest X-ray images outperformed radiologists in detecting pneumonia), dermatology (a convolutional neural network was trained with clinical images and was found to classify skin lesions accurately), pathology (one study trained AI algorithms with whole-slide pathology images to detect lymph node metastases of breast cancer and compared the results with those of pathologists) and cardiology (a deep learning algorithm diagnosed heart attack with a performance comparable with that of cardiologists). <ref type="bibr" target="#b35">[35]</ref><ref type="bibr" target="#b36">[36]</ref><ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref> We recognise that there are some exemplars in this area in the NHS (eg University of Leeds Virtual Pathology Project and the National Pathology Imaging Co-operative) and expect widescale adoption and scaleup of AI-based diagnostic imaging in the medium term. <ref type="bibr">39</ref> We provide two use cases of such technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diabetic retinopathy screening</head><p>Key to reducing preventable, diabetes-related vision loss worldwide is screening individuals for detection and the prompt treatment of diabetic retinopathy. However, screening is costly given the substantial number of diabetes patients and limited manpower for eye care worldwide. <ref type="bibr" target="#b39">40</ref> Research studies on automated AI algorithms for diabetic retinopathy in the USA, Singapore, Thailand and India have demonstrated robust diagnostic performance and cost effectiveness. <ref type="bibr" target="#b40">[41]</ref><ref type="bibr" target="#b41">[42]</ref><ref type="bibr" target="#b42">[43]</ref><ref type="bibr" target="#b43">[44]</ref> Moreover, Centers for Medicare &amp; Medicaid Services approved Medicare reimbursement for the use of Food and Drug Administration approved AI algorithm 'IDx-DR', which demonstrated 87% Junaid Bajwa, Usman Munir, Aditya Nori and Bryan Williams sensitivity and 90% specificity for detecting more-than-mild diabetic retinopathy. <ref type="bibr" target="#b44">45</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improving the precision and reducing waiting timings for radiotherapy planning</head><p>An important AI application is to assist clinicians for image preparation and planning tasks for radiotherapy cancer treatment. Currently, segmentation of the images is time consuming and laborious task, performed manually by an oncologist using specially designed software to draw contours around the regions of interest. The AI-based InnerEye open-source technology can cut this preparation time for head and neck, and prostate cancer by up to 90%, meaning that waiting times for starting potentially life-saving radiotherapy treatment can be dramatically reduced (Fig <ref type="figure">2</ref>). <ref type="bibr" target="#b45">46,</ref><ref type="bibr" target="#b46">47</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Precision therapeutics</head><p>To make progress towards precision therapeutics, we need to considerably improve our understanding of disease. Researchers globally are exploring the cellular and molecular basis of disease, collecting a range of multimodal datasets that can lead to digital and biological biomarkers for diagnosis, severity and progression. Two important future AI applications include immunomics / synthetic biology and drug discovery.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Immunomics and synthetic biology</head><p>Through the application of AI tools on multimodal datasets in the future, we may be able to better understand the cellular basis of disease and the clustering of diseases and patient populations to provide more targeted preventive strategies, for example, using immunomics to diagnose and better predict care and treatment options. This will be revolutionary for multiple standards of care, with particular impact in the cancer, neurological and rare disease space, personalising the experience of care for the individual.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI-driven drug discovery</head><p>AI will drive significant improvement in clinical trial design and optimisation of drug manufacturing processes, and, in general, any combinatorial optimisation process in healthcare could be replaced by AI. We have already seen the beginnings of this with the recent announcements by DeepMind and AlphaFold, which now sets the stage for better understanding disease processes, predicting protein structures and developing more targeted therapeutics (for both rare and more common diseases; Fig <ref type="figure">3</ref>). <ref type="bibr" target="#b47">48,</ref><ref type="bibr" target="#b48">49</ref> Precision medicine</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>New curative therapies</head><p>Over the past decade, synthetic biology has produced developments like CRISPR gene editing and some personalised cancer therapies. However, the life cycle for developing such advanced therapies is still extremely inefficient and expensive.</p><p>In future, with better access to data (genomic, proteomic, glycomic, metabolomic and bioinformatic), AI will allow us to handle far more systematic complexity and, in turn, help us transform the way we understand, discover and affect biology. This will improve the efficiency of the drug discovery process by helping better predict early which agents are more likely to be effective and also better anticipate adverse drug effects, which have often thwarted the further development of otherwise effective drugs at a costly late stage in the development process. This, in turn will democratise access to novel advanced therapies at a lower cost. Fig 3. An overview of the main neural network model architecture for AlphaFold. 49 MSA = multiple sequence alignment. 3D structure Residue-residue edges Pairwise distances Structure module Confidence score Sequence-residue edges MSA embedding GeneƟcs search and embed Protein sequence </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI empowered healthcare professionals</head><p>In the longer term, healthcare professionals will leverage AI in augmenting the care they provide, allowing them to provide safer, standardised and more effective care at the top of their licence; for example, clinicians could use an 'AI digital consult' to examine 'digital twin' models of their patients (a truly 'digital and biomedical' version of a patient), allowing them to 'test' the effectiveness, safety and experience of an intervention (such as a cancer drug) in the digital environment prior to delivering the intervention to the patient in the real world.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges</head><p>We recognise that there are significant challenges related to the wider adoption and deployment of AI into healthcare systems. These challenges include, but are not limited to, data quality and access, technical infrastructure, organisational capacity, and ethical and responsible practices in addition to aspects related to safety and regulation. Some of these issues have been covered, but others go beyond the scope of this current article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion and key recommendations</head><p>Advances in AI have the potential to transform many aspects of healthcare, enabling a future that is more personalised, precise, predictive and portable. It is unclear if we will see an incremental adoption of new technologies or radical adoption of these technological innovations, but the impact of such technologies and the digital renaissance they bring requires health systems to consider how best they will adapt to the changing landscape. For the NHS, the application of such technologies truly has the potential to release time for care back to healthcare professionals, enabling them to focus on what matters to their patients and, in the future, leveraging a globally democratised set of data assets comprising the 'highest levels of human knowledge' to 'work at the limits of science' to deliver a common high standard of care, wherever and whenever it is delivered, and by whoever. <ref type="bibr" target="#b49">50</ref> Globally, AI could become a key tool for improving health equity around the world. As much as the last 10 years have been about the roll out of digitisation of health records for the purposes of efficiency (and in some healthcare systems, billing/reimbursement), the next 10 years will be about the insight and value society can gain from these digital assets, and how these can be translated into driving better clinical outcomes with the assistance of AI, and the subsequent creation of novel data assets and tools. It is clear that we are at an turning point as it relates to the convergence of the practice of medicine and the application of technology, and although there are multiple opportunities, there are formidable challenges that need to be overcome as it relates to the real world and the scale of implementation of such innovation. A key to delivering this vision will be an expansion of translational research in the field of healthcare applications of artificial intelligence. Alongside this, we need investment into the upskilling of a healthcare workforce and future leaders that are digitally enabled, and to understand and embrace, rather than being intimidated by, the potential of an AI-augmented healthcare system.</p><p>Healthcare leaders should consider (as a minimum) these issues when planning to leverage AI for health: &gt; processes for ethical and responsible access to data: healthcare data is highly sensitive, inconsistent, siloed and not optimised for the purposes of machine learning development, evaluation, implementation and adoption &gt; access to domain expertise / prior knowledge to make sense and create some of the rules which need to be applied to the datasets (to generate the necessary insight) &gt; access to sufficient computing power to generate decisions in real time, which is being transformed exponentially with the advent of cloud computing &gt; research into implementation: critically, we must consider, explore and research issues which arise when you take the algorithm and put it in the real world, building 'trusted' AI algorithms embedded into appropriate workflows. ■</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig 1 .</head><label>1</label><figDesc>Fig 1. Multi-step, iterative approach to build effective and reliable AI-augmented systems in healthcare.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig 2 . 47 Fig 3 .</head><label>2473</label><figDesc>Fig 2. Potential applications for the InnerEye deep learning toolkit include quantitative radiology for monitoring tumour progression, planning for surgery and radiotherapy planning.<ref type="bibr" target="#b46">47</ref> </figDesc><graphic coords="5,79.37,79.45,233.60,89.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 1 . Widescale adoption and application of artificial intelligence in healthcare Timeline Connected/ augmented care Precision diagnostics Precision therapeutics Precision Medicine Summary Short term: 0-5 years</head><label>1</label><figDesc>Research in the application of AI healthcare continues to accelerate rapidly, with potential use cases being demonstrated across the healthcare sector (both physical and mental health) including drug discovery, virtual clinical consultation, disease diagnosis, prognosis, medication management and health monitoring.We describe a non-exhaustive suite of AI applications in healthcare in the near term, medium term and longer term, for the</figDesc><table><row><cell></cell><cell>Internet of things in</cell><cell>Precision imaging (eg</cell><cell>CRISPR (increasing</cell><cell>Digital and AI</cell><cell>AI automates time</cell></row><row><cell></cell><cell>healthcare</cell><cell>diabetic retinopathy</cell><cell>use)</cell><cell>enabled research</cell><cell>consuming, high-</cell></row><row><cell></cell><cell>Virtual assistants</cell><cell>and radiotherapy</cell><cell></cell><cell>hospitals 30</cell><cell>volume repetitive</cell></row><row><cell></cell><cell>Augmented telehealth</cell><cell>planning)</cell><cell></cell><cell></cell><cell>tasks, especially within precision</cell></row><row><cell></cell><cell>Personalised mental</cell><cell></cell><cell></cell><cell></cell><cell>imaging</cell></row><row><cell></cell><cell>health support</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Medium-term:</cell><cell>Ambient intelligence</cell><cell>Large-scale adoption</cell><cell>Synthetic biology</cell><cell>Customisation of</cell><cell>AI uses multi-modal</cell></row><row><cell>5-10 years</cell><cell>in healthcare</cell><cell>and scale-up of</cell><cell>Immunomics</cell><cell>healthcare</cell><cell>datasets to drive</cell></row><row><cell></cell><cell></cell><cell>precision imaging</cell><cell></cell><cell>Robotic assisted</cell><cell>precision therapeutics</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>therapies</cell><cell></cell></row><row><cell>Long term:</cell><cell>Autonomous virtual</cell><cell>Holographic and hybrid</cell><cell>Genomics medicine</cell><cell>New curative</cell><cell>AI enables healthcare</cell></row><row><cell>&gt;10 years</cell><cell>health assistants,</cell><cell>imaging</cell><cell>AI driven drug</cell><cell>treatments</cell><cell>systems to achieve</cell></row><row><cell></cell><cell>delivering predictive</cell><cell>Holomics (integrated</cell><cell>discovery</cell><cell>AI empowered</cell><cell>a state of precision</cell></row><row><cell></cell><cell>and anticipatory care</cell><cell>genomic/radiomic/</cell><cell></cell><cell>healthcare</cell><cell>medicine through</cell></row><row><cell></cell><cell>Networked and</cell><cell>proteomic/clinical/</cell><cell></cell><cell>professionals (eg</cell><cell>AI-augmented</cell></row><row><cell></cell><cell>connected care</cell><cell>immunohistochemical</cell><cell></cell><cell>digital twins)</cell><cell>healthcare and</cell></row><row><cell></cell><cell>organisations (single</cell><cell>data)</cell><cell></cell><cell></cell><cell>connected care</cell></row><row><cell></cell><cell>digital infrastructure)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>Timings are illustrative to widescale adoption of the proposed innovation taking into account challenges / regulatory environment / use at scale.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>© Royal College of Physicians 2021. All rights reserved.</p></note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The Triple Aim: Care, health, and cost</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Berwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Whittington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Affairs</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="759" to="769" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">From triple to quadruple aim: care of the patient requires care of the provider</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bodenheimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Fam Med</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="573" to="576" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Institute for Healthcare Improvement</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Feeley</surname></persName>
+		</author>
+		<ptr target="www.ihi.org/communities/blogs/the-triple-aim-or-the-quadruple-aim-four-points-to-help-set-your-strategy" />
+	</analytic>
+	<monogr>
+		<title level="m">The Triple Aim or the Quadruple Aim? Four Points to Help Set Your Strategy</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m">The Health Foundation, Nuffield Trust, The King&apos;s Fund. The health care workforce in England: make or break? The King&apos;s Fund</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Working for health and growth: Investing in the health workforce</title>
+		<ptr target="http://apps.who.int/iris/bitstream/10665/250047/1/9789241511308-eng.pdf" />
+		<imprint>
+			<date type="published" when="2016-01">2016. January 2020</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">6 Satya Nadella announces strategic collaboration with Novartis. You Tube</title>
+		<ptr target="www.youtube.com/watch?v=wMfsQE-D2q4" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Tim Cook on how Apple champions the environment, education, and health care</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lashinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fortune</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">How the &apos;Big 4&apos; tech companies are leading healthcare innovation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Turea</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Healthcare Weekly</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">What is artificial intelligence?</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>John McCarthy</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Applicability of artificial intelligence in different fields of life</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Shukla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Jaiswal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IJSER</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="28" to="35" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Imagenet: a large-scale hierarchical image database</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Socher</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009">2009. 2009</date>
+			<biblScope unit="page" from="248" to="255" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Trust and medical AI: the challenges we face and the expertise needed to overcome them</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Senadeera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coghlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Le</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="890" to="894" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Trade-offs. Information Commissioner&apos;s Office</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Binns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gallo</surname></persName>
+		</author>
+		<ptr target="https://ico.org.uk/about-the-ico/news-and-events/ai-blog-trade-offs" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+		<ptr target="www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html" />
+		<title level="m">Machine learning</title>
+		<imprint>
+			<publisher>McGraw Hill</publisher>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Rise of robot radiologists</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reardon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page" from="54" to="58" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Computational phenotype discovery using unsupervised feature learning over noisy, sparse, and irregular clinical data</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Lasko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Denny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Levy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">66341</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Machine learning: the power and promise of computers that learn by example</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>The Royal Society</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="page" from="436" to="444" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">High-performance medicine: the convergence of human and artificial intelligence</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="44" to="56" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Key challenges for delivering clinical impact with artificial intelligence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karthikesalingam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suleyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>King</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Medicine</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The &apos;inconvenient truth&apos; about AI in healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Panch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mattie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Celi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence: How to get it right</title>
+		<author>
+			<persName><surname>Nhsx</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NHS</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Junaid</forename><surname>Bajwa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Usman</forename><surname>Munir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aditya</forename><surname>Nori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bryan</forename><surname>Williams</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Do no harm: a roadmap for responsible machine learning for health care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wiens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sendak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1337" to="1340" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence in health care: Benefits and challenges of technologies to augment patient care</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>GAO</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A path for translation of machine learning products into healthcare delivery</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Sendak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>'arcy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kashyap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EMJ Innov</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="19" to="00172" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Development as leadership-led change: working paper series RWP10-009</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wescott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+		<respStmt>
+			<orgName>Harvard University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Escaping capability traps through problem-driven iterative adaptation (PDIA): WIDER working paper 2012/064</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pritchett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Woolcock</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>UNU-WIDER</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Who really leads development? WIDER working paper</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andrews</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013. 2013</date>
+			<publisher>UNU-WIDER</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Controlling safety of artificial intelligence-based systems in healthcare</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Davahli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Karwowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fiok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Parsaei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Symmetry</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Redefining the research hospital</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nachev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Herron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mcnally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rees</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">119</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Illuminating the dark spaces of healthcare with ambient intelligence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Milstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fei-Fei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">585</biblScope>
+			<biblScope unit="page" from="193" to="202" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Google&apos;s next-gen Nest Hub debuts with contactless sleep monitoring and analysis features. Mobi Health News, 2021</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Muoio</surname></persName>
+		</author>
+		<ptr target="www.mobihealthnews.com/news/googles-next-gen-nest-hub-debuts-contactless-sleep-monitoring-and-analysis-features" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Using smart speakers to contactlessly monitor heart rhythms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Sridhar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commun Biol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">319</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Approval of artificial intelligence and machine learning-based medical devices in the USA and Europe (2015-20): a comparative analysis</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">J</forename><surname>Muehlematter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Daniore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Vokinger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digital Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="195" to="203" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Hospital-scale chest x-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE CVPR</title>
+		<imprint>
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page" from="2097" to="2106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A guide to deep learning in healthcare</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robicquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ramsundar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="24" to="29" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Diagnostic assessment of deep learning algorithms for detection of lymph node metastases in women with breast cancer</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Bejnordi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Veta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Diest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="2199" to="2210" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Detecting and interpreting myocardial infarction using fully convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Strodthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Strodthoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physiological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">15001</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence using deep learning to screen for referable and vision-threatening diabetic retinopathy in Africa: a clinical validation study</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bellemo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">W</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="35" to="44" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gulshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="page" from="2402" to="2410" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and deep learning in ophthalmology</title>
+		<author>
+			<persName><forename type="first">Dsw</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Pasquale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br J Ophthalmol</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="167" to="175" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Deep learning versus human graders for classifying diabetic retinopathy severity in a nationwide screening program</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Raumviboonsuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chotcomwongse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for teleophthalmology-based diabetic retinopathy screening in a national programme: an economic analysis modelling study</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">D</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hamzah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="240" to="249" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">The US government will pay doctors to use these AI algorithms. Wired</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Simonite</surname></persName>
+		</author>
+		<ptr target="www.wired.com/story/us-government-pay-doctors-use-ai-algorithms" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Evaluation of deep learning to augment image-guided radiotherapy for head and neck and prostate cancers</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Oktay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nanavati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwaighofer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Netw Open</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2020">2020. 2027426</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Project InnerEye open-source deep learning toolkit: Democratizing medical imaging AI</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Alverez-Valle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Moore</surname></persName>
+		</author>
+		<ptr target="www.microsoft.com/en-us/research/blog/project-innereye-open-source-deep-learning-toolkit-democratizing-medical-imaging-ai" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>Microsoft</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Improved protein structure prediction using potentials from deep learning</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Senior</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">577</biblScope>
+			<biblScope unit="page" from="706" to="710" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">AlphaFold: a solution to a 50-year-old grand challenge in biology</title>
+		<ptr target="https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology" />
+	</analytic>
+	<monogr>
+		<title level="m">The AlphaFold team</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<ptr target="www.gov.uk/government/publications/the-nhs-constitution-for-england" />
+	</analytic>
+	<monogr>
+		<title level="j">NHS Constitution or England. DHSC</title>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Department of Health and Social Care</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

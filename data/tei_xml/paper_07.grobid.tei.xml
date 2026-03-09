@@ -1,0 +1,3682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Bias in medical AI: Implications for clinical decision-making</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Public Library of Science (PLoS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-11-07">November 7, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">James</forename><forename type="middle">L</forename><surname>Cross</surname></persName>
+							<email>j.cross@yale.edu</email>
+							<idno type="ORCID">0009-0008-9690-128X</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">Yale School of Medicine</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>Connecticut</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">A</forename><surname>Choma</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Radiology &amp; Biomedical Imaging</orgName>
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>Connecticut</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">John</forename><forename type="middle">A</forename><surname>Onofrey</surname></persName>
+							<idno type="ORCID">0000-0002-9432-0448</idno>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Radiology &amp; Biomedical Imaging</orgName>
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>Connecticut</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Urology</orgName>
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>Connecticut</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Biomedical Engineering</orgName>
+								<orgName type="institution">Yale University</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>Connecticut</region>
+									<country>United States of America UNITED STATES OF AMERICA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Bias in medical AI: Implications for clinical decision-making</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">PLOS Digital Health</title>
+						<title level="j" type="abbrev">PLOS Digit Health</title>
+						<idno type="eISSN">2767-3170</idno>
+						<imprint>
+							<publisher>Public Library of Science (PLoS)</publisher>
+							<biblScope unit="volume">3</biblScope>
+							<biblScope unit="issue">11</biblScope>
+							<biblScope unit="page">e0000651</biblScope>
+							<date type="published" when="2024-11-07">November 7, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">910F1CC6C1DC096E4D2E51D734B10F62</idno>
+					<idno type="DOI">10.1371/journal.pdig.0000651</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Biases in medical artificial intelligence (AI) arise and compound throughout the AI lifecycle. These biases can have significant clinical consequences, especially in applications that involve clinical decision-making. Left unaddressed, biased medical AI can lead to substandard clinical decisions and the perpetuation and exacerbation of longstanding healthcare disparities. We discuss potential biases that can arise at different stages in the AI development pipeline and how they can affect AI algorithms and clinical decision-making. Bias can occur in data features and labels, model development and evaluation, deployment, and publication. Insufficient sample sizes for certain patient groups can result in suboptimal performance, algorithm underestimation, and clinically unmeaningful predictions. Missing patient findings can also produce biased model behavior, including capturable but nonrandomly missing data, such as diagnosis codes, and data that is not usually or not easily captured, such as social determinants of health. Expertly annotated labels used to train supervised learning models may reflect implicit cognitive biases or substandard care practices. Overreliance on performance metrics during model development may obscure bias and diminish a model's clinical utility. When applied to data outside the training cohort, model performance can deteriorate from previous validation and can do so differentially across subgroups. How end users interact with deployed solutions can introduce bias. Finally, where models are developed and published, and by whom, impacts the trajectories and priorities of future medical AI development. Solutions to mitigate bias must be implemented with care, which include the collection of large and diverse data sets, statistical debiasing methods, thorough model evaluation, emphasis on model interpretability, and standardized bias reporting and transparency requirements. Prior to real-world implementation in clinical settings, rigorous validation through clinical trials is critical to demonstrate unbiased application. Addressing biases across model development stages is crucial for ensuring all patients benefit equitably from the future of medical AI.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The application of artificial intelligence (AI) algorithms to the medical domain has exploded in recent years, facilitating tremendous advances in clinical tasks like risk prediction and disease screening <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. These medical AI models are increasingly implemented in real-world settings for clinical decision support, providing early warnings, facilitating diagnosis, predicting treatment responses, and more <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>. An idealized promise of medical AI is its objectivity and reproducibility, removing provider biases and clinical inequities toward optimized and personalized care for all patients. In reality, however, AI models are frequently found to be biased toward certain patient groups, leading to disparities not only in performance but also in potential or actual clinical benefits <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>.</p><p>Awareness of bias and the issues it poses-clinical, ethical, financial-is gradually increasing, as evident by the FDA's recent Action Plan that emphasized the importance of mitigating bias in medical AI systems <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. However, while bias detection and mitigation methods are relatively well developed for traditional statistical techniques like regression, the literature surrounding similar methods for AI algorithms is still nascent <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b12">13]</ref>. Additionally, there is a lack of standardized bias reporting guidelines within and across academic journals <ref type="bibr" target="#b11">[12]</ref>.</p><p>Here, we highlight how biases in medical AI-especially in applications that involve clinical decisions-occur and compound throughout the AI development pipeline. These biases, if left unchecked, will contribute to and exacerbate longstanding health disparities and negatively affect clinical care and decision-making. Methods to address these biases will prove crucial for ensuring the equitable realization of the current and future benefits of medical AI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Related work</head><p>The topic of bias in AI has garnered significant attention in recent years, with multiple review papers addressing different aspects of this critical issue <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref>. Fewer studies have concentrated specifically on the implications and consequences of biased AI in healthcare <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref>. While these reviews have made valuable contributions to our understanding of bias in medical AI, they differ in scope, depth, and focus, leaving a gap in understanding how bias permeates the development of AI for clinical decisions. Our work builds upon and extends these existing studies to provide a comprehensive and accessible overview of bias and its consequences in clinical decision-making.</p><p>Our approach distinguishes itself through several key aspects. While many reviews on bias focus on data and model development, we provide an extensive overview of bias across the entire AI development pipeline, from data collection to publication and real-world deployment. This approach allows us to examine how biases can compound and interact at different stages of model development. While some reviews concentrate on a single medical domain, particularly in medical imaging <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>, our discussions integrate real-world examples across diverse medical domains, enabling unique analysis of cross-domain challenges and broader systemic issues, such as biases in funding and publication. Several reviews focus primarily on statistical biases present in AI models-particularly those arising from training data-along with corresponding statistical debiasing methods <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b24">25]</ref>. While these technical biases are crucial, our study includes extensive discussion of non-technical biases and their clinical consequences. We explore practical mitigations strategies for these biases in diverse healthcare settings, an area often underexplored in other works. Furthermore, we incorporate a section on recent advances in medical large language models (LLMs), examining their unique potential biases in medical applications.</p><p>Our review is presented in a narrative format, designed to be accessible to a broad audience, including healthcare professionals without a technical background in AI. This approach ensures that the insights we provide are not only theoretically robust but also practically useful. By addressing the gaps in the current literature and offering a comprehensive, up-to-date analysis, our review serves as an accessible resource for AI developers and healthcare professionals alike. It aims to enhance understanding of bias in medical AI and provides actionable guidance on how to mitigate its effects in downstream clinical decision-making.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Artificial intelligence in medicine</head><p>AI seeks to develop algorithms and machines that exhibit human-like intelligence and cognition <ref type="bibr" target="#b25">[26]</ref>. While traditional programming software rely on predefined and fixed instructions and rules, AI systems leverage huge swaths of data and mathematical models to learn patterns and make decisions based on the data they are exposed to <ref type="bibr" target="#b26">[27]</ref>. The most popular subfield of AI is machine learning (ML), whose models learn through supervised (trained on data with "ground-truth" labels) or unsupervised (identifying patterns within data without prior knowledge of outcomes) paradigms <ref type="bibr" target="#b27">[28]</ref>.</p><p>In the healthcare domain, medical AI and ML models have demonstrated the potential to improve patient outcomes, reduce cost burdens, accelerate clinical trials, and revolutionize the way we diagnose, treat, and prevent disease <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref>. State-of-the-art deep learning methods, which consist of computational models composed of multiple processing layers that can learn complex representations of data, have achieved unprecedented performance in imagingbased diagnosis, drug discovery, gene analysis, and natural understanding of medical language <ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Defining bias in medical AI</head><p>In the context of medical AI for clinical decision-making, we define bias as any instance, factor, or prejudice that drives an AI algorithm to produce differential or inequitable outputs and outcomes <ref type="bibr" target="#b11">[12]</ref>. Although medical AI is a relatively new field, it is important to acknowledge that the underlying disparities in healthcare that drive bias in medical AI are not recent developments. Rather, they are rooted in longstanding historical driving forces of inequality in health systems, which themselves reflect even longer-standing discrimination and other forms of structural oppression <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b37">38]</ref>. Below, we discuss potential biases that can arise at different stages in the AI development pipeline, including biases in training data, model development, model implementation, and publication. At each stage, we first discuss the nature of these biases and how they can affect AI models and downstream clinical decision-making. We then highlight illustrative real-world and hypothetical examples that were intended (or were implemented) for aiding clinical decisions. Finally, we provide a thorough discussion of potential solutions and techniques that may or may not mitigate each bias. Each of these techniques has its own advantages and limitations, and the choice of method should be guided by the specific characteristics of the data set and the clinical task at hand. Table <ref type="table">1</ref> summarizes the potential clinical consequences and mitigation techniques for the biases and bias-related issue presented throughout this narrative review.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biases in training data</head><p>The first step in developing medical AI models involves collecting and preparing data. Biases in the data used to train these models can appear in several forms, some of which are more overt than others.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Imbalanced sample sizes</head><p>Definition and clinical consequences. Perhaps the most straightforward form of data bias is the presence of imbalanced (insufficient) sample sizes for certain patient groups. Many data sets used to train AI models for clinical tasks overrepresent non-Hispanic Caucasian patients relative to the general population <ref type="bibr" target="#b38">[39]</ref>, and more broadly, over half of all published clinical AI models leverage data sets from either the United States or China <ref type="bibr" target="#b39">[40]</ref>. When an algorithm is trained on imbalanced data, this can lead to worse performance and algorithm underestimation for underrepresented groups. An underestimating algorithm will forgo informative predictions in underrepresented groups-especially on outlier cases-in favor of approximating mean trends in order to avoid overfitting <ref type="bibr" target="#b40">[41]</ref>. Without statistically (or clinically) meaningful predictions for certain groups, any downstream clinical benefits of the AI model are limited to only the (largest) groups with sufficient data sizes <ref type="bibr" target="#b12">[13]</ref>. The benefits and clinical improvements that result would be similarly constrained, perpetuating healthcare disparities. Imbalanced samples are a form of bias that the medical community has historically and still currently struggles to address <ref type="bibr" target="#b41">[42]</ref>.</p><p>Illustrative examples. One illustrative example of class imbalance affecting model performance is the prediction of melanoma from skin images. Existing disparities in (non-AI) melanoma diagnoses are well-documented: at the time of diagnosis, darker-skinned patients already present with later stages of the disease and have lower survival rates than fair-skinned patients <ref type="bibr" target="#b42">[43]</ref>. Early diagnosis of melanoma is key to effective treatment, and thus AI-based melanoma prediction has great potential for clinical use <ref type="bibr" target="#b42">[43]</ref>. Unfortunately, disparities in AIbased melanoma prediction models are common: the majority of these models are trained on data sets (such as the Melanoma Project) that are heavily composed of light-skinned images from patients in the US, Europe, and Australia (imbalanced sample bias) <ref type="bibr" target="#b42">[43]</ref>. These models exhibit worse performance for images of lesions in darker skin tones, which resulted in worse predictivity when deployed in real-world settings <ref type="bibr" target="#b42">[43]</ref>. Although melanoma incidence occurs more frequently in non-Hispanic white individuals and is phenotypically different on dark skin, this should not justify the exclusion of these patient groups from the benefits of AI-based melanoma detection.</p><p>Another noteworthy study aimed to systematically quantify the effect of class imbalance on the fairness and generalizability of an AI model across different patient groups <ref type="bibr" target="#b43">[44]</ref>. The model of interest was trained on the MIMIC-III data set (an open source, real-world ICU data set) to predict in-hospital mortality <ref type="bibr" target="#b43">[44,</ref><ref type="bibr" target="#b44">45]</ref>. The researchers found that imbalanced representation of racial groups had a significant effect on model performance (yielding recall rates as low as 25%), raising critical concerns for the model's potential application in real clinical settings <ref type="bibr" target="#b43">[44]</ref>.</p><p>Mitigation strategies. Given the frequency and impact of imbalanced data bias, AI developers can proactively counteract its effects on models and downstream clinical decision-making. Prior to any model development, a helpful first pass would be to review and characterize</p><p>Table 1. Types of bias through medical AI development stages, where they occur, their potential clinical consequences, and mitigation techniques. Medical AI development stage Bias/issue Illustrative example Potential clinical consequences Bias mitigation strategies Training data Imbalanced sample sizes Training data sets often overrepresent non-Hispanic Caucasian patients Worse performance and algorithm underestimation for underrepresented groups -Characterize data set patient sociodemographics -Methods for imbalanced data (oversampling, data augmentation) -Cultivation of large, diverse data sets Nonrandomly missing patient data Low socioeconomic patients often have more missing data in EHR AI model systematically underestimates risks or misses important factors for certain patients -Imputation techniques -Improved data collection methods -Record linkage algorithms Data not usually or easily captured Social Determinants of Health (SDoH) AI model makes less accurate predictions for patients whose health is significantly impacted by SDoHs -Standardized questionnaires, surveys -NLP/LLM methods for unstructured clinical text -Incorporating external, public data Biases in data labels and misclassification Provider cognitive biases Perpetuation and amplification of existing biases and healthcare disparities -Expert consensus labeling -Cultural competency training Race and ethnicity in clinical algorithms Race/ethnicity correction factors in risk calculators Race/ethnicity is not a biological construct -Socioeconomic deprivation factors can be more representative -Use of zip codes as a proxy for SES Model development and evaluation Overreliance on wholecohort performance metrics Only evaluate and optimize whole-cohort accuracy or AUC Model learns good predictions for wellrepresented patient groups, but performs much worse in underrepresented patient groups -Subgroup analysis -Bias-centered optimization metrics -Explicit statistical debiasing methods -Model interpretability methods Publication Where medical AI models are developed and published, and by whom Over 50% of published clinical AI models use data from US or China Overrepresentation of certain priorities, viewpoints, incentives -Data collection from multiple countries, healthcare systems -International data sharing initiatives AI research is biased towards positive results and certain medical domains Radiology papers accounted for over 40% of AI publications in 2019 Lack of published negative results provides incomplete view of clinical AI limitations -Multidisciplinary collaboration of developers and clinicians -Journals and funding agencies incentivize publication in underrepresented medical specialties and negative results Model implementation Sample selection bias: realworld patients differ from training cohort Epic sepsis model Differential deterioration of model's performance and clinical utility across patient groups -Ongoing monitoring systems that detect and quantify bias in model predictions -Explicit regulations for reporting bias and demonstrating fairness -Clinical trials for AI validation End user biases Convoluted user interfaces, documentation burdens, inherent physician mistrust Physicians follow AI recommendations for certain patients but override it for others -Infrastructure for continuous quantitative and qualitative feedback -Regular retraining and model updates -Developers work with hospital leaders and care providers to align model with clinical workflow -Interpretable AI for clinician trust and adoption <ref type="url" target="https://doi.org/10.1371/journal.pdig.0000651.t001">https://doi.org/10.1371/journal.pdig.0000651.t001</ref> the data set of interest, ensuring appropriate representation across racial, ethnic, and other sociodemographic dimensions.</p><p>During data preprocessing, statistical methods that account for data imbalance can be employed. A popular strategy is oversampling, which aims to balance the data set by increasing the number of instances in a minority class that a model is trained on <ref type="bibr" target="#b45">[46]</ref><ref type="bibr" target="#b46">[47]</ref><ref type="bibr" target="#b47">[48]</ref>. Common techniques include Synthetic Minority Over-sampling Technique (SMOTE), which generates synthetic examples for the minority class by interpolating between existing minority class instances, and Adaptive Synthetic Sampling (ADASYN), which uses a similar method to SMOTE but focuses more on examples that are harder to classify (near the decision boundary) <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. Another related strategy is data augmentation, which involves generating new samples based on random perturbations of existing data points <ref type="bibr" target="#b50">[51]</ref><ref type="bibr" target="#b51">[52]</ref><ref type="bibr" target="#b52">[53]</ref>.</p><p>Standardized reporting checklists such as the Prediction Model Risk of Bias Assessment (PROBAST) tool have been developed to assess the risk of imbalanced data biases, which allows both developers and downstream users (e.g., physicians, hospitals) to better understand the suitability and limitations of AI-based systems in specific clinical settings <ref type="bibr" target="#b53">[54]</ref><ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref>.</p><p>Ultimately, the most powerful solution for sample size biases is to cultivate large, diverse data sets. Although a resource-demanding process, such data sets can successfully represent and account for variations within and across patient groups and will most directly lead to equitable and generalizable AI for clinical decisions. Collaborative efforts across institutions and countries can facilitate the creation of such representative data sets.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Capturable but missing data</head><p>Definition and clinical consequences. AI models are computationally superhuman in that they can quickly process and incorporate massive amounts of data in parallel, e.g., thousands of past and present lab values in a patient's electronic health record (EHR). On the other hand, a key limitation of these algorithms is that they can only use data that is readily available, and these data can be missing nonrandomly. This is especially true when models are applied to clinical use-cases: Patients with low socioeconomic status (SES) have been shown to receive fewer diagnostic tests and medications for certain (chronic) diseases <ref type="bibr" target="#b56">[57]</ref>. These patients are also more likely to receive care at multiple health institutions, which may utilize different EHR systems (e.g., Epic versus Cerner) for storing patient data <ref type="bibr" target="#b56">[57]</ref>. The recent advance of telehealth has greatly increased the availability of patient-reported data collection (e.g., pain surveys on smartphone apps) <ref type="bibr" target="#b57">[58]</ref>, but certain patient groups may have lower (digital) health literacy or may be less able to self-report health outcomes. Even a patient's choice to seek care at all varies across sociodemographic factors <ref type="bibr" target="#b58">[59]</ref>. Inequities in data missingness carry over to AI tools trained on these data, especially those developed for assisting in clinical decision-making. Such AI systems could systematically underestimate risks or miss important factors for these patients, leading to worse care recommendations.</p><p>Illustrative example: ED bed allocation. For example, an algorithm that aims to identify high-risk patients admitted to the emergency department for priority bed allocation might incorporate past medical history into its risk computation, such as the presence or frequency of certain ICD codes (previous diagnoses or procedures) from the patient's existing EHR data (e.g., past heart failure). From the algorithm's perspective, the data either contains or does not contain the ICD code; the algorithm cannot discern patients who "truly" have not had a prior heart failure (despite a robust EHR record) from patients who only do not have the ICD record due to some other factor (stored in the EHR of another institution). In the latter case, the algorithm would assign a lower risk for these patients, which would systematically bias them toward a lower risk prediction and may fail to qualify them for priority bed allocation. Thus, AI models trained on non-randomly missing patient data can yield worse clinical utility for certain patient populations.</p><p>Mitigation strategies. Several mitigation strategies can be implemented to address the issue of capturable but missing data. One common solution involves removing patients with a certain threshold of missing variables from the training set. However, selecting for only nearcomplete data can remove large portions of certain populations, biasing the data further and leading to uninformative predictions for those groups. A better alternative involves statistical techniques such as data imputation, where missing variables are filled in with likely values based on similar patients (e.g., regression or nearest-neighbor based multiple imputation), which can help mitigate bias caused by differential missing data <ref type="bibr" target="#b59">[60,</ref><ref type="bibr" target="#b60">61]</ref>. Engineering composite features that are less sensitive to individual missing data points (trend-based variables such as slopes) have shown resilience to data gaps <ref type="bibr" target="#b61">[62]</ref>.</p><p>Regarding fractured care across multiple EHR systems, strengthening data sharing protocols and improving interoperability between health record systems can help ensure completion and continuity of patient data for AI model training. Initiatives such as the Fast Healthcare Interoperability Resources (FHIR) standard will be critical towards this goal <ref type="bibr" target="#b62">[63]</ref>. Probabilistic record linkage algorithms can help facilitate the combination of patient records across health systems and data sets, reducing gaps in missing patient data <ref type="bibr" target="#b63">[64,</ref><ref type="bibr" target="#b64">65]</ref>. Increased efforts have been made to improve health literacy and encourage more consistent healthcare engagement across diverse demographic groups <ref type="bibr" target="#b65">[66,</ref><ref type="bibr" target="#b66">67]</ref>, and in parallel, user-friendly interfaces for patientreported outcome measures, accommodating various levels of digital literacy, have shown promise in increasing data completeness <ref type="bibr" target="#b67">[68,</ref><ref type="bibr" target="#b68">69]</ref>. Developing protocols for targeted follow-up with patients may assist the collection of high-value missing information, and design user interfaces that highlight missing data to clinicians may encourage more complete data entry during patient encounters.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data that are not usually captured: Social determinants of health</head><p>Definition and clinical consequences. Social determinants of health (SDoH) are an illustrative example of data that are not often explicitly captured in patient records. SDoHs can be dually defined as both (1) the social factors that promote or undermine individual or population health; and (2) the social processes that underlie the unequal distribution of these factors across groups <ref type="bibr" target="#b69">[70,</ref><ref type="bibr" target="#b70">71]</ref>. Examples of SDoHs include access to care, social support networks, education, transportation, and clinical knowledge <ref type="bibr" target="#b70">[71,</ref><ref type="bibr" target="#b71">72]</ref>. These determinants can have profound effects on patients' health, particularly on older patients that have disproportionately accumulated these effects over the life course (the "Weathering" effect) <ref type="bibr" target="#b72">[73]</ref><ref type="bibr" target="#b73">[74]</ref><ref type="bibr" target="#b74">[75]</ref>. While some factors like access to care can be proxied (e.g., using zip codes), others such as social supports are likely not explicitly captured in patient records or are only sparsely present in unstructured form (e.g., clinical notes).</p><p>Incorporating such data is challenging, often requiring the balancing of competing priorities and incentives from multiple stakeholders. EHR software companies must invest time and finances into developing necessary data infrastructures and user interfaces. Full research studies may be required to create meaningful and approved operationalizations of SDoHs. Even then, the burden of parsing SDoH information that is clinically relevant (e.g., from verbally or anecdotally conveyed information) may lie on a provider who is overwhelmed with administrative duties. Nevertheless, incorporating SDoHs and similarly uncaptured data is crucial toward building clinically useful and unbiased decision-making tools. Failure to do so may lead not only to worse performing models overall (missing out on clinically meaningful information) but also disproportionately worse performance in groups whose SDoHs have increased and compounded effects <ref type="bibr" target="#b75">[76]</ref>. In turn, a deployed AI system that does not incorporate SDoH data may produce worse care recommendations for patients whose health is significantly impacted by social determinants.</p><p>Mitigation strategies. Standardized, easy-to-use data instruments like structured questionnaires or screening surveys that can (1) quantify SDoHs; and (2) be easily incorporated into EHRs and clinical workflows would help facilitate systematic collection of SDoH data. Some studies have already shown promise in both the logistical feasibility and clinical utility of these instruments <ref type="bibr" target="#b76">[77]</ref>. More recent natural language processing (NLP)-based methods, particularly LLMs like GPT-4, have also shown success in capturing SDoH information from unstructured clinical notes and patient narratives, yielding tangible benefits for patient outcomes <ref type="bibr" target="#b77">[78,</ref><ref type="bibr" target="#b78">79]</ref>.</p><p>Incorporating external, publicly available data sets on individual and community-level SDoH factors, such as census data and environmental quality indices, can provide valuable context to individual patient data about factors like living conditions and neighborhood resources. Developing secure data-sharing partnerships with social service agencies and community organizations to access relevant SDoH information can further enrich the collection of these information. Government programs and funding (reimbursement) initiatives can provide a system-level solution by incentivizing healthcare organizations to capture SDoH data. Better capturing of these SDoHs may in turn more equitable and effective policymaking, especially through policies like Medicare and Medicaid that enable greater healthcare access for marginalized populations <ref type="bibr" target="#b79">[80,</ref><ref type="bibr" target="#b80">81]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data labels and misclassification</head><p>Definition and clinical consequences. A third form of data bias involves the labels that supervised machine learning models are trained to predict. Examples of common prediction targets include in-hospital mortality, 30-day unplanned readmission, length of stay (LOS), and diagnosis. The same implications of nonrandom missing patient data described previously (related to patient features) also apply to prediction labels. However, additional factors that drive bias in labels must be considered, along with their consequences for clinical decisionmaking. For the purposes of a supervised training paradigm, data labels are considered the "ground truth" from which models are optimized <ref type="bibr" target="#b81">[82]</ref>. However, in clinical settings, the outcome (e.g., diagnosis) reflects a subjective decision made by a single care provider.</p><p>A natural consequence of data label bias emerges in the form of misclassification, which can be defined as systematic errors that occur when individuals are assigned to a category other than the one they "should be" assigned to <ref type="bibr" target="#b82">[83]</ref>. In clinical settings, what exactly constitutes a misclassification can be difficult to define. A relatively clear misclassification could involve the assignment of a hypertension diagnosis despite normal-range blood pressure values <ref type="bibr" target="#b82">[83]</ref>. Whether that patient was "correctly" discharged shortly afterwards, however, may be less objective. Furthermore, the degree of practitioner misclassification can vary along sociodemographic factors. This can be partially attributed to disparities in healthcare systems and the delivery of medical care: Low SES patients are more likely to be seen at teaching institutions, where clinical reasoning may be systematically different than other clinical settings serving higher SES individuals <ref type="bibr" target="#b83">[84]</ref>. Furthermore, uninsured and publicly insured patients (regardless of institution) receive worse medical care than those with private insurance <ref type="bibr" target="#b84">[85]</ref>. Implicit cognitive biases of healthcare providers related to patient attributes (gender, race) can also lead to variation in diagnoses (misclassification rates) and the quality of care, manifesting anywhere from body language and word choice to biased treatment decisions <ref type="bibr" target="#b83">[84]</ref>. Consequently, AI models trained on potentially biased labels may perpetuate and amplify not only differential misclassifications and substandard care practices based on these social factors, but also the original cognitive biases in its own predictions and recommendations.</p><p>Mitigation strategies. One solution for mitigating misclassification involves obtaining higher quality labels through expert consensus. Multiple physicians can provide independent labels (e.g., diagnosis) can help reduce individual bias. This approach can be particularly effective when combined with methods to assess inter-rater reliability and resolve discrepancies. When appropriate, ensuring diversity of expertise and background in data labeling teams can help mitigate systematic biases. Still, this process is expensive, time consuming, and may not fully remove the effects of differential misclassification. Quantification of label and prediction uncertainty provides another potential solution, where Bayesian approaches and ensemble methods can be employed to provide confidence intervals or probability distributions of predictions <ref type="bibr" target="#b85">[86]</ref><ref type="bibr" target="#b86">[87]</ref><ref type="bibr" target="#b87">[88]</ref>. Beyond the AI development pipeline, more direct healthcare initiatives, such as implicit bias and cultural competency training programs, can improve awareness of unconscious biases that may affect clinical decision-making. Reducing provider bias during diagnostic and treatment decisions has been shown to demonstrably improve both algorithm performance and overall clinical care quality <ref type="bibr" target="#b88">[89]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Race and ethnicity in clinical algorithms</head><p>Definition and clinical consequences. In addition to racial and ethnic imbalances in training data, there has been increased scrutiny on the use of race and ethnicity in predictive clinical algorithms <ref type="bibr" target="#b8">[9]</ref>. These concerns are rooted in a few factors. Race and ethnicity are social constructs, not biological constructs <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b89">90]</ref>. Indeed, there is mounting evidence that race is not a reliable proxy for genetic differences and, despite this lack of evidence, it has become acceptable to adjust for race even without understanding what it represents in a given context <ref type="bibr" target="#b8">[9]</ref>. The meaning of ethnicity can be context dependent, ranging from national origin to categories that governments use to collect data for administrate and other purposes <ref type="bibr" target="#b89">[90]</ref>. Another related factor is overreliance of association without proper evidence of causation: Racial differences may only be surrogates for socioeconomic or cultural deprivation <ref type="bibr" target="#b90">[91]</ref>. The point is not to neglect the fact that, as societal constructs, race and ethnicity can influence health and disease, but rather to be as precise as possible about the causative social (e.g., racism, social class) and biological factors (e.g., genetic variation) <ref type="bibr" target="#b89">[90]</ref>. This is of particular importance when using AI methods that typically lack straightforward interpretability and that prioritize predictive performance over mechanistic understanding. Third, attribution of race and ethnicity by healthcare providers to patients is demonstrably unreliable <ref type="bibr" target="#b89">[90]</ref>, further complicating the use of these factors in AI models. There are several well-documented instances of insufficient evidence for race and ethnicity to be used as predictive factors in models. For example, there is limited evidence for using black race as a factor for calculating estimated glomerular filtration rate, a critical measure of kidney function <ref type="bibr" target="#b91">[92]</ref>. Using race as a factor leads to overestimation of kidney function in black patients, potentially leading to longer times to get on kidney transplant lists <ref type="bibr" target="#b91">[92]</ref><ref type="bibr" target="#b92">[93]</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr">[95]</ref>.</p><p>Mitigation strategies. To extend beyond (or even replace) race as an input feature for medical AI models, there have been significant efforts to reassess the use of race in risk calculators, which often leads to its elimination as a factor. Recent examples include cardiovascular risk assessment <ref type="bibr" target="#b94">[96]</ref>, kidney function (e.g., estimated glomerular filtration rate) <ref type="bibr" target="#b92">[93]</ref><ref type="bibr" target="#b93">[94]</ref><ref type="bibr">[95]</ref>, and risk of urinary tract infection in infants <ref type="bibr" target="#b95">[97,</ref><ref type="bibr" target="#b96">98]</ref>.The American Heart Association's PREVENT Equations use a social deprivation index to recognize the impact that social deprivation can have on cardiovascular-kidney-metabolic conditions <ref type="bibr" target="#b94">[96,</ref><ref type="bibr" target="#b97">99]</ref>. The Organ Procurement and Transplantation Network recently required kidney programs to assess their waiting lists and correct waiting times for any black kidney candidates disadvantaged by the overestimation of their kidney function due to race-inclusive calculations <ref type="bibr">[95]</ref>. The development of optimal calculators for estimating risk of urinary tract infection in infants is ongoing and reflects the complex interplay between social constructs, clinical evidence, data analytics, and clinical change management <ref type="bibr" target="#b96">[98]</ref>. Greater capture and utilization of social determinants of health in medical AI models for clinical risk prediction will be paramount.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bias in model development and evaluation</head><p>Definition and clinical consequences. The next stage of developing a clinical AI model involves the selection and training of algorithms (model development) and the subsequent evaluation of these models on independent patient cohorts <ref type="bibr" target="#b10">[11]</ref>. These steps inherit biases in the training data and can also introduce their own biases. A naïve approach to developing medical AI models on the part of the developer would be to assume inherent objectivity in model outputs. From the model's perspective-and perhaps the developer's as well-the bestperforming solution is the one with the lowest loss or the best performance metric (e.g., area under the curve; AUC). But this may result in a model learning good predictions for well-represented patient groups but performing much worse in underrepresented patient groups. Model evaluation is thus a crucial checkpoint at which developers can identify bias introduced during model training.</p><p>Mitigation strategies. One way to identify bias introduced during model development is the method of subgroup analysis <ref type="bibr" target="#b98">[100]</ref>. In addition to the overall performance, the model developer will evaluate and report their AI model's performance across patient subgroups (e.g., for Low versus High SES patients, public versus private insured patients). Alternatively, or in parallel, a developer might choose to leverage alternative optimization metrics beyond accuracy or AUC that quantify bias (and thus inherently aim to debias model performance). Such quantitative bias metrics include equalized odds and predictive parity <ref type="bibr" target="#b99">[101]</ref>. Importantly, these bias metrics should be chosen based on the algorithm's intended clinical use. For example, a model that exhibits predictive parity (no difference in precision across groups) may not have equalized odds (similar sensitivity and specificity across groups), which metric is more important to optimize on depends on the intended clinical use-case <ref type="bibr" target="#b99">[101]</ref>.</p><p>Model interpretability is another important step in both validation and bias mitigation, offering insights into how decisions are generated (e.g., which features are most involved) or explaining the behavior of "black box" models (e.g., deep learning models with millions of parameters) <ref type="bibr" target="#b10">[11]</ref>. Understanding how an AI model leverages features to make predictions allows validation against current standards of care. Interpretability can also detect bias by examining how the features that drive model predictions differ for patients in different subgroups (which may be differentially aligned with best care practices) <ref type="bibr" target="#b99">[101]</ref>. Popular interpretability methods for machine learning models include Shapley Additive Explanations (SHAP) and Local Interpretable Model-agnostic Explanations (LIME) <ref type="bibr" target="#b100">[102,</ref><ref type="bibr" target="#b101">103]</ref>.</p><p>During model training, the loss function can be modified to assign higher weights to samples from underrepresented groups, encouraging the model to prioritize correct predictions for these samples <ref type="bibr" target="#b102">[104]</ref>. Regularization terms that penalize disparities in prediction across subgroups can achieve a similar result. Other statistical debiasing approaches for AI algorithms that rigorously employ models into accounting for underrepresented groups include adversarial debiasing and Prejudice Regularization <ref type="bibr" target="#b103">[105,</ref><ref type="bibr" target="#b104">106]</ref>. These methods have been successfully shown to achieve equitable subgroup performance while maintaining or even improving overall model performance <ref type="bibr" target="#b105">[107,</ref><ref type="bibr" target="#b106">108]</ref>, demonstrating that bias mitigation need not be at the expense of overall performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bias in publication</head><p>Definition and clinical consequences. Where models are developed and published can yield additional sources of bias in medical AI solutions for clinical decisions. One study found that over half of all published clinical AI models in 2019 used training data from the US or China, which likely reflects the advanced technological infrastructure of these countries conducive to AI development <ref type="bibr" target="#b39">[40]</ref>. This study also demonstrated disparities in author's gender (75% male), expertise (authors were predominately "data experts" rather than clinical experts), and medical domain (radiology was substantially overrepresented at over 40%) <ref type="bibr" target="#b39">[40]</ref>. Together, these factors can bias the trajectories and priorities of future medical AI publications: a data scientist may have different goals than a clinician with respect to model development and implementation (e.g., optimizing performance versus maximizing clinical utility). This could lead to an overemphasis on developing AI for certain applications while neglecting other that may be equally or more impactful in clinical settings. Furthermore, the tendency of journals to favor AI studies with positive results-especially those that demonstrate superior performance -skews the published literature, giving an incomplete view of the AI landscape <ref type="bibr" target="#b107">[109]</ref>. Benchmark data sets are commonly used to demonstrate relative (superior) performance, and only algorithms that do well on these benchmarks get published <ref type="bibr" target="#b108">[110]</ref>.</p><p>Mitigation strategies. Researchers should strive to include data from a wider range of countries and healthcare systems. This could involve international collaborations and crosscountry data sharing initiatives, facilitating AI model training on diverse and more globally representative data sets and thereby improving their clinical utility for more patient populations. To reduce biases introduced by domain-specific perspectives, AI research teams should consist of collaborations between clinicians, who understand practical healthcare needs, and data scientists, who specialize in model development, which can lead to models that prioritize clinical utility over solely technical performance. Journals and funding agencies might encourage and incentivize multidisciplinary co-authorship for studies that develop AI solutions intended for clinical use, particularly in underrepresented medical AI domains like primary care, mental health, and pediatrics <ref type="bibr" target="#b39">[40]</ref>. To counteract positive-result publication bias, journals might create dedicated spaces for publishing negative results or unsuccessful AI models, providing valuable insights for the field. In parallel, journals might require more detailed failure commentary, where authors describe where and why their models may not perform well in certain clinical contexts. Implementing preregistration of AI development for clinical use where studies must be evaluated on methodology (regardless of final outcome) may also reduce publication bias.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bias in model implementation</head><p>The integration of AI models into real-world clinical workflows involves several stakeholders across multiple levels of a healthcare system, including hospitals, providers, data scientists, software engineers, and the government. Critically, bias can still emerge at this stage, even in models that have received regulatory approval or appear to have "fully debiased" outputs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Model deterioration in the real world: Sample selection bias</head><p>If the real-world patient cohort of interest differs from patients in the training and/or validation data set (e.g., by demographic makeup), medical AI model performance can deteriorate and can do so differentially for different patient groups <ref type="bibr" target="#b10">[11]</ref>. A similar trend can occur when models trained at one institution are applied to the data at another institution <ref type="bibr" target="#b12">[13]</ref>. This phenomenon, known as sample selection bias, is well-studied in the literature and can lead to biased and potentially harmful decisions in real-world clinical settings <ref type="bibr" target="#b109">[111]</ref>. A well-known example of sample selection bias is the Epic Sepsis Model (ESM), developed on EHR data to generate automated warnings for clinicians that patients may be developing sepsis <ref type="bibr" target="#b110">[112]</ref>. The study authors found that the ESM had significantly worse AUC, sensitivity, and specificity after deployment relative to initial reports, missing two-thirds of sepsis cases and frequently issuing false alarms <ref type="bibr" target="#b110">[112]</ref>. The fact the ESM performed much worse in realworld deployment than in initial reports highlights the risk of AI systems being used clinically before their real-world performance across diverse populations is thoroughly validated.</p><p>Deployed AI models for clinical decisions like the ESM can inappropriately increase triage and trigger unnecessary diagnostic testing and prescriptions, decreasing the quality of clinical care and increasing hospital costs <ref type="bibr" target="#b99">[101]</ref>. A key strategy toward mitigating bias at the deployment stage, therefore, involves proper feedback loops that can continuously monitor and verify model outputs and performance in clinical settings, particularly how these measures differ across sociodemographic factors. Ongoing monitoring systems should also detect and quantify biases in model predictions using bias metrics discussed previously. In addition to the techniques for mitigating data biases discussed previously, advanced statistical methods that aim to address sample selection bias by target population identification are under development <ref type="bibr" target="#b109">[111]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>End users of AI models</head><p>Another potential source of bias in model implementation is how end users (e.g., physicians) use or do not use the deployed model solution. Initially, a physician may hesitate to trust a model without understanding its underlying reasoning, which may prevent the realization of equitable outcomes; model interpretability methods can help resolve this issue. Furthermore, some clinicians may also choose to use or ignore model recommendations for other reasons such as convoluted user interfaces or documentation burden, potentially leading to bias in when AI is applied. If doctors are more likely to follow AI advice for certain patient groups but override it for others, this could lead to inequitable application of the AI system. Feedback infrastructures like surveys that can capture why these behaviors occur must therefore be implemented to help understand and account for these factors. Developers must work in conjunction with hospital leaders and care providers to align model implementation with clinical workflow demands <ref type="bibr" target="#b99">[101]</ref>. Integration of dashboards, visualizations, or notifications that help clinicians understand potential biases in AI-assisted decisions may facilitate physician awareness of AI limitations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Validating AI for unbiased clinical application</head><p>The FDA's Software as a Medical Device (SaMD) Action Plan regulates the translation of AI models into real-world clinical use, often dubbed "translational AI" <ref type="bibr" target="#b9">[10]</ref>. However, while the evaluation criteria of SaMD focus on risk mitigation and the reproducibility and robustness from the software perspective, there are no explicit FDA regulations that examine fairness or bias in medical AI outputs, and indeed, many AI-driven SaMDs have displayed substandard performance among racial and ethnic minorities <ref type="bibr" target="#b111">[113]</ref>. Already, AI is employed in clinical trials to accelerate enrollment, monitor patients (e.g., wearables), and improve retention <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b112">114,</ref><ref type="bibr" target="#b113">115]</ref>. Prior to real-world implementation in clinical settings, we argue that rigorous validation of translational AI is through clinical trials: AI should not only meet criteria for performance, usability, and safety risks, but also report and demonstrate unbiased application.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biases in medical large language models</head><p>Although recent LLMs have achieved unprecedented performance on NLP tasks in medicine and other domains <ref type="bibr" target="#b114">[116]</ref><ref type="bibr" target="#b115">[117]</ref><ref type="bibr" target="#b116">[118]</ref>, medical LLMs deployed for clinical decision-making pose unique limitations and risks with respect to bias <ref type="bibr" target="#b117">[119]</ref><ref type="bibr" target="#b118">[120]</ref><ref type="bibr" target="#b119">[121]</ref><ref type="bibr" target="#b120">[122]</ref>. LLMs are autoregressive in nature, which means they rely on the statistical patterns of which words have preceded others in their training text corpora <ref type="bibr" target="#b121">[123]</ref>. If a medical LLM has been trained on data that contains misinformation or biased content, LLMs deployed for clinical decision-making are at risk of reproducing these problematic contents <ref type="bibr" target="#b118">[120,</ref><ref type="bibr" target="#b122">[124]</ref><ref type="bibr" target="#b123">[125]</ref><ref type="bibr" target="#b124">[126]</ref>. This could lead to the AI system generating biased and inaccurate information to clinicians. Furthermore, an LLM cannot assess itself-it does not know whether the clinical guidelines it produces are accurate or harmful, recent or outdated <ref type="bibr" target="#b118">[120]</ref>. Finally, due to the probabilistic nature of LLM output generation, LLMs can produce different outputs despite being prompted by the same instructions multiple times. In a clinical setting, this inconsistency could lead to unreliable or inconsistent recommendations, potentially affecting patient care. The bias mitigation techniques discussed throughout this review apply to medical LLMs, particularly proper mechanisms for filtering and clinical verification of training data, as well as continuous physician oversight and awareness of an LLM's potential to "hallucinate." Some statistical debiasing methods designed for language models are emerging; however, their implementation in real-world clinical LLMs remains limited <ref type="bibr" target="#b125">[127]</ref><ref type="bibr" target="#b126">[128]</ref><ref type="bibr" target="#b127">[129]</ref><ref type="bibr" target="#b128">[130]</ref><ref type="bibr" target="#b129">[131]</ref><ref type="bibr" target="#b130">[132]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Bias can occur at all stages in the medical AI development pipeline, including biases in data features (imbalanced samples, missing, or hard to capture variables), data annotations (implicit provider biases), model development and evaluation (developer naivety), model implementation (real world generalizability, end-user acceptance and utilization), and publication (authors and their priorities). These biases can have detrimental effects on both models and clinical decision-making, which can contribute to and exacerbate longstanding disparities in healthcare.</p><p>Addressing these biases is becoming increasingly possible due to methods and metrics that can uncover and mitigate bias, but more research is needed. Going forward, larger and more powerful medical AI models will be increasingly data hungry; efforts to collect larger and more representative patient data must parallel these advancements. Improved bias reporting and transparency in literature will be critical, as will the development of methods tailored to detecting and mitigating bias in clinical decision-based AI. Additional discourse on intersecting sources of bias that affect AI and clinical decision-making will be paramount, including biases in healthcare regulation and insurance. Debiasing medical AI models will prove crucial in preventing the perpetuation and exacerbation of health disparities and ensuring all patients benefit equally from the future of medical AI.</p></div>			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>PLOS Digital Health | https://doi.org/10.1371/journal.pdig.0000651November 7, 2024  </p></note>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The authors received no specific funding for this work.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author summary</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Contributions</head><p>Conceptualization: James L. Cross, Michael A. Choma, John A. Onofrey. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Validation of the Atherosclerotic Cardiovascular Disease Pooled Cohort Risk Equations</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Muntner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Colantonio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Goff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2014.2630</idno>
+		<idno type="PMID">24682252</idno>
+		<ptr target="https://doi.org/10.1001/jama.2014.2630" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">1406</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Artificial Intelligence and Machine Learning in Prostate Cancer Patient Management-Current Trends and Future Perspectives</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Tătaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Vartolomei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rassweiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Virgil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lucarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Porpiglia</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/diagnostics11020354</idno>
+		<idno type="PMID">33672608</idno>
+		<ptr target="https://doi.org/10.3390/diagnostics11020354" />
+	</analytic>
+	<monogr>
+		<title level="j">Diagnostics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">354</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Machine learning in clinical decision making</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Adlung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Mor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elinav</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.medj.2021.04.006</idno>
+		<idno type="PMID">35590138</idno>
+		<ptr target="https://doi.org/10.1016/j.medj.2021.04.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicamundi</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="642" to="665" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Application of artificial intelligence system for screening multiple fundus diseases in Chinese primary healthcare settings: a real-world, multicentre and cross-sectional study of 4795 cases</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bjo-2022-322940</idno>
+		<idno type="PMID">36878715</idno>
+		<ptr target="https://doi.org/10.1136/bjo-2022-322940" />
+	</analytic>
+	<monogr>
+		<title level="j">Br J Ophthalmol</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="424" to="431" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Impact of real-life use of artificial intelligence as support for human reading in a population-based breast cancer screening program with mammography and tomosynthesis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Elı ´as-Cabot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Romero-Martı ´n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Raya-Povedano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A-K</forename><surname>Brehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>´lvarez-Benito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s00330-023-10426-4</idno>
+		<idno type="PMID">37975920</idno>
+		<ptr target="https://doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur Radiol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3958" to="3966" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Application of Comprehensive Artificial intelligence Retinal Expert (CARE) system: a national real-world evidence study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S2589-7500%2821%2900086-8</idno>
+		<idno type="PMID">34325853</idno>
+		<ptr target="https://doi.org/10.1016/S2589-7500(21)00086-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="486" to="e495" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Dissecting racial bias in an algorithm used to manage the health of populations</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Obermeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Powers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vogeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mullainathan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aax2342</idno>
+		<idno type="PMID">31649194</idno>
+		<ptr target="https://doi.org/10.1126/science.aax2342" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">366</biblScope>
+			<biblScope unit="issue">6464</biblScope>
+			<biblScope unit="page" from="447" to="453" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Allocation of COVID-19 Relief Funding to Disproportionately Black Counties</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kakani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chandra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mullainathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Obermeyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2020.14978</idno>
+		<idno type="PMID">32897336</idno>
+		<ptr target="https://doi.org/10.1001/jama.2020.14978" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">324</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">1000</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Hidden in Plain Sight-Reconsidering the Use of Race Correction in Clinical Algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Vyas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Eisenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMms2004740</idno>
+		<idno type="PMID">32853499</idno>
+		<ptr target="https://doi.org/10.1056/NEJMms" />
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="874" to="882" />
+			<date type="published" when="2020">2020. 2004740</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Proposed regulatory framework for modifications to Artificial Intelligence/ Machine Learning (AI/ML)-based Software as a Medical Device</title>
+		<author>
+			<persName><surname>Food</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Administration</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Department of Health and Human Services (United States</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mitigating bias in machine learning for medicine</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Vokinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Feuerriegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Kesselheim</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43856-021-00028-w</idno>
+		<idno type="PMID">34522916</idno>
+		<ptr target="https://doi.org/10.1038/s43856-021-00028-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and algorithmic bias: implications for health systems</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Panch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mattie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Atun</surname></persName>
+		</author>
+		<idno type="DOI">10.7189/jogh.09.020318</idno>
+		<idno type="PMID">31788229</idno>
+		<ptr target="https://doi.org/10.7189/jogh.09.020318" />
+	</analytic>
+	<monogr>
+		<title level="j">J Glob Health</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Potential Biases in Machine Learning Algorithms Using Electronic Health Record Data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gianfrancesco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tamang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yazdany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schmajuk</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamainternmed.2018.3763</idno>
+		<idno type="PMID">30128552</idno>
+		<ptr target="https://doi.org/10.1001/jamainternmed.2018.3763" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">1544</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A survey on bias and fairness in machine learning</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mehrabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Morstatter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Saxena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galstyan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Comput Surv</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1" to="35" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roselli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Talagala</surname></persName>
+		</author>
+		<title level="m">Managing bias in AI. Companion proceedings of the 2019 world wide web conference</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Nachum</surname></persName>
+		</author>
+		<title level="m">Identifying and correcting label bias in machine learning. International conference on artificial intelligence and statistics</title>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Risk of bias in studies on prediction models developed using supervised machine learning techniques: systematic review</title>
+		<author>
+			<persName><forename type="first">Cla</forename><surname>Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Damen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Nijman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dhiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="page">375</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Bias in artificial intelligence systems</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rejmaniak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Białostockie Studia Prawnicze</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="25" to="42" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Addressing bias in artificial intelligence in health care</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Teeple</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Navathe</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2019.18058</idno>
+		<idno type="PMID">31755905</idno>
+		<ptr target="https://doi.org/10.1001/jama.2019.18058" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="2377" to="2378" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Considerations for addressing bias in artificial intelligence for health equity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Abràmoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Tarver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Loyo-Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trujillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Char</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Obermeyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-023-00913-9</idno>
+		<idno type="PMID">37700029</idno>
+		<ptr target="https://doi.org/10.1038/s" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">170</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Lack of transparency and potential bias in artificial intelligence data sets and algorithms: a scoping review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Daneshjou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Rotemberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamadermatol.2021.3129</idno>
+		<idno type="PMID">34550305</idno>
+		<ptr target="https://doi.org/10.1001/jamadermatol.2021.3129" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1362" to="1369" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A systematic review of trustworthy and explainable artificial intelligence in healthcare: Assessment of quality, bias risk, and data fusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Albahri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Duhaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fadhel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alnoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Baqer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alzubaidi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inf Fusion</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="156" to="191" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Bias in artificial intelligence for medical imaging: fundamentals, detection, avoidance, mitigation, challenges, ethics, and prospects</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Koc ¸ak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ponsiglione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stanzione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bluethgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Santinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ugga</surname></persName>
+		</author>
+		<idno type="DOI">10.4274/dir.2024.242854</idno>
+		<idno type="PMID">38953330</idno>
+		<ptr target="https://doi.org/10.4274/dir.2024.242854" />
+	</analytic>
+	<monogr>
+		<title level="j">Diagn Interv Radiol</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A causal perspective on dataset bias in machine learning for medical imaging</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Oktay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mccradden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Glocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Mach Intell</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="138" to="146" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Bias mitigation for machine learning classifiers: A comprehensive survey</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sarro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM J Responsib Comput</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1" to="52" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A review of medical artificial intelligence</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Peng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glob Health J</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="42" to="45" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Deep learning with Python: Simon and Schuster</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Comparison of Conventional Statistical Methods with Machine Learning in Medicine: Diagnosis, Drug Development, and Treatment</title>
+		<author>
+			<persName><forename type="first">Hsr</forename><surname>Rajula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Verlato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manchia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Antonucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Fanos</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/medicina56090455</idno>
+		<idno type="PMID">32911665</idno>
+		<ptr target="https://doi.org/10.3390/medicina56090455" />
+	</analytic>
+	<monogr>
+		<title level="j">Medicina</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">455</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Generative artificial intelligence empowers digital twins in drug discovery and clinical trials</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bordukova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Makarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rodriguez-Esteban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schmich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Menden</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17460441.2023.2273839</idno>
+		<idno type="PMID">37887266</idno>
+		<ptr target="https://doi.org/10.1080/17460441.2023.2273839" />
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+		</imprint>
+	</monogr>
+	<note>Expert Opin Drug Discovery</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The potential for artificial intelligence to transform healthcare: perspectives from international health leaders</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Silcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zimlichmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rowen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saunders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcclellan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-024-01097-6</idno>
+		<ptr target="https://doi.org/10.1038/s41746-024-01097-6PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">38594477</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">AI in diagnostic imaging: Revolutionising accuracy and efficiency</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khalifa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Albadawy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Methods and Programs in Biomedicine. Dent Update</title>
+		<imprint>
+			<biblScope unit="page">100146</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature14539</idno>
+		<idno type="PMID">26017442</idno>
+		<ptr target="https://doi.org/10.1038/nature" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="issue">7553</biblScope>
+			<biblScope unit="page" from="436" to="444" />
+			<date type="published" when="2015">2015. 14539</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Deep learning-a technology with the potential to transform health care</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2018.11100</idno>
+		<idno type="PMID">30178065</idno>
+		<ptr target="https://doi.org/10.1001/jama.2018.11100" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1101" to="1102" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Integrating Artificial Intelligence for Drug Discovery in the Context of Revolutionizing Drug Delivery</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Visan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Negut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Visan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Negut</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/life14020233</idno>
+		<idno type="PMID">38398742</idno>
+		<ptr target="https://doi.org/10.3390/life" />
+	</analytic>
+	<monogr>
+		<title level="j">Lifestyles</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2024">2024. 14020233</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Drug target prediction through deep learning functional representation of gene signatures</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Canedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-46089-y</idno>
+		<idno type="PMID">38424040</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-46089-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature IDAA Commun</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2024-02-29">2024. 2024-02-29</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Regressionbased Deep-Learning predicts molecular biomarkers from pathology slides</title>
+		<author>
+			<persName><forename type="first">Osm</forename><surname>El Nahhas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cml</forename><surname>Loeffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">I</forename><surname>Carrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Treeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Kolbinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Hewitt</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-024-45589-1</idno>
+		<idno type="PMID">38341402</idno>
+		<ptr target="https://doi.org/10.1038/s41467-024-45589-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature IDAA Commun</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Large Language Models in Healthcare and Medical Domain: A Review</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Nazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">A</forename><surname>Nazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/informatics11030057</idno>
+		<idno>57:2024-08-07</idno>
+		<ptr target="https://doi.org/10.3390/informatics11030057" />
+	</analytic>
+	<monogr>
+		<title level="j">Inform</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A Historical Overview of Health Disparities and the Potential of eHealth Solutions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gibbons</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/jmir.7.5.e50</idno>
+		<idno type="PMID">16403714</idno>
+		<ptr target="https://doi.org/10.2196/jmir.7.5.e50" />
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Assessing and Mitigating Bias in Medical Artificial Intelligence</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Noseworthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">I</forename><surname>Attia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Brewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kapa</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/circep.119.007988</idno>
+		<idno type="PMID">32064914</idno>
+		<ptr target="https://doi.org/10.1161/circep.119.007988" />
+	</analytic>
+	<monogr>
+		<title level="j">Circ Arrhythm Electrophysiol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Sources of bias in artificial intelligence that perpetuate healthcare disparities-A global review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Celi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M-L</forename><surname>Charpignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Dee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dernoncourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eber</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pdig.0000022</idno>
+		<idno type="PMID">36812532</idno>
+		<ptr target="https://doi.org/10.1371/journal.pdig.0000022" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Conscientious Classification: A Data Scientist&apos;s Guide to Discrimination-Aware Classification</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>D'alessandro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lagatta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1089/big.2016.0048</idno>
+		<idno type="PMID">28632437</idno>
+		<ptr target="https://doi.org/10.1089/big.2016.0048" />
+	</analytic>
+	<monogr>
+		<title level="j">Big Data</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="120" to="134" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Racial bias in pulse oximetry measurement</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Sjoding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Dickson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Iwashyna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Valley</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMc2029240</idno>
+		<idno type="PMID">33326721</idno>
+		<ptr target="https://doi.org/10.1056/NEJMc2029240" />
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page" from="2477" to="2478" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Machine Learning and Health Care Disparities in Dermatology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Adamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamadermatol.2018.2348</idno>
+		<idno type="PMID">30073260</idno>
+		<ptr target="https://doi.org/10.1001/jamadermatol.2018.2348" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">1247</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Peeking into a black box, the fairness and generalizability of a MIMIC-III benchmarking model</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ro ¨o ¨sli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bozkurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hernandez-Boussard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41597-021-01110-7</idno>
+		<idno type="PMID">35075160</idno>
+		<ptr target="https://doi.org/10.1038/s41597-021-01110-" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Data</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Multitask learning and benchmarking with clinical time series data</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harutyunyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khachatrian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Kale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ver</forename><surname>Steeg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Galstyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41597-019-0103-9</idno>
+		<ptr target="https://doi.org/10.1038/s41597-019-0103-9PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci Data</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">31209213</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Machine learning with oversampling and undersampling techniques: overview study and experimental results. 2020 11th international conference on information and communication systems (ICICS)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mohammed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rawashdeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdullah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>IEEE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">On improving fairness of AI models with synthetic minority oversampling techniques</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kantarcioglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Clifton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2023 SIAM International Conference on Data Mining (SDM)</title>
+		<meeting>the 2023 SIAM International Conference on Data Mining (SDM)</meeting>
+		<imprint>
+			<publisher>SIAM</publisher>
+			<biblScope unit="volume">2023</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Unbalanced data processing using oversampling: machine learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Viloria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Obp</forename><surname>Lezama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mercado-Caruzo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="108" to="113" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">SMOTE: synthetic minority over-sampling technique</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Chawla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Bowyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">O</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Kegelmeyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Artif Intell Res</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="321" to="357" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">ADASYN: Adaptive synthetic sampling approach for imbalanced learning</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008. 2008</date>
+			<publisher>IEEE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Deflating dataset bias using synthetic data augmentation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jaipuria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bhasin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Arafa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chakravarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shrivastava</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Data augmentation: A comprehensive survey of modern approaches</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mumuni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mumuni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Array</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">100258</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Data augmentation for discrimination prevention and bias disambiguation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Rı ´os Aliaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bouneffouf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Muthusamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Varshney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the AAAI/ACM Conference on AI</title>
+		<meeting>the AAAI/ACM Conference on AI</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">PROBAST: a tool to assess the risk of bias and applicability of prediction model studies</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Wolff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Moons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Whiting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Westwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.7326/M18-1376</idno>
+		<idno type="PMID">30596875</idno>
+		<ptr target="https://doi.org/10.7326/M18-1376" />
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="51" to="58" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">MINIMAR (MINimum Information for Medical AI Reporting): Developing reporting standards for artificial intelligence in health care</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hernandez-Boussard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bozkurt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocaa088</idno>
+		<idno type="PMID">32594179</idno>
+		<ptr target="https://doi.org/10.1093/jamia/ocaa088" />
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2011" to="2015" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Szczekocka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tarnec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pieczerak</surname></persName>
+		</author>
+		<title level="m">Standardization on bias in Artificial Intelligence as industry support. 2022 IEEE International Conference on Big Data (Big Data)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<biblScope unit="volume">2022</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">How Socioeconomic Status Affects Patient Perceptions of Health Care: A Qualitative Study</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Arpey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gaglioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Rosenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2150131917697439</idno>
+		<idno type="PMID">28606031</idno>
+		<ptr target="https://doi.org/10.1177/2150131917697439" />
+	</analytic>
+	<monogr>
+		<title level="j">J Prim Care Community Health</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="169" to="175" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Putting patient-reported outcomes on the &apos;Big Data Road Map</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thwaites</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kyte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Devlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0141076815579896</idno>
+		<idno type="PMID">25827908</idno>
+		<ptr target="https://doi.org/10.1177/0141076815579896" />
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Med</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Understanding racial and ethnic differences in health in late life: A research agenda</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Council</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">A new imputation method based on genetic programming and weighted KNN for symbolic regression with incomplete data</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Al-Helali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soft Comput</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="5993" to="6012" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Multiple imputation with missing data indicators</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Beesley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bondarenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Elliot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Kurian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/09622802211047346</idno>
+		<idno type="PMID">34643465</idno>
+		<ptr target="https://doi.org/10.1177/09622802211047346" />
+	</analytic>
+	<monogr>
+		<title level="j">Stat Methods Med Res</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2685" to="2700" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">Learning to detect sepsis with a multitask Gaussian process RNN classifier</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Futoma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hariharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<publisher>PMLR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Fast healthcare interoperability resources (FHIR) for interoperability in health research: systematic review</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Vorisek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lehne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sai</forename><surname>Klopfenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bartschke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Haese</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/35724</idno>
+		<idno type="PMID">35852842</idno>
+		<ptr target="https://doi.org/10.2196/35724" />
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">35724</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Privacy-preserving record linkage on large real world datasets</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Randall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ferrante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Bauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Semmens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbi.2013.12.003</idno>
+		<idno type="PMID">24333482</idno>
+		<ptr target="https://doi.org/10.1016/j.jbi.2013.12.003" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Inform</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="205" to="212" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Comparing record linkage software programs and algorithms using real-world data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Karr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Setoguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerhard</forename><forename type="middle">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0221459</idno>
+		<idno type="PMID">31550255</idno>
+		<ptr target="https://doi.org/10.1371/journal.pone.0221459" />
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">221459</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Strategies for improving low health literacy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Kountz</surname></persName>
+		</author>
+		<idno type="DOI">10.3810/pgm.2009.09.2065</idno>
+		<idno type="PMID">19820287</idno>
+		<ptr target="https://doi.org/10.3810/pgm.2009.09.2065" />
+	</analytic>
+	<monogr>
+		<title level="j">Postgrad Med</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="171" to="177" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Improving health literacy in community populations: a review of progress</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nutbeam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mcgill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Premkumar</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/heapro/dax015</idno>
+		<idno type="PMID">28369557</idno>
+		<ptr target="https://doi.org/10.1093/heapro/dax015" />
+	</analytic>
+	<monogr>
+		<title level="j">Health Promot Int</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="901" to="911" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Improving health literacy using the power of digital communications to achieve better health outcomes for patients and practitioners</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fdgth.2023.1264780</idno>
+		<idno type="PMID">38046643</idno>
+		<ptr target="https://doi.org/10.3389/fdgth.2023.1264780" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">1264780</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Developing an easy-to-use tablet computer application for assessing patient-reported outcomes in patients with cancer</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Fromme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kenworthy-Heinige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hribar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Fromme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kenworthy-Heinige</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hribar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00520-010-0905-y</idno>
+		<idno type="PMID">20512360</idno>
+		<ptr target="https://doi.org/10.1007/s00520-010-0905-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Support Care Cancer</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><surname>Graham</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.0887-378x.2004.00303.x</idno>
+		<idno type="PMID">15016245</idno>
+		<ptr target="https://doi.org/10.1111/j.0887-378x.2004.00303.x" />
+	</analytic>
+	<monogr>
+		<title level="m">Social Determinants and Their Unequal Distribution: Clarifying Policy Understandings</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="101" to="124" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Social determinants of health inequalities</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marmot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736%2805%2971146-6</idno>
+		<idno type="PMID">15781105</idno>
+		<ptr target="https://doi.org/10.1016/S0140-6736(05" />
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">365</biblScope>
+			<biblScope unit="issue">9464</biblScope>
+			<biblScope unit="page" from="71146" to="71146" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Social Determinants of Health and Related Inequalities: Confusion and Implications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Islam</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fpubh.2019.00011</idno>
+		<idno type="PMID">30800646</idno>
+		<ptr target="https://doi.org/10.3389/fpubh.2019.00011" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Front Public Health</publisher>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">An Intersectional Approach to Social Determinants of Stress for African American Men</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Griffith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Ellis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1557988313480227</idno>
+		<idno type="PMID">23462019</idno>
+		<ptr target="https://doi.org/10.1177/1557988313480227" />
+	</analytic>
+	<monogr>
+		<title level="j">Am J Mens Health</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="19S" to="30" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>_suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Evaluating strategies for reducing health disparities by addressing the social determinants of health</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Thornton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">´cw</forename><surname>Cene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Glik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Williams</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/hlthaff.2015.1357</idno>
+		<idno type="PMID">27503966</idno>
+		<ptr target="https://doi.org/10.1377/hlthaff.2015.1357" />
+	</analytic>
+	<monogr>
+		<title level="j">Health Aff</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1416" to="1423" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The weathering hypothesis as an explanation for racial disparities in health: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Forde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Crookes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Suglia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Demmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.annepidem.2019.02.011</idno>
+		<idno type="PMID">30987864</idno>
+		<ptr target="https://doi.org/10.1016/j.annepidem" />
+	</analytic>
+	<monogr>
+		<title level="j">Ann Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1-18</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">Demarginalizing the intersection of race and sex: A black feminist critique of antidiscrimination doctrine, feminist theory and antiracist politics</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crenshaw</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Routledge</publisher>
+			<biblScope unit="page" from="23" to="51" />
+		</imprint>
+	</monogr>
+	<note>Feminist legal theories</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Addressing Social Determinants of Health in a Clinic Setting: The WellRx Pilot in Albuquerque, New Mexico</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Page-Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bleecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mccalmont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ianakieva</surname></persName>
+		</author>
+		<idno type="DOI">10.3122/jabfm.2016.03.150272</idno>
+		<idno type="PMID">27170801</idno>
+		<ptr target="https://doi.org/10.3122/jabfm.2016.03.150272" />
+	</analytic>
+	<monogr>
+		<title level="j">J Am Board Fam Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="414" to="418" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Adaptation of an NLP system to a new healthcare environment to identify social determinants of health</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Conway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Gobbel</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbi.2021.103851</idno>
+		<idno type="PMID">34174396</idno>
+		<ptr target="https://doi.org/10.1016/j.jbi.2021.103851" />
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Inform</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">103851</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Zero-shot Learning with Minimum Instruction to Extract Social Determinants and Family History from Clinical Notes using GPT Model</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Bhate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mittal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<idno>arXiv:230905475. 2023</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Perspectives of Medicare Advantage plan representatives on addressing social determinants of health in response to the CHRONIC Care Act</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Durfey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Gadbois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Meyers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Brazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Mccreedy</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamanetworkopen.2019.6923</idno>
+		<ptr target="https://doi.org/10.1001/jamanetworkopen.2019.6923PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Netw Open</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">31298711</biblScope>
+			<date type="published" when="2019">2019. 196923</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">For an option to address social determinants of health, look to Medicaid</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Desalvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Leavitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Affairs Forefront</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">IS AI GROUND TRUTH REALLY TRUE? THE DANGERS OF TRAINING AND EVALUATING AI TOOLS BASED ON EXPERTS&apos; KNOW-WHAT</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lebovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Levina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lifshitz-Assaf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MIS Q</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Recognizing misclassification bias in research and medical practice</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cummings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lindeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Drummond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Williamson</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/fampra/cmy130</idno>
+		<idno type="PMID">31738429</idno>
+		<ptr target="https://doi.org/10.1093/fampra/cmy130" />
+	</analytic>
+	<monogr>
+		<title level="j">Fam Pract</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="804" to="807" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Potentially missed detection with screening mammography: does the quality of radiologist&apos;s interpretation vary by patient socioeconomic advantage/ disadvantage?</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Rauscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Berbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Conant</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.annepidem.2013.01.006</idno>
+		<idno type="PMID">23453384</idno>
+		<ptr target="https://doi.org/10.1016/j.annepidem.2013.01.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Ann Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="210" to="214" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Care without coverage: too little, too late</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kilbourne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Natl Med Assoc</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">1578</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Distribution-free uncertainty quantification for classification under label shift</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Podkopaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramdas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Uncertainty in artificial intelligence</title>
+		<imprint>
+			<biblScope unit="volume">2021</biblScope>
+			<publisher>PMLR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<author>
+			<persName><forename type="first">B</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Czarnecki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Bayesian uncertainty quantification with synthetic data. Computer Safety, Reliability, and Security: SAFECOMP 2019 Workshops, ASSURE, DECSoS, SASSUR, STRIVE, and WAISE</title>
+		<meeting><address><addrLine>Turku, Finland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019-09-10">September 10, 2019. 2019</date>
+			<biblScope unit="volume">38</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">A review of uncertainty quantification in deep learning: Techniques, applications and challenges</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pourpanah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rezazadegan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghavamzadeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inform Fusion</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="243" to="297" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Health workforce cultural competency interventions: a systematic scoping review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jongen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccalman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bainbridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12913-018-3001-5</idno>
+		<idno type="PMID">29609614</idno>
+		<ptr target="https://doi.org/10.1186/s12913-018-3001-5" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Health Serv Res</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Use of race and ethnicity in biomedical publication</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bennett</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.289.20.2709</idno>
+		<idno type="PMID">12771118</idno>
+		<ptr target="https://doi.org/10.1001/jama.289.20.2709" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="2709" to="2716" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">The use of race in medical research</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Osborne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Feit</surname></persName>
+		</author>
+		<idno type="PMID">1727527</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">267</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="275" to="279" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Limited evidence for use of a black race modifier in eGFR calculations: a systematic review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Marzinke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bossuyt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Chambliss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Cirrincione</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Mccudden</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/clinchem/hvab279</idno>
+		<idno type="PMID">34927677</idno>
+		<ptr target="https://doi.org/10.1093/clinchem/hvab279" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin Chem</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="521" to="533" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Reconsidering the consequences of using race to estimate kidney function</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Eneanya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Reese</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2019.5774</idno>
+		<idno type="PMID">31169890</idno>
+		<ptr target="https://doi.org/10.1001/jama.2019.5774" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="113" to="114" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<ptr target="https://www.kidney.org/kidney-topics/understanding-african-american-and-non-african-american-egfr-laboratory-results" />
+		<title level="m">Understanding African American and non-African American eGFR laboratory results: National Kidney Foundation</title>
+		<imprint>
+			<date type="published" when="2024-09-13">2024. 2024 Sep 13</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Development and validation of the American Heart Association&apos;s PREVENT equations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsushita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Ballew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Grams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Surapaneni</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCULATIONAHA.123.067626</idno>
+		<idno type="PMID">37947085</idno>
+		<ptr target="https://doi.org/10.1161/CIRCULATIONAHA.123.067626" />
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="430" to="449" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Reassessment of the role of race in calculating the risk for urinary tract infection: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shaikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Stokes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kurs-Lasky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Conway</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamapediatrics.2022.0700</idno>
+		<idno type="PMID">35435935</idno>
+		<ptr target="https://doi.org/10.1001/jamapediatrics.2022.0700" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Pediatr</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="569" to="575" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Doctors use problematic race-based algorithms to guide care every day. Why are they so hard to change?</title>
+		<author>
+			<persName><forename type="first">Kpul</forename><surname>Mcfarling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">STAT</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Socioeconomic deprivation: an important, largely unrecognized risk factor in primary prevention of cardiovascular disease</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Kimenai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pirondini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gregson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Prieto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Pocock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perel</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCULATIONAHA.122.060042</idno>
+		<idno type="PMID">35748241</idno>
+		<ptr target="https://doi.org/10.1161/CIRCULATIONAHA.122.060042" />
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="240" to="248" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">How to use a subgroup analysis: users&apos; guide to the medical literature</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Agoritsas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Alba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guyatt</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2013.285063</idno>
+		<idno type="PMID">24449319</idno>
+		<ptr target="https://doi.org/10.1001/jama.2013.285063" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="405" to="411" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Advancing health equity with artificial intelligence</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Thomasian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eickhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Y</forename><surname>Adashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1057/s41271-021-00319-5</idno>
+		<idno type="PMID">34811466</idno>
+		<ptr target="https://doi.org/10.1057/s41271-021-00319-5" />
+	</analytic>
+	<monogr>
+		<title level="j">J Public Health Policy</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="602" to="611" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">A unified approach to interpreting model predictions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-I</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Neural Inf Process Syst</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">Model-agnostic interpretability of machine learning</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guestrin</surname></persName>
+		</author>
+		<idno>arXiv:160605386. 2016</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Fairness without demographics through adversarially reweighted learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lahoti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beutel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Prost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Thain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Neural Inf Process Syst</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="728" to="740" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title level="m" type="main">Fairness-Aware Classifier with Prejudice Remover Regularizer. Machine Learning and Knowledge Discovery in Databases</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kamishima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akaho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Asoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sakuma</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="35" to="50" />
+			<pubPlace>Berlin Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Local data debiasing for fairness based on generative adversarial training</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Aïvodji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bidet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gambs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Ngueveu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tapp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Algorithms</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lemoine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<title level="m">Mitigating Unwanted Biases with Adversarial Learning. Proceedings of the 2018 AAAI/ACM Conference on AI, Ethics, and Society</title>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="page" from="2018" to="2030" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Data preprocessing techniques for classification without discrimination</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kamiran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Calders</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10115-011-0463-8</idno>
+		<ptr target="https://doi.org/10.1007/s10115-011-0463-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Knowl Inf Syst</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="33" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Scientific citations favor positive results: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Duyx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mje</forename><surname>Urlings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gmh</forename><surname>Swaen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Bouter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Zeegers</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jclinepi.2017.06.002</idno>
+		<idno type="PMID">28603008</idno>
+		<ptr target="https://doi.org/10.1016/j.jclinepi.2017.06.002" />
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="92" to="101" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Raji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paullada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanna</surname></persName>
+		</author>
+		<idno>arXiv:211115366. 2021</idno>
+		<title level="m">AI and the everything in the whole wide world benchmark</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Chauhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salau ¨n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Branson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schwab</surname></persName>
+		</author>
+		<idno>arXiv:240507841. 2024</idno>
+		<title level="m">Selection Bias in Machine Learning for Healthcare</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Otles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krumm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccullough</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Detroyer-Cooley</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamainternmed.2021.2626</idno>
+		<idno type="PMID">34152373</idno>
+		<ptr target="https://doi.org/10.1001/jamainternmed.2021.2626" />
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">181</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1065</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Promoting health equity through improved regulation of artificial intelligence medical devices</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dortche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Banbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Yannatos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JSPG</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">03</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for clinical trial design</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Antony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tips.2019.05.005</idno>
+		<idno type="PMID">31326235</idno>
+		<ptr target="https://doi.org/10.1016/j.tips.2019.05.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Pharmacol Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="577" to="591" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Use of artificial intelligence for cancer clinical trial enrollment: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Midroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Eng</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jnci/djad013</idno>
+		<idno type="PMID">36688707</idno>
+		<ptr target="https://doi.org/10.1093/jnci/djad013" />
+	</analytic>
+	<monogr>
+		<title level="j">J Natl Cancer Inst</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="365" to="374" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">How to Fine-Tune BERT for Text Classification?</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<imprint>
+			<biblScope unit="page" from="194" to="206" />
+			<date type="published" when="2019">2019</date>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<monogr>
+		<title level="m" type="main">A survey of deep learning techniques for neural machine translation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<idno>arXiv:200207526. 2020</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Topal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Van Heerden</surname></persName>
+		</author>
+		<idno>arXiv:210208036. 2021</idno>
+		<title level="m">Exploring transformers in natural language generation: Gpt, bert, and xlnet</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Challenges and barriers of using large language models (LLM) such as ChatGPT for diagnostic medicine with a focus on digital pathology-a recent scoping review</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Baig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13000-024-01464-7</idno>
+		<idno type="PMID">38414074</idno>
+		<ptr target="https://doi.org/10.1186/s13000-024-01464-7" />
+	</analytic>
+	<monogr>
+		<title level="j">Diagn Pathol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Attention is not all you need: the complicated case of ethically using large language models in healthcare and medicine</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harrer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ebiom.2023.104512</idno>
+		<idno type="PMID">36924620</idno>
+		<ptr target="https://doi.org/10.1016/j.ebiom.2023" />
+	</analytic>
+	<monogr>
+		<title level="j">EBioMedicine</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">104512</biblScope>
+			<date type="published" when="2023">2023. 104512</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<monogr>
+		<title level="m" type="main">Addressing cognitive bias in medical language models</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidgall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Essien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Olshvang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Kim</surname></persName>
+		</author>
+		<idno>arXiv:240208113. 2024</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<monogr>
+		<title level="m" type="main">Bias patterns in the application of LLMs for clinical decision support: A comprehensive study</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poulain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fayyaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Beheshti</surname></persName>
+		</author>
+		<idno>arXiv:240415149. 2024</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<monogr>
+		<title level="m" type="main">Improving language understanding by generative pre-training</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Radford</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kotek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dockum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sun</surname></persName>
+		</author>
+		<title level="m">Gender bias and stereotypes in large language models. Proceedings of the ACM collective intelligence conference</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<monogr>
+		<title level="m" type="main">He is very intelligent, she is very beautiful? on mitigating social biases in language modelling and generation. Findings of the</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Garimella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Amarnath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Yalla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Anandhavelu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chhaya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021. 2021</date>
+			<publisher>ACL-IJCNLP</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">Persistent anti-muslim bias in large language models</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Farooqi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 AAAI/ACM Conference on AI, Ethics, and Society</title>
+		<meeting>the 2021 AAAI/ACM Conference on AI, Ethics, and Society</meeting>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ebrahimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asudeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Koudas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Axolotl</surname></persName>
+		</author>
+		<idno>arXiv:240300198. 2024</idno>
+		<title level="m">Fairness through Assisted Self-Debiasing of Large Language Model Outputs</title>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<monogr>
+		<title level="m" type="main">Steering LLMs Towards Unbiased Responses: A Causality-Guided Debiasing Framework</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Spirtes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Leqi</surname></persName>
+		</author>
+		<idno>arXiv:240308743. 2024</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<monogr>
+		<title level="m" type="main">Gender-tuning: Empowering finetuning for debiasing pre-trained language models</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghanbarzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Palangi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khanpour</surname></persName>
+		</author>
+		<idno>arXiv:230710522. 2023</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<monogr>
+		<title level="m" type="main">Debiasing large visual language models</title>
+		<author>
+			<persName><forename type="first">Y-F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><forename type="middle">W</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<idno>arXiv:240305262. 2024</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Dear: Debiasing vision-language models with additive residuals</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hemani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Agarwal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+		<meeting>the IEEE/CVF Conference on Computer Vision and Pattern Recognition</meeting>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Causal-debias: Unifying debiasing in pretrained language models and fine-tuning via causal invariant learning</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><forename type="middle">Y</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics</title>
+		<meeting>the 61st Annual Meeting of the Association for Computational Linguistics</meeting>
+		<imprint>
+			<publisher>Long Papers</publisher>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">2023</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

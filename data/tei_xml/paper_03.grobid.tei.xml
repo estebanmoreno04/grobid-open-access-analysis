@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial Intelligence and Decision-Making in Healthcare: A Thematic Analysis of a Systematic Review of Reviews</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>SAGE Publications</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-01">2024-01</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mohsen</forename><surname>Khosravi</surname></persName>
+							<idno type="ORCID">0000-0002-0576-7660</idno>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health Care Management</orgName>
+								<orgName type="department" key="dep2">School of Management and Information Sciences</orgName>
+								<orgName type="institution">Shiraz University of Medical Sciences</orgName>
+								<address>
+									<settlement>Shiraz</settlement>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zahra</forename><surname>Zare</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health Care Management</orgName>
+								<orgName type="department" key="dep2">School of Management and Information Sciences</orgName>
+								<orgName type="institution">Shiraz University of Medical Sciences</orgName>
+								<address>
+									<settlement>Shiraz</settlement>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Seyyed</forename><forename type="middle">Morteza</forename><surname>Mojtabaeian</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Reyhane</forename><surname>Izadi</surname></persName>
+							<email>reyhoonizadi73@gmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Health Care Management</orgName>
+								<orgName type="department" key="dep2">School of Management and Information Sciences</orgName>
+								<orgName type="institution">Shiraz University of Medical Sciences</orgName>
+								<address>
+									<settlement>Shiraz</settlement>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Department of Health Care Management</orgName>
+								<orgName type="department" key="dep2">School of Management and Information Sciences</orgName>
+								<orgName type="institution">Shiraz University of Medical Sciences</orgName>
+								<address>
+									<postCode>7135765748</postCode>
+									<settlement>Shiraz</settlement>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Artificial Intelligence and Decision-Making in Healthcare: A Thematic Analysis of a Systematic Review of Reviews</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Health Services Research and Managerial Epidemiology</title>
+						<title level="j" type="abbrev">Health Services Research and Managerial Epidemiology</title>
+						<idno type="ISSN">2333-3928</idno>
+						<imprint>
+							<publisher>SAGE Publications</publisher>
+							<biblScope unit="volume">11</biblScope>
+							<date type="published" when="2024-01" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">4C724A78BB89EF2566C6E8C13A2760DF</idno>
+					<idno type="DOI">10.1177/23333928241234863</idno>
+					<note type="submission">Submitted November 5, 2023. Revised February 4, 2024. Accepted February 7, 2024.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>decision making</term>
+					<term>health services</term>
+					<term>healthcare system</term>
+					<term>thematic analysis</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction:</head><p>The use of artificial intelligence (AI), which can emulate human intelligence and enhance clinical results, has grown in healthcare decision-making due to the digitalization effects and the COVID-19 pandemic. The purpose of this study was to determine the scope of applications of AI tools in the decision-making process in healthcare service delivery networks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and methods:</head><p>This study used a qualitative method to conduct a systematic review of the existing reviews. Review articles published between 2000 and 2024 in English-language were searched in PubMed, Scopus, ProQuest, and Cochrane databases. The CASP (Critical Appraisal Skills Programme) Checklist for Systematic Reviews was used to evaluate the quality of the articles. Based on the eligibility criteria, the final articles were selected and the data extraction was done independently by 2 authors. Finally, the thematic analysis approach was used to analyze the data extracted from the selected articles. Results: Of the 14 219 identified records, 18 review articles were eligible and included in the analysis, which covered the findings of 669 other articles. The quality assessment score of all reviewed articles was high. And, the thematic analysis of the data identified 3 main themes including clinical decision-making, organizational decision-making, and shared decision-making; which originated from 8 subthemes.</p><p>Conclusions: This study revealed that AI tools have been applied in various aspects of healthcare decision-making. The use of AI can improve the quality, efficiency, and effectiveness of healthcare services by providing accurate, timely, and personalized information to support decision-making. Further research is needed to explore the best practices and standards for implementing AI in healthcare decision-making.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>The literature suggests that the COVID-19 pandemic, by enforcing physical distancing measures, facilitated the digitalization and virtualization of health and social services. <ref type="bibr" target="#b0">1</ref> This phenomenon has prompted researchers to characterize the period following the COVID-19 pandemic as the era of digitalization, artificial intelligence (AI), and substantial increase in the adoption of AI digital platforms, particularly in the provision of healthcare services. <ref type="bibr" target="#b1">2</ref> AI refers to the ability of a machine or system to perform tasks that require human intelligence, such as reasoning, learning, and decision making. <ref type="bibr" target="#b2">3</ref> AI encompasses various technologies, such as machine learning, deep learning, natural language processing, robotics, speech processing, and other automation technologies. <ref type="bibr" target="#b3">4</ref> Various AI-based digital platforms have attracted considerable attention from service providers and users, as they can offer the opportunity to implement patient-centered care within the healthcare systems, owing to a number of potential benefits that these technologies provide. For service users from diverse populations, settings, and conditions, potential benefits include convenience and enhanced accessibility, especially where factors such as physical mobility challenges and more importantly the opportunity to provide services based on the preferences of patients as distinct individuals with distinct differences. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b5">6</ref> In the field of clinical decision making, AI has demonstrated remarkable capabilities for predicting and classifying diagnoses, as well as providing recommendations and insights. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b6">7</ref> The increasing empirical evidence suggests that knowledgebased computerized decision support (CDS) and, in particular, knowledge-based clinical decision support systems, have the potential to enhance practitioner performance. <ref type="bibr" target="#b7">8,</ref><ref type="bibr" target="#b8">9</ref> The literature indicates that AI systems have been successful in multiple medical imaging use cases, such as detecting mitosis in breast cancer histology images, <ref type="bibr" target="#b9">10</ref> classifying skin cancer with dermatologist-level accuracy, <ref type="bibr" target="#b10">11</ref> diagnosing diabetic retinopathy from retinal fundus photographs, <ref type="bibr" target="#b11">12</ref> and predicting cardiovascular risk factors from retinal fundus photographs. <ref type="bibr" target="#b12">13</ref> These studies demonstrate the potential of AI systems to assist healthcare providers in improving diagnosis and prognosis, as well as providing personalized and customized information. Moreover, they have been demonstrated to reliably predict the risk of imminent suicide attempts, <ref type="bibr" target="#b13">14</ref> and they have been employed to assess the likelihood of patients developing serious conditions or being transferred to palliative care. <ref type="bibr" target="#b14">15</ref> The decisions within the healthcare service delivery system are often based on the physicians' own opinions. <ref type="bibr" target="#b15">16</ref> Meanwhile, many patients lack an advance directive or a surrogate who can decide for them, so strangers have to make the choices <ref type="bibr" target="#b16">17</ref> ; Patients also have difficulties with planning their future care and understanding resuscitation scenarios, so they may not communicate their wishes or may have unrealistic expectations (eg, overestimating the success of cardiopulmonary resuscitation). <ref type="bibr" target="#b17">18</ref> Moreover, relatives who act as surrogates may experience stress and may not respect the patient's preferences. <ref type="bibr" target="#b18">19</ref> These are only a few examples that demonstrate the need for novel approaches to decision making within the healthcare service delivery system. And, one of the potential options is known to be the use of AI within the decision-making process. AI is changing the way clinical providers make decisions in healthcare. AI can assist healthcare professionals in diagnosing diseases, planning treatments, predicting outcomes, and managing population health. AI can also improve the quality and efficiency of healthcare decision making, as well as the satisfaction and involvement of users. <ref type="bibr" target="#b19">20</ref> AI is a rapidly evolving field that has the potential to transform various aspects of healthcare, such as diagnosis, treatment, prevention, and management. However, the literature on the application domains of AI in healthcare decision-making is scattered and fragmented, making it difficult to obtain a clear and comprehensive picture of the current state and future directions of this emerging field. This phenomenon motivated us to conduct a systematic review of the literature on the use of AI in the decision-making process of healthcare service delivery in the healthcare system. The purpose of this research was to accumulate and determine the application areas of AI in the decision-making process of providing health care through conducting a review of reviews.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Materials and Methods</head><p>This article was a qualitative content analysis that conducted a systematic review of the existing reviews in the literature from 2000 to 2024. The aim of this study was to review systematically the existing reviews on the utilization of AI in decision-making processes within the delivery of healthcare services. A review of reviews is a type of secondary article that synthesizes and evaluates the methods and quality of other review articles on a specific topic. Review articles are systematic summaries of the current state of knowledge and evidence on a topic. Review of reviews aims to compare and contrast the different types of review articles, assess their reliability and validity, and identify the best sources of evidence for researchers, practitioners, and policymakers. Review of reviews can also help to identify gaps and controversies in the literature, and suggest directions for future research. Review of reviews are also referred to as overviews of reviews, umbrella reviews, or systematic reviews of systematic reviews. <ref type="bibr" target="#b20">21</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Gathering and Search Strategy</head><p>The present study adhered to the PRISMA 2020 (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines for systematic reviews to ensure the quality and validity of the research. <ref type="bibr" target="#b21">22</ref> A systematic search was conducted to identify all published review articles related to the utilization of AI in decision-making processes within the delivery of healthcare services, from 2000 to 2024 and in English only. The databases searched were PubMed, Scopus, Cochrane, and ProQuest. We used MeSH terms to categorize all keywords into 3 groups: AI, delivery of healthcare, and decision-making. The synonymous keywords were combined using the logical operator "OR." The first, second, and third groups of keywords were then merged using the logical operator "AND." EndNote X7.1 software was used to organize the references. And, the search was conducted on February 3, 2024. The search strategy is presented in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Inclusion and Exclusion Criteria</head><p>We included articles published in English from 2000 to 2024 that focused on decision-making using AI in healthcare delivery. We excluded articles that: (1) did not cover a relevant AI topic in healthcare, (2) lacked a title or abstract describing an AI application in healthcare, or (3) lacked a title, abstract, or full-text providing any decision-making usage of AI in healthcare application in any healthcare system. Also, the articles that were recognized as low quality based on the quality assessment score using CASP Systematic Review Checklist, <ref type="bibr" target="#b22">23</ref> were excluded. Also, some types of articles including short communications, letters to the editor, and other irrelevant publications were removed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Screening and Data Extraction</head><p>The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) flowchart <ref type="bibr" target="#b23">24</ref> was followed to select the articles for the review. Any duplicates were removed and the remaining articles were screened by their title and abstract. Any articles that were not relevant to the research objective were discarded, and the full text of the rest was read. Only those that met the eligibility criteria were included in the final analysis. The whole process was carried out independently by 2 researchers. In case of any conflict regarding the results of the procedure, the other authors were consulted to complete the screening process.</p><p>The data from the final articles that aligned with the study objective were extracted independently by 2 authors. They used Microsoft Office Excel 2013 to create a data extraction form for data collection. The form consisted of sections such as authors, title, year, country, journal, indexed databases, study type, digital tool, disorder type, number of final articles, and summary of results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quality Assessment of Final Articles Using the CASP Checklist</head><p>Since this is a relatively new research field, we deemed it important to conduct a qualitative assessment of the presented articles. The quality of the selected studies was assessed using the Critical Appraisal Skills Program (CASP) for review articles (CASP Systematic Review Checklist). <ref type="bibr" target="#b20">21</ref> The main CASP checklists (for randomized controlled trials and systematic reviews) were adapted from the Journal of American Medical Association (JAMA) User's Guides to the Medical Literature in 1994. The CASP checklist is a tool used to assess the quality of research studies. It comprises various categories and questions that help evaluate the validity, relevance, and applicability of a research study. The checklist is usually evidence-based in medicine for determining the strength of evidence for clinical decision-making. <ref type="bibr" target="#b24">25</ref> The checklist consists of 10 questions that cover 3 broad issues: are the results of the review valid, what are the results, and will the results help locally. Two questions are descriptive and 8 questions are scored, with 2 for yes, 1 for I can't say, and 0 for no. The quality of the studies is measured by the percentage of the total score out of 16. The percentage range is between 0 and 100, where higher scores indicate higher quality. The studies are classified into 4 quality levels: very low (0-25), low (26-50), medium (51-75), and high (76-100). Only studies with medium or high quality are deemed eligible for research purposes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Analysis</head><p>A qualitative thematic analysis and an inductive approach <ref type="bibr" target="#b25">26</ref> were used to analyze the data extracted from the previous steps. The authors repeatedly read all the included articles and extractions to gain a thorough understanding of the data and then assigned initial codes to each meaningful extraction. All initial codes were examined and finalized before grouping them into subthemes and main themes. The subthemes and main themes were then named, described, and presented in a table. Lincoln and Guba's 27 criteria were used to evaluate the trustworthiness of the research. Trustworthiness refers to the extent to which the findings of a study are credible, transferable, dependable, and confirmable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Review</head><p>As depicted in Figure <ref type="figure" target="#fig_0">1</ref>, we found 14 219 records in the database searching. After duplicate removal, we screened 6483 records. Finally, the quality of the articles was assessed using the CASP checklist, and 18 articles were included.</p><p>Table <ref type="table" target="#tab_1">2</ref> presents a summary of the characteristics of 18 studies that examined the application of AI-based systems in various domains of healthcare decision-making. The studies included in this research covered the results of 669 articles.</p><p>Study No. 1 was a systematic review published in 2023. The study aimed to review AI-based clinical decision support systems in the development stage, specifically regarding methodological robustness and constraints for clinical implementation. The review included 121 articles. <ref type="bibr" target="#b27">28</ref> Study No. 2 was a systematic review published in 2023. The study aimed to assess the performance and applicability of machine learning algorithms in early childhood caries (ECC) prediction and detection. The review included 6 articles. <ref type="bibr" target="#b28">29</ref> Study No. 3 was a scoping review published in 2023. The study aimed to identify the recent developments in vision transformer-based AI methods for lung cancer imaging applications. The review included 34 articles. <ref type="bibr" target="#b29">30</ref> Study No. 4 was a systematic review published in 2023. The study aimed to explore whether the use of AI can improve antibiotic prescribing for human patients. The review included 5 articles. <ref type="bibr" target="#b30">31</ref> Study No. 5 was a systematic review published in 2023. The study aimed to provide a comprehensive overview of the reasons given in the academic literature for and against the use of AI-based applications in clinical ethical decision making. The review included 44 articles. <ref type="bibr" target="#b31">32</ref> Study No. 6 was a systematic review published in the United Kingdom in 2020. It reviewed 5 final articles that assessed the effectiveness of AI-based computerized decision support systems in health and social care settings. This study was the only one that employed a systematic review method, which is regarded as more rigorous and comprehensive than a scoping review method. However, the low number of final articles reviewed indicates a lack of evidence on the effectiveness of AI-based computerized decision support systems within health and social care settings. <ref type="bibr" target="#b32">33</ref> Study No. 7 was a scoping review published in 2023. The study aimed to explore the extent of the actual use of AI/ machine learning protocols for diagnosing cancer in prospective settings. The review included 18 articles. <ref type="bibr" target="#b33">34</ref> Study No. 8 was a scoping review published in 2019. It reviewed 62 final articles that assessed the impact of AI-based decision support systems on various outcomes and populations in emergency department triage settings. This study was the only one that focused on emergency department (ED) triage, which is a process that involves prioritizing patients based on their urgency and severity of conditions. While the high number of final articles reviewed indicates a wide range of AI-based decision support systems in ED triage settings. <ref type="bibr" target="#b34">35</ref> Study No. 9 was a scoping review published in 2023. The study aimed to investigate the incorporation of AI and ML-based decision support systems in mental health care settings. The review included 4 articles. <ref type="bibr" target="#b35">36</ref> Study No. 10 was a systematic review published in 2023. The study aimed to review the development, adoption, and utilization of medical decision-support systems in diagnosing febrile diseases. The review included 128 articles. <ref type="bibr" target="#b36">37</ref> Study No. 11 was a scoping review published in 2023. The study aimed to provide an overview of the current status of AI-/ information technology-based clinical decision support tools in China. The review included 37 articles. <ref type="bibr" target="#b37">38</ref> Study No. 12 was a scoping review published in 2024. The study aimed to identify literature gaps for the future development and evaluation of clinical decision-support systems for emergency telephone triage. The review included 19 articles. <ref type="bibr" target="#b38">39</ref> Study No. 13 was a systematic review published in 2023. The study aimed to investigate studies and tools that address AI/machine learning-based approaches towards clinical decision support (CDS) for monitoring cardiovascular patients in intensive care units (ICUs). The review included 21 articles. <ref type="bibr" target="#b39">40</ref> Study No. 14 was a scoping review published in 2019. It reviewed 80 final articles that explored the use of artificial  neural networks (ANNs) across all levels of healthcare organizational decision-making. This study was the only one that focused on ANN, which is a type of AI system that can learn from data and tailor solutions to a given problem. Moreover, the high number of final articles reviewed indicates a growing interest and potential of ANN in healthcare organizational decision-making. <ref type="bibr" target="#b40">41</ref> Study No. 15 was a scoping review published in 2022. It reviewed 6 final articles that investigated the use of AI systems to support shared decision-making in healthcare settings. This study was the only one that focused on shared decision-making (SDM), which is a process that involves patients and practitioners making decisions together based on evidence and preferences. However, the low number of final articles reviewed indicates a lack of evidence on AI systems to support SDM in healthcare settings. <ref type="bibr" target="#b41">42</ref> Study No. 16 was a systematic review published in 2023. The study aimed to identify the application of AI in the diagnosis of various forms of mouth ulcers. The review included 23 articles. <ref type="bibr" target="#b42">43</ref> Study No. 17 was a scoping review published in 2023. It reviewed 20 final articles that identified and assessed the strategies for the implementation of machine learning tools in hospital settings. This study was the only one that focused on implementation strategies, which are methods and approaches used for introducing and integrating machine learning tools into healthcare settings. Meanwhile, the moderate number of final articles reviewed indicates some evidence of implementation strategies for machine learning tools in hospital settings. <ref type="bibr" target="#b43">44</ref> Study No. 18 was a systematic review published in 2023. The study aimed to provide detailed insights into AI applications in breast cancer diagnosis, categorize key specializations of interest to the academic community, and identify research themes in each category through citation and thematic issue analysis. The review included 36 articles. <ref type="bibr" target="#b44">45</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Quality Assessment of Selected Review Articles</head><p>In Table <ref type="table" target="#tab_3">3</ref>, the result of the qualitative assessment of the selected review articles in this study is reported. Using the CASP checklist, we evaluated the articles and found that all 18 articles scored full marks in the "result validity" dimension (including Q1 and Q2), which indicates a clear focus on the research question and appropriate selection of papers. For the "worth continuing" dimension (including Q3, Q4, and Q5), we found that all articles obtained a full score in the "combination of review results" question (Q5). However, despite these positive findings, none of the articles fully met our criteria in the "inclusion of all the important, relevant studies" question (Q3). Only 6 studies received a full score in the "assessment of quality of included studies" question (Q4). Moreover, all articles received full marks in the "local impact of results" dimension (including Q8, Q9, and Q10). In general, the quality assessment score of all reviewed articles was high.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thematic Analysis of the Findings</head><p>After thoroughly reviewing the articles included in the study, we have identified 3 main themes: "clinical decision-making," "organizational decision-making," and "shared decisionmaking." Additionally, there are 8 subthemes related to these main themes: remote monitoring, computerized interpretation of graphs, facilitating diagnosis and prognosis, forecasting administrative and quality indicators, offering cost-effective solutions for time and resource management, providing personalized and customized information, the possibility of patient self-management, enhancing patient medication adherence. In Table <ref type="table" target="#tab_8">4</ref>, the main themes and subthemes, and brief definitions for each theme are presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The aim of the study was to determine the application domains of various types of AI in the decision-making process in the healthcare system. Three main themes including clinical decision-making, organizational decision-making, and shared decision-making were identified, which originated from 8 subthemes. Each is discussed in detail below:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Clinical Decision-Making</head><p>As per the existing scholarly works, the theme of clinical decision-making encompasses various subthemes to where AI can be applied. These subthemes include remote monitoring, computerized interpretation of graphs, and facilitating diagnosis and prognosis.</p><p>One of the subthemes that refers to the application of AI in the clinical field is remote monitoring. AI can help classify physical activities and detect abnormal events or behaviors using wearable sensors and cameras. This can help remotemonitor the patients' mobility, safety, and adherence to treatment plans. <ref type="bibr" target="#b45">46</ref> One study evaluated the performance of algorithms enabling automated triaging based on existing data sets. Despite the reported lack of statistical significance of the effect of AI on the outcomes, the increased availability of remote monitoring was reported to potentially enhance the outcomes and efficiency through the use of such AI platforms. <ref type="bibr" target="#b46">47</ref> Interestingly, a study has reported that AI has also the potential to perform in emergency circumstances, assisting in monitoring cardiovascular patients in ICUs. <ref type="bibr" target="#b39">40</ref> The next subtheme is a computerized interpretation of graphs. The task of identifying the discriminatory and latent attributes from large-scale heterogeneous data is challenging for both nodal graphs and graph images (also known as chart images). Therefore, interpretation-based methods using AI emerged as a promising solution. <ref type="bibr" target="#b47">48</ref> One possible application of AI in the computerized interpretation of graphs in the clinical field is to use machine learning algorithms to analyze electrocardiogram signals. <ref type="bibr" target="#b48">49</ref> A study evaluated the performance of AI facilitating the interpretation of cardiotocographs through image pattern recognition by applying computerized interpretation. Surprisingly, the study reported that the application of such AI tools does not enhance the clinical outcomes for maternal or neonatal health. <ref type="bibr" target="#b49">50</ref> Another paper declared that various tasks, such as analyzing medical images or associating symptoms and biomarkers from electronic medical records with the disease's characterization and prognosis, have shown that AI algorithms can perform equally or better than humans. <ref type="bibr" target="#b50">51</ref> Moreover, vision transformers, a deep learning model, have become popular in medical imaging, especially for lung cancer. They analyze image classification as a sequence prediction task, capturing long-term dependencies within image patches. <ref type="bibr" target="#b29">30</ref> These results demonstrate the considerable potential of employing AI in the analysis and interpretation of medical graphs.</p><p>The third subtheme is facilitating diagnosis and prognosis. AI can help prevent and diagnose various diseases, such as mental disorders, cancer, diabetic retinopathy, Alzheimer's disease, etc, using deep learning models. This can help provide faster and more reliable diagnosis and reduce human errors. <ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b28">29,</ref><ref type="bibr" target="#b33">34,</ref><ref type="bibr" target="#b35">[36]</ref><ref type="bibr" target="#b36">[37]</ref><ref type="bibr" target="#b37">[38]</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b44">45,</ref><ref type="bibr" target="#b51">52</ref> Besides that, AI has shown the capability to streamline the drug prescription process. <ref type="bibr" target="#b30">31</ref> Moreover, one paper reported that AI can aid in patient triage by offering guidance and evaluating the severity and priority of cases. <ref type="bibr" target="#b38">39</ref> Another paper described the application of ANNs in the process of clinical No Yes In the papers where clinical decision support systems were validated in the emergency department, the authors found that there was an improvement in the health professionals' decision-making thereby leading to better clinical management and patients' outcomes. However, it was found that more than half of the studies lacked this implementation phase. The authors concluded that for these studies, it was necessary to validate the clinical decision support systems and to define key performance measures in order to demonstrate the extent to which incorporation of clinical decision support systems at triage can actually improve care.</p><p>Due to the number of reviewed articles and reporting credibility, the study has acceptable precision. Yes Yes Yes 13/16 (81.2%) 9 Higgins et al 36 Yes Yes ? Yes Yes The review underscored the imperative of clinician involvement in all phases of AI research, development, and deployment in healthcare. Prioritizing clinician trust is crucial for the successful implementation of AI-based decision support systems. Encouraging clinicians to contribute to the development of new health technologies can help preempt missed care, enhancing public safety and ethical implementation. AI-based tools in mental health settings hold significant potential, contingent on clinician trust and confidence. The results were deemed precise. Yes Yes Yes 15/16 (93.7%) 10 Khan et al 37 Yes Yes ?</p><p>No Yes The study found fuzzy logic as the dominant MDSS model, with many models discussed yet unimplemented. These models were proposed primarily to enhance accuracy and precision. Adoption by medical facilities was influenced by usefulness, relative advantage, and ease of use. However, half of the studies did not express the reasons for MDSS adoption. Those who did adopt MDSS primarily used it to boost effectiveness and guideline adherence.</p><p>The results were deemed precise.</p><p>Yes Yes Yes 13/16 (81.2%) 11  Liao et al <ref type="bibr" target="#b37">38</ref> Yes Yes ?</p><p>No Yes The study found that 32.0% of the models were designed for disease diagnosis, 54.0% for risk prediction and classification, and 14.0% for disease management. Chronic diseases, particularly cardiovascular and cerebrovascular, were the primary focus. Single-center electronic medical records were the primary data source, with internal validation predominantly used for model evaluation.</p><p>The results were deemed precise.</p><p>Yes Yes Yes 13/16 (81.2%) 12  Michel et al 39</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Yes Yes ?</head><p>No Yes This review underscores the potential of a hybrid system that is user-customized, flexible, and integrated with the electronic health record. This system can process oral, video, and digital data. It also emphasizes the necessity to assess clinical decision support systems based on their inherent characteristics and their impact on clinical practice, iteratively at each unique stage of the information technology lifecycle.</p><p>The results were deemed precise.</p><p>Yes Yes Yes 13/16 (81.2%) (continued)  <ref type="bibr" target="#b43">44</ref> Yes Yes ? Yes Yes The most common implementation strategies for the tools were clinician reminders that incorporated machine learning predictions, followed by facilitated relay of clinical information and staff education.</p><p>The main barriers to the successful implementation of machine learning tools were time and reliability, while the main facilitators were time/efficiency and perceived usefulness. Furthermore, the authors found scarce evidence regarding the implementation of machine learning tools to assist clinicians with patient healthcare decisions in hospital settings.</p><p>Due to the number of reviewed articles and reporting credibility, the study has acceptable precision. Yes Yes Yes 15/16 (93.7%) (continued)</p><p>decision-making in healthcare and reported the potential promise of their use in situations involving complex, unstructured, or limited information. <ref type="bibr" target="#b40">41</ref> Similarly, a study evaluated the performance and benefit of ANNs as clinical decision-making tools in cancer. It indicated that ANNs had demonstrated promising outcomes in diagnosis and prognosis. <ref type="bibr" target="#b52">53</ref> These findings delineate the potentially significant contribution of AI in the process of diagnosis and prognosis of diseases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Organizational Decision-Making</head><p>Evidence shows that AI can also be used in organizational decision-making. This main theme includes 2 subthemes which are forecasting administrative and quality indicators, and providing cost-effective solutions for time and resource management.</p><p>The first subtheme is forecasting administrative and quality indicators. AI can help forecast the performance and outcomes of healthcare processes, such as patient satisfaction, safety, quality of care, and efficiency, using machine learning algorithms and clinical data. This can help identify best practices, monitor progress, and provide feedback and recommendations for improvement. <ref type="bibr" target="#b53">54</ref> It is shown that ANNs have been effectively applied to forecast quality factors (responsiveness, security, and efficiency) that affect the adoption of e-government services. <ref type="bibr" target="#b54">55</ref> Moreover, it is reported that some forms of AI tools are used for distinct organizational levels of healthcare systems; in this regard, it was reported that ANNs were mostly used for microlevel decisions between patients and providers, and less for meso-and macrolevel decisions. <ref type="bibr" target="#b40">41</ref> The next subtheme is providing cost-effective solutions for time and resource management. AI can help automate and streamline administrative tasks, such as scheduling, invoicing, reporting, and customer service, using natural language processing and machine learning. This can help save time and improve efficiency and productivity. <ref type="bibr" target="#b55">56</ref> It is shown that nonclinical applications have involved enhancing the management of healthcare organizations, as well as forecasting important indicators such as cost or resource utilization. <ref type="bibr" target="#b56">57,</ref><ref type="bibr" target="#b57">58</ref> In such context, ANNs have been employed in decision support models that offer cost-effective solutions for time and resource management to healthcare providers and the healthcare system. <ref type="bibr" target="#b58">59</ref> AI can help predict the demand and supply of healthcare resources, such as beds, staff, equipment, and drugs, using historical data, current trends, and external factors. This can help optimize the allocation and utilization of resources and reduce costs and waste. <ref type="bibr" target="#b59">60</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Shared Decision-Making</head><p>Shared decision-making is the last main theme, and it includes 3 subthemes: providing personalized and customized information, enabling patient self-management, and enhancing patient medication adherence.</p><p>The first subtheme is providing personalized and customized information. One study delineated that AI has the potential to enhance patient autonomy by enabling patients to receive their treatment of choice. <ref type="bibr" target="#b31">32</ref> Meanwhile, a research proposed a system that integrated AI estimations, physician's interpretation, and parents' perspectives to support ethical treatment decisions for newborn patients; The results showed that the system had delivered personalized and customized information to different users and facilitated shared decision-making involving parents. <ref type="bibr" target="#b60">61</ref> AI can help create adaptive and personalized educational software that can tailor the learning content, pace, feedback, and assessment to each individual learner. <ref type="bibr" target="#b61">62</ref> This technology can help deliver customized education and guidance to patients and caregivers using natural language processing and chatbots. <ref type="bibr" target="#b59">60</ref> In such context, "Software as a Medical Device" (SaMD) is software intended for medical purposes, independent of hardware. It spans from computer applications to mobile apps, aiding in disease diagnosis, treatment, and prevention. <ref type="bibr" target="#b62">63</ref> Interestingly, through the provision of guidance and regulations for the development, evaluation, and approval of Software as a SaMD, the FDA and other global regulators facilitate stakeholders in promoting safe innovation while ensuring patient safety. <ref type="bibr" target="#b62">63</ref> The second subtheme is enabling patient self-management. One study investigated the use of learning algorithms to enhance patient self-management; The system reduced the time and visits required by clinicians, and patients expressed satisfaction with it. Moreover, no loss of monitoring was observed. <ref type="bibr" target="#b63">64</ref> AI can help patients with musculoskeletal pain, such as neck or lower back pain, to improve their physical activity, posture, and coping skills using a smartphone app that adapts to their individual needs and preferences. <ref type="bibr" target="#b64">65</ref> Similarly, AI can help patients with diabetes to manage their blood glucose levels, diet, and exercise using a chatbot that provides education and coaching based on natural language processing and machine learning. <ref type="bibr" target="#b65">66</ref> The last subtheme is enhancing patient medication adherence. A study evaluated the use of an AI platform on mobile devices in measuring and enhancing medication adherence in stroke patients. The study demonstrated that the platform was effective and improved adherence by 50%. <ref type="bibr" target="#b66">67</ref> Even though, contrary to such finding, a trial that tested an algorithm for warfarin dosing in self-managing patients; found no difference in warfarin treatment quality between the algorithm and standard care. <ref type="bibr" target="#b67">68</ref> AI can help patients with chronic diseases, such as diabetes, hypertension, or cancer, to adhere to their medication regimens by providing reminders, alerts, education, and coaching using mobile phone applications, chatbots, or wearable devices. <ref type="bibr" target="#b68">69,</ref><ref type="bibr" target="#b69">70</ref> Furthermore, AI can prevent medication nonadherence using machine learning algorithms and clinical data, such as patient characteristics, medication history, disease severity, or psychosocial factors. <ref type="bibr" target="#b68">69</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations and Implications</head><p>This study has several strengths, such as conducting a review of reviews and using a thematic analysis approach, applying a rigorous and transparent search strategy and quality assessment of selected articles, and providing a comprehensive and detailed synthesis of the themes and subthemes. However, this review has limitations that must be acknowledged. The first and most important limitation of the current research is that the selected studies were only in English. Second, it did not explore the perspectives or experiences of the end-users of the AI systems, such as patients, providers, managers, or policymakers. Therefore, the findings may not capture the acceptability, usability, feasibility, or satisfaction of the AI systems in healthcare decision-making domains.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>This article showed that AI systems are useful in various areas of healthcare decision-making, including clinical, organizational, and shared decision-making. The findings indicated that AI has the potential to enhance the quality, efficiency, and effectiveness of healthcare decisions. Akay et al, <ref type="bibr" target="#b27">28</ref> Al-Namankany, <ref type="bibr" target="#b28">29</ref> Ali et al, <ref type="bibr" target="#b29">30</ref> Amin et al, <ref type="bibr" target="#b30">31</ref> Cresswell et al, <ref type="bibr" target="#b32">33</ref> Dang et al, <ref type="bibr" target="#b33">34</ref> Fernandes et al, <ref type="bibr" target="#b34">35</ref> Higgins et al, <ref type="bibr" target="#b35">36</ref> Khan et al, <ref type="bibr" target="#b36">37</ref> Liao et al, <ref type="bibr" target="#b37">38</ref> Michel et al, <ref type="bibr" target="#b38">39</ref> Moazemi et al, <ref type="bibr" target="#b39">40</ref> Tiwari et al, <ref type="bibr" target="#b42">43</ref> and Uzun Ozsahin et al 45 Computerized interpretation of graphs Facilitating diagnosis and prognosis Organizational decision-making Forecasting administrative and quality indicators Decisions regarding to the management of resources within healthcare organizations and the healthcare system Nida et al 41 and Tricco et al 44 Offering cost-effective solutions for time and resource management Shared decision-making Provision of personalized and customized information Decisions shared with users of services(patients)</p><p>Benzinger et al, <ref type="bibr" target="#b31">32</ref> Rahimi et al, <ref type="bibr" target="#b41">42</ref> and Tiwari et al <ref type="bibr" target="#b42">43</ref> Enabling patient self-management Enhancing patient medication adherence</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) flowchart for study selection.</figDesc><graphic coords="4,125.41,78.24,361.19,265.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>The Search Strategy Used for Conducting the Systematic Review.</figDesc><table><row><cell>No. Domains</cell><cell>Keywords</cell></row><row><cell>#1 Artificial</cell><cell>"artificial intelligence" OR AI OR "machine</cell></row><row><cell>intelligence</cell><cell>learning" OR "deep learning"</cell></row><row><cell cols="2">#2 Decision-making "decision making" OR decision-making* OR</cell></row><row><cell></cell><cell>decision* OR choice* OR "choice</cell></row><row><cell></cell><cell>behavior" OR judgment*</cell></row><row><cell>#3 Delivery of</cell><cell>health care system* OR healthcare system*</cell></row><row><cell>healthcare</cell><cell>OR health service* OR healthcare OR</cell></row><row><cell></cell><cell>health OR "health policy"</cell></row><row><cell>Search strategy</cell><cell>#1 AND #2 AND #3 AND (time-span</cell></row><row><cell></cell><cell>2000-2024) AND [English]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Summary of the characteristics of the18 included studies .</figDesc><table><row><cell></cell><cell>Author(s)/</cell><cell></cell><cell></cell><cell></cell><cell>Number of</cell></row><row><cell>No</cell><cell>citation</cell><cell>Title</cell><cell>Year Aim</cell><cell>Method</cell><cell>included articles</cell></row><row><cell>1</cell><cell>Akay et al 28</cell><cell>Artificial Intelligence for Clinical</cell><cell>2023 Reviewed AI-based clinical decision</cell><cell>Systematic</cell><cell>121</cell></row><row><cell></cell><cell></cell><cell>Decision Support in Acute</cell><cell>support systems in the development</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Ischemic Stroke: A Systematic</cell><cell>stage, specifically regarding</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Review</cell><cell>methodological robustness and</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>constraints for clinical</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>implementation.</cell><cell></cell><cell></cell></row><row><cell>2</cell><cell cols="2">Al-Namankany 29 Influence of Artificial</cell><cell>2023 Aimed to assess the performance and</cell><cell>Systematic</cell><cell>6</cell></row><row><cell></cell><cell></cell><cell>Intelligence-Driven Diagnostic</cell><cell>applicability of machine learning</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Tools on Treatment</cell><cell>algorithms in early childhood caries</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Decision-Making in Early</cell><cell>(ECC) prediction and detection. A</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Childhood Caries: A Systematic</cell><cell>comprehensive search was</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Review of Accuracy and Clinical</cell><cell>conducted to identify studies</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Outcomes</cell><cell>utilizing machine learning algorithms</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>to predict or detect ECC.</cell><cell></cell><cell></cell></row><row><cell>3</cell><cell>Ali et al 30</cell><cell>Improving Diagnosis and Prognosis</cell><cell>2023 Aimed to identify the recent</cell><cell>Scoping</cell><cell>34</cell></row><row><cell></cell><cell></cell><cell>of Lung Cancer Using Vision</cell><cell>developments in vision</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Transformers: A Scoping Review</cell><cell>transformer-based AI methods for</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>lung cancer imaging applications.</cell><cell></cell><cell></cell></row><row><cell>4</cell><cell>Amin et al 31</cell><cell>Artificial Intelligence to Improve</cell><cell>2023 Explored whether the use of AI can</cell><cell>Systematic</cell><cell>5</cell></row><row><cell></cell><cell></cell><cell>Antibiotic Prescribing: A</cell><cell>improve antibiotic prescribing for</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Systematic Review</cell><cell>human patients.</cell><cell></cell><cell></cell></row><row><cell>5</cell><cell cols="2">Benzinger et al 32 Should Artificial Intelligence be</cell><cell>2023 Aimed to provide a comprehensive</cell><cell>Systematic</cell><cell>44</cell></row><row><cell></cell><cell></cell><cell>Used to Support Clinical Ethical</cell><cell>overview of the reasons given in the</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Decision-Making? A Systematic</cell><cell>academic literature for and against</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Review of Reasons</cell><cell>the use of artificial intelligence-based</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>applications in clinical ethical</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>decision making.</cell><cell></cell><cell></cell></row><row><cell>6</cell><cell cols="2">Cresswell et al 33 Investigating the Use of Data-Driven</cell><cell>2020 The objective of this study was to</cell><cell>Systematic</cell><cell>5</cell></row><row><cell></cell><cell></cell><cell>Artificial Intelligence in</cell><cell>evaluate the effectiveness of artificial</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Computerized Decision Support</cell><cell>intelligence-based computerized</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Systems for Health and Social</cell><cell>decision support systems in health</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Care: A Systematic Review</cell><cell>and social care settings.</cell><cell></cell><cell></cell></row><row><cell>7</cell><cell>Dang et al 34</cell><cell>Extent of Use of Artificial</cell><cell>2023 Aimed to explore the extent of actual</cell><cell>Scoping</cell><cell>18</cell></row><row><cell></cell><cell></cell><cell>Intelligence and Machine Learning</cell><cell>use of artificial intelligence/machine</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Protocols in Cancer Diagnosis: A</cell><cell>learning protocols for diagnosing</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Scoping Review</cell><cell>cancer in prospective settings</cell><cell></cell><cell></cell></row><row><cell>8</cell><cell cols="2">Fernandes et al 35 Clinical Decision Support Systems</cell><cell>2020 The objective of this paper was to</cell><cell>Scoping</cell><cell>62</cell></row><row><cell></cell><cell></cell><cell>for Triage in the Emergency</cell><cell>evaluate the impact of intelligent</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Department Using Intelligent</cell><cell>clinical decision support systems for</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Systems: A Review</cell><cell>triage on the enhancement of quality</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>of care in the emergency</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>department and to identify the</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>challenges encountered regarding</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>implementation.</cell><cell></cell><cell></cell></row><row><cell>9</cell><cell>Higgins et al 36</cell><cell>Artificial Intelligence (AI) and</cell><cell>2023 Aimed to investigate the</cell><cell>Scoping</cell><cell>4</cell></row><row><cell></cell><cell></cell><cell>Machine Learning (Ml) Based</cell><cell>incorporation of artificial</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Decision Support Systems in</cell><cell>intelligence (AI) and machine</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Mental Health: An Integrative</cell><cell>learning (ML) based decision support</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Review</cell><cell>systems in mental health care</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>settings.</cell><cell></cell><cell></cell></row><row><cell cols="2">10 Khan et al 37</cell><cell>Adoption and Utilization of Medical</cell><cell>2023 Aimed to review the development,</cell><cell>Systematic</cell><cell>128</cell></row><row><cell></cell><cell></cell><cell>Decision Support Systems in the</cell><cell>adoption, and utilization of medical</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Diagnosis of Febrile Diseases: A</cell><cell>decision-support systems in</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Systematic Literature Review</cell><cell>diagnosing Febrile Diseases</cell><cell></cell><cell></cell></row><row><cell cols="2">11 Liao et al 38</cell><cell cols="2">Recent Advancement in Integrating 2023 Aimed to provide an overview of the</cell><cell></cell><cell>37</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>(continued)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>(continued)   </figDesc><table><row><cell></cell><cell>Author(s)/</cell><cell></cell><cell></cell><cell></cell><cell>Number of</cell></row><row><cell>No</cell><cell>citation</cell><cell>Title</cell><cell>Year Aim</cell><cell>Method</cell><cell>included articles</cell></row><row><cell></cell><cell></cell><cell>Artificial Intelligence and</cell><cell>current status of artificial</cell><cell>Scoping</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Information Technology With</cell><cell>intelligence-/information</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Real-World Data for Clinical</cell><cell>technology-based clinical decision</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Decision-Making in China: A</cell><cell>support tools in China.</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Scoping Review</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">12 Michel et al 39</cell><cell>Clinical Decision Support System in</cell><cell>2024 Aimed to identify literature gaps for</cell><cell>Scoping</cell><cell>19</cell></row><row><cell></cell><cell></cell><cell>Emergency Telephone Triage: A</cell><cell>the future development and</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Scoping Review of Technical</cell><cell>evaluation of clinical</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Design, Implementation and</cell><cell>decision-support systems for</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Evaluation</cell><cell>emergency telephone triage.</cell><cell></cell><cell></cell></row><row><cell cols="2">13 Moazemi et al 40</cell><cell>Artificial Intelligence for Clinical</cell><cell>2023 Aimed to investigate studies and tools</cell><cell>Systematic</cell><cell>21</cell></row><row><cell></cell><cell></cell><cell>Decision Support for Monitoring</cell><cell>that address artificial intelligence/</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Patients in Cardiovascular ICUs: A</cell><cell>machine learning-based approaches</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Systematic Review</cell><cell>towards clinical decision support</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>(CDS) for monitoring cardiovascular</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>patients in intensive care units</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>(ICUs).</cell><cell></cell><cell></cell></row><row><cell cols="2">14 Nida et al 41</cell><cell>Applications of Artificial Neural</cell><cell>2019 The aim was to provide a seminal</cell><cell>Scoping</cell><cell>80</cell></row><row><cell></cell><cell></cell><cell>Networks in Healthcare</cell><cell>review of the applications of artificial</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Organizational Decision-Making: A</cell><cell>neural networks to healthcare</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Scoping Review.</cell><cell>organizational decision-making.</cell><cell></cell><cell></cell></row><row><cell cols="2">15 Rahimi et al 42</cell><cell>Application of Artificial Intelligence</cell><cell>2022 The paper aimed to identify and</cell><cell>Scoping</cell><cell>6</cell></row><row><cell></cell><cell></cell><cell>in Shared Decision Making:</cell><cell>evaluate published studies that had</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Scoping Review.</cell><cell>tested or implemented artificial</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>intelligence to facilitate shared</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>decision-making.</cell><cell></cell><cell></cell></row><row><cell cols="2">16 Tiwari et al 43</cell><cell>Artificial Intelligence's Use in the</cell><cell>2023 Aimed to identify the application of AI</cell><cell>Systematic</cell><cell>23</cell></row><row><cell></cell><cell></cell><cell>Diagnosis of Mouth Ulcers: A</cell><cell>in the diagnosis of various forms of</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Systematic Review</cell><cell>mouth ulcers</cell><cell></cell><cell></cell></row><row><cell cols="2">17 Tricco et al 44</cell><cell>Implemented Machine Learning</cell><cell>2023 The aim was to identify machine</cell><cell>Scoping</cell><cell>20</cell></row><row><cell></cell><cell></cell><cell>Tools to Inform Decision-Making</cell><cell>learning tools that were used in</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>for Patient Care in Hospital</cell><cell>hospital settings and to examine</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Settings: A Scoping Review</cell><cell>how they were implemented to</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>inform decision-making for patient</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>care.</cell><cell></cell><cell></cell></row><row><cell cols="2">18 Uzun Ozashin</cell><cell>The Systematic Review of Artificial</cell><cell>2023 Aimed to provide detailed insights</cell><cell>Systematic</cell><cell>36</cell></row><row><cell></cell><cell>et al 45</cell><cell>Intelligence Applications in Breast</cell><cell>into AI applications in breast cancer</cell><cell>review</cell><cell></cell></row><row><cell></cell><cell></cell><cell>Cancer Diagnosis</cell><cell>diagnosis, categorize key</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>specializations of interest to the</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>academic community, and identify</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>research themes in each category</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>through citation and thematic issue</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>analysis.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Quality Assessment of Review Articles Using the CASP Checklist.Yes Yes The employment of machine learning techniques has the potential to enhance the prescription of antibiotics in both primary and secondary healthcare environments. It is noteworthy that none of the studies assessed the process of integrating their models into clinical practices.</figDesc><table><row><cell>No. Author(s)/citation Q1 Q2 Q3 Q4 Q5 Q6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3 .</head><label>3</label><figDesc>(continued)   </figDesc><table><row><cell>No. Author(s)/citation Q1 Q2 Q3 Q4 Q5 Q6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 3 .</head><label>3</label><figDesc>(</figDesc><table><row><cell>continued)</cell><cell>No. Author(s)/citation Q1 Q2 Q3 Q4 Q5 Q6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 4 .</head><label>4</label><figDesc>Findings From the Thematic Analysis.</figDesc><table><row><cell>Main themes</cell><cell>Subthemes</cell><cell>Definition</cell><cell>Reference(s)</cell></row><row><cell>Clinical</cell><cell>Remote monitoring</cell><cell>Decisions regarding to the</cell><cell></cell></row><row><cell>decision-making</cell><cell></cell><cell>curative approach led by</cell><cell></cell></row><row><cell></cell><cell></cell><cell>hospitals and clinics</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>Hereby the authors acknowledge the contribution of the Bing AI chatbot in preparing the text of the manuscript in terms of English grammar and nativity.</p></div>
+			</div>
+
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The author(s) received no financial support for the research, authorship, and/or publication of this article.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head><p>There is no data affiliated with the research.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Conflicting Interests</head><p>The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ORCID iD</head><p>Mohsen Khosravi <ref type="url" target="https://orcid.org/0000-0002-0576-7660">https://orcid.org/0000-0002-0576-7660</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author Biographies</head><p>Mohsen Khosravi is a researcher specializing in healthcare services. His areas of expertise include digital health, patientcentered care, sustainable development, and structural adjustment policies.</p><p>Zahra Zare is a researcher in the field of healthcare services, with a particular focus on oral health, regionalization, and public health.</p><p>Seyyed Morteza Mojtabaeian is a researcher in healthcare services. His research interests lie in healthcare economics, payment systems, and digital services.</p><p>Reyhane Izadi is a researcher in healthcare services. Her research primarily focuses on digital health, telemedicine, and pharmaceutical services.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Digital mental health and COVID-19: using technology today to accelerate the curve on access and quality tomorrow</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Torous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jän</forename><surname>Myrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rauseo-Ricupero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Firth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.2196/18848</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Ment Health</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">18848</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Digital health: unlocking value in a postpandemic world</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>D'anza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Pronovost</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/pop.2021.0031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Popul Health Manag</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="11" to="22" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Canadian Association of Radiologists white paper on artificial intelligence in radiology</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cadrin-Chênevert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.carj.2018.02.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Can Assoc Radiol J</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="120" to="135" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ethics and law in research on algorithmic and data-driven technology in mental health care: scoping review</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gooding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kariotis</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/24668</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Ment Health</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">24668</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Early impacts of the COVID-19 pandemic on mental health care and on people with mental health conditions: framework synthesis of international experiences and responses</title>
+		<author>
+			<persName><forename type="first">Sheridan</forename><surname>Rains</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soc Psychiatry Psychiatr Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The effectiveness of telemental health: a 2013 review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Hilty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Ferrer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Parish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Callahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Yellowlees</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="444" to="454" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The promise of artificial intelligence: a review of the opportunities and challenges of artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">Yym</forename><surname>Aung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dcs</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsw</forename><surname>Ting</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bmb/ldab016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br Med Bull</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="15" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Computerised decision support systems for healthcare professionals: an interpretative review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cresswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Majeed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sheikh</surname></persName>
+		</author>
+		<idno type="DOI">10.14236/jhi.v20i2.32</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inform Prim Care</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="115" to="128" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Effects of computerized physician order entry and clinical decision support systems on medication safety: a systematic review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kaushal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Shojania</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bates</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/archinte.163.12.1409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Arch Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1409" to="1416" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Mitosis detection in breast cancer histology images with deep neural networks</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Cireşan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giusti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Gambardella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidhuber</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Springer</publisher>
+			<biblScope unit="volume">2013</biblScope>
+			<biblScope unit="page" from="411" to="418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Dermatologist-level classification of skin cancer with deep neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kuprel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Novoa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">542</biblScope>
+			<biblScope unit="issue">7639</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Development and validation of a deep learning algorithm for detection of diabetic retinopathy in retinal fundus photographs</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gulshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Coram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">316</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page" from="2402" to="2410" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Prediction of cardiovascular risk factors from retinal fundus photographs via deep learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poplin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Varadarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blumer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="158" to="164" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Predicting suicide attempts in adolescents with longitudinal clinical data and machine learning</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Franklin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Child Psychol Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1261" to="1270" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Deep patient: An unsupervised representation to predict the future of patients from the electronic health records</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Miotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kidd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Dudley</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep26094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Culture and personal influences on cardiopulmonary resuscitation -results of international survey</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ozer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Alon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leykin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Varon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aharonson-</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Einav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1186/s12910-019-0439-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Ethics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Do not resuscitate, with no surrogate and no advance directive: an ethics case study</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Gidwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rhodes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Ethics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="159" to="162" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Betting on CPR: a modern version of Pascal&apos;s wager</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Harari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Macauley</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/medethics-2019-105558</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Ethics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="110" to="113" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Do patients want their families or their doctors to make treatment decisions in the event of incapacity, and why?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wendler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wesley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pavlick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rid</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/23294515.2016.1182235</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AJOB Empir Bioeth</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="251" to="259" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Accessing artificial intelligence for clinical decisionmaking</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mohamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rashidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Modave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tighe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<publisher>Front Digit Health</publisher>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">645232</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">An introduction to overviews of reviews: planning a relevant research question and objective for an overview</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Estcourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Brunton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Syst Rev</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The PRISMA 2020 statement: An updated guideline for reporting systematic reviews</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bossuyt</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.n71</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">372</biblScope>
+			<biblScope unit="page">71</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">CASP checklist: 10 questions to help you make sense of a systematic review</title>
+		<author>
+			<persName><forename type="first">Cas</forename><surname>Programme</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">PRISMA 2020 explanation and elaboration: updated guidance and exemplars for reporting systematic reviews</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Bossuyt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br Med J</title>
+		<imprint>
+			<biblScope unit="volume">372</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Evidence-based practice article reviews using CASP tools: a method for teaching EBP</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nadelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Nadelson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Worldviews Evid Based Nurs</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="344" to="346" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Methods for the thematic synthesis of qualitative research in systematic reviews</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Harden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Res Methodol</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Naturalistic inquiry</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Lincoln</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Guba</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<publisher>Sage Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for clinical decision support in acute ischemic stroke: A systematic review</title>
+		<author>
+			<persName><forename type="first">Emz</forename><surname>Akay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hilbert</forename><forename type="middle">A</forename><surname>Carlisle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Madai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Mutke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1161/strokeaha.122.041442</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stroke</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1505" to="1516" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Influence of artificial intelligence-driven diagnostic tools on treatment decision-making in early childhood caries: a systematic review of accuracy and clinical outcomes</title>
+		<author>
+			<persName><forename type="first">Al-Namankany A</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/dj11090214</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Dent J (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">214</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Improving diagnosis and prognosis of lung cancer using vision transformers: a scoping review</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mohsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shah</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12880-023-01098-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence to improve antibiotic prescribing: a systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Garzόn-Orjuela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garcia</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vornhagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vellinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/antibiotics12081293</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Antibiotics (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">1293</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Should artificial intelligence be used to support clinical ethical decision-making? A systematic review of reasons</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Benzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ursin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Balke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kacprowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salloch</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12910-023-00929-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Ethics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Investigating the use of data-driven artificial intelligence in computerised decision support systems for health and social care: a systematic review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cresswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Callaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hajar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sheikh</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1460458219900452</idno>
+		<ptr target="https://doi.org/10.1177/1460458219900452" />
+	</analytic>
+	<monogr>
+		<title level="j">Health Informatics J</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2138" to="2147" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Extent of use of artificial intelligence &amp; machine learning protocols in cancer diagnosis: a scoping review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Vallish</surname></persName>
+		</author>
+		<idno type="DOI">10.4103/ijmr.IJMR_555_20</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Indian J Med Res</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="11" to="22" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Clinical decision support systems for triage in the emergency department using intelligent systems: a review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Palos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Finkelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jmc</forename><surname>Sousa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.artmed.2019.101762</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif Intell Med</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">101762</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence (AI) and machine learning (ML) based decision support systems in mental health: an integrative review</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Higgins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Short</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chalup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Wilson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/inm.13114</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Ment Health Nurs</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="966" to="978" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Adoption and utilization of medical decision support systems in the diagnosis of febrile diseases: a systematic literature review</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nwafor</forename><surname>Okoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ekpin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2023.119638</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst Appl</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<biblScope unit="issue">220</biblScope>
+			<biblScope unit="page">119638</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Recent advancement in integrating artificial intelligence and information technology with real-world data for clinical decision-making in China: a scoping review</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/jebm.12549</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Evid Based Med</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="534" to="546" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Clinical decision support system in emergency telephone triage: a scoping review of technical design, implementation and evaluation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Michel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Manns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boudersa</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmedinf.2024.105347</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page">105347</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for clinical decision support for monitoring patients in cardiovascular ICUs: a systematic review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moazemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vahdati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2023.1109411</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med (Lausanne)</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1109411</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Applications of artificial neural networks in health care organizational decision-making: a scoping review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Whitney</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0212356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">212356</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Application of artificial intelligence in shared decision making: scoping review</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Rahimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cwintal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/36199</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">36199</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence&apos;s use in the diagnosis of mouth ulcers: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Singla</surname></persName>
+		</author>
+		<idno type="DOI">10.7759/cureus.45187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cureus</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">45187</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Implemented machine learning tools to inform decision-making for patient care in hospital settings: a scoping review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Tricco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hezam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2022-065845</idno>
+		<ptr target="https://doi.org/10.1136/bmjopen-2022-065845" />
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The systematic review of artificial intelligence applications in breast cancer diagnosis</title>
+		<author>
+			<persName><forename type="first">Uzun</forename><surname>Ozsahin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ikechukwu</forename><surname>Emegano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Uzun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ozsahin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename></persName>
+		</author>
+		<idno type="DOI">10.3390/diagnostics13010045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diagnostics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medicine: today and tomorrow</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Briganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Moine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med (Lausanne)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A randomized controlled trial comparing health and quality of life of lung transplant recipients following nurse and computer-based triage utilizing home spirometry monitoring</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Finkelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Lindgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Robiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/tmj.2013.0049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Telemed J E Health</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Graph interpretation, summarization and visualization techniques: a review and open research issues</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Chaube</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Multimed Tools Appl</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="8729" to="8771" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in echocardiography: Detection, functional evaluation, and disease diagnosis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cardiovasc Ultrasound</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Computerised interpretation of fetal heart rate during labour (INFANT): a randomised controlled trial</title>
+		<idno type="DOI">10.1016/s0140-6736(17)30568-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="page" from="1719" to="1729" />
+			<date type="published" when="2017">2017. 10080</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medical practice: the question to the answer?</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Med</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="129" to="133" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in disease diagnostics: a critical review and classification on the current state of research guiding future direction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mirbabaie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stieglitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Frick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Health Technol (Berl)</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="693" to="731" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">The use of artificial neural networks in decision support in cancer: a systematic review</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Lisboa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Taktak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neunet.2005.10.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Netw</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="408" to="415" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Data mining of scientific research on artificial intelligence in teaching and administration in higher education institutions: a bibliometrics analysis and recommendation for future research</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ullrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vladova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Eigelshoven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Renz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Discov Artif Intell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Understanding and predicting the quality determinants of e-government services: a twostaged regression-neural network model</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Govindaluri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gattoufi</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/JM2-12-2013-0069</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Mod Manage</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="325" to="340" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Cost-effectiveness of artificial intelligence as a decision-support system applied to the detection and grading of melanoma, dental caries, and diabetic retinopathy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rojas-Perilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schwendicke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Network Open</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="220269" to="e220269" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Improving health care organizational management through neural network learning</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Goss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Vozikis</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1019760901191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Care Manag Sci</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="221" to="227" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Empirical study on applications of data mining techniques in healthcare</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kaur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wasan</surname></persName>
+		</author>
+		<idno type="DOI">10.3844/jcssp.2006.194.200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="194" to="200" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Developing a neural network model for health care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AMIA Annu Symp Proc</title>
+		<imprint>
+			<biblScope unit="page">1049</biblScope>
+			<date type="published" when="2006">2006. 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Organization</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">WHO issues first global report on artificial intelligence (AI) in health and six guiding principles for its design and use</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+			<biblScope unit="volume">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Conceptual framework of knowledge management for ethical decision-making support in neonatal intensive care</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frize</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/titb.2005.847187</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Inf Technol Biomed</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="205" to="215" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence techniques for personalized educational software</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Troussas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krouska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kabassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sgouropoulou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Cristea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Artif Intell</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">988289</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">Software as a Medical Device (SaMD)</title>
+		<author>
+			<persName><surname>Fda</surname></persName>
+		</author>
+		<ptr target="https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A web-based clinical decision support system for gestational diabetes: automatic diet prescription and detection of insulin needs</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caballero-Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>García-Sáez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rigla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Villaplana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hernando</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijmedinf.2017.02.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="35" to="49" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Effect of an artificial intelligence-based self-management app on musculoskeletal health in patients with neck and/or low back pain referred to specialist care: a randomized clinical trial</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marcuzzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Nordstoga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Network Open</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="2320400" to="e2320400" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and patient-centered decision-making</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bjerring</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Busch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Technol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="349" to="371" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Using artificial intelligence to reduce the risk of nonadherence in patients on anticoagulation therapy</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Labovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shafner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reyes</forename><surname>Gil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Virmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hanina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1161/strokeaha.116.016281</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stroke</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1416" to="1419" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Using a personalized decision support algorithm for dosing in warfarin treatment: a randomised controlled trial</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Nielsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lundbye-Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Male</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Larsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ctrsc.2016.11.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Trials Regul Sci Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence solutions to increase medication adherence in patients with non-communicable diseases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Babel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Taneja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mondello</forename><surname>Malvestiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Monaco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Donde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Front Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">669869</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Assessing the potentiality of algorithms and artificial intelligence adoption to disrupt patient primary care with a safer and faster medication management: a systematic review protocol</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oliva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Altamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Nurchis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">57399</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

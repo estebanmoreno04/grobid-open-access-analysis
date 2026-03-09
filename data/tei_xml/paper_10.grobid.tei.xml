@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial intelligence in clinical decision support and the prediction of adverse events</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Frontiers Media SA</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-05-30">30 May 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Oei</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Diagnostics Lab</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">H G F</forename><surname>Bakkes</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Diagnostics Lab</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Mischi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Diagnostics Lab</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Bouwman</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Diagnostics Lab</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Catharina Hospital</orgName>
+								<address>
+									<settlement>Anesthesiology Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">J G</forename><surname>Van Sloun</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Diagnostics Lab</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Turco</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Biomedical Diagnostics Lab</orgName>
+								<orgName type="department" key="dep2">Department of Electrical Engineering</orgName>
+								<orgName type="institution">Eindhoven University of Technology</orgName>
+								<address>
+									<settlement>Eindhoven</settlement>
+									<country key="NL">Netherlands</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">German Research Center for Artificial Intelligence (DFKI)</orgName>
+								<orgName type="institution">University of Twente</orgName>
+								<address>
+									<country>Netherlands Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Artificial intelligence in clinical decision support and the prediction of adverse events</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Frontiers in Digital Health</title>
+						<title level="j" type="abbrev">Front. Digit. Health</title>
+						<idno type="eISSN">2673-253X</idno>
+						<imprint>
+							<publisher>Frontiers Media SA</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<date type="published" when="2025-05-30">30 May 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">49CA39DBE059485F2505C509A7606D33</idno>
+					<idno type="DOI">10.3389/fdgth.2025.1403047</idno>
+					<note type="submission">RECEIVED 23 March 2024 ACCEPTED 12 May 2025 TYPE Mini Review</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>clinical decision support</term>
+					<term>interpretable AI</term>
+					<term>trustworthy AI</term>
+					<term>clinical translation</term>
+					<term>deskilling</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This review focuses on integrating artificial intelligence (AI) into healthcare, particularly for predicting adverse events, which holds potential in clinical decision support (CDS) but also presents significant challenges. Biases in data acquisition, such as population shifts and data scarcity, threaten the generalizability of AI-based CDS algorithms across different healthcare centers. Techniques like resampling and data augmentation are crucial for addressing biases, along with external validation to mitigate population bias. Moreover, biases can emerge during AI training, leading to underfitting or overfitting, necessitating regularization techniques for balancing model complexity and generalizability. The lack of interpretability in AI models poses trust and transparency issues, advocating for transparent algorithms and requiring rigorous testing on specific hospital populations before implementation. Additionally, emphasizing human judgment alongside AI integration is essential to mitigate the risks of deskilling healthcare practitioners. Ongoing evaluation processes and adjustments to regulatory frameworks are crucial for ensuring the ethical, safe, and effective use of AI in CDS, highlighting the need for meticulous attention to data quality, preprocessing, model training, interpretability, and ethical considerations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>The increasing use of artificial intelligence (AI) has proven to have a significant impact on many areas of our daily lives. Among other factors the steady increase in the use of AI is driven by the availability of structured large-scale data storage, often called big data <ref type="bibr" target="#b0">(1)</ref>. Big data is a key factor in AI development because machine learning algorithms take advantage of patterns present in the training data. Consequently, the size and variability of the dataset strongly impact an algorithm's performance when deployed.</p><p>Lately, AI has become embedded in healthcare. Fields such as intensive care, radiology, and pathology gather mass amounts of data. In these areas, diagnostic support tools and disease prediction software are topics of large scientific interest <ref type="bibr" target="#b1">(2,</ref><ref type="bibr" target="#b2">3)</ref>. In industry, healthcare companies are investing in AI, collaborating with hospitals and universities to accelerate research projects <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. Moreover, simplification of healthcare processes with AI could potentially reduce the costs in healthcare by 5%-10% <ref type="bibr" target="#b5">(6)</ref>.</p><p>Although the impact of AI is revolutionary, its implementation in a sensitive field such as medicine requires critical evaluation and consideration. Data collection for machine learning raises moral and ethical questions: is the data collected representative of the environment in which it will be used? What will happen when an algorithm, trained on data with an over-representation of a certain group, is used on a different population? Recently, the World Health Organization (WHO) prioritized big data and artificial intelligence as one of the major topics in health ethics. In April 2020, a special issue of the WHO bulletin was released on this particular subject <ref type="bibr" target="#b6">(7)</ref>, raising concerns about responsibility, accountability, as well as lack of empathy by computers.</p><p>This manuscript focuses on a specific application of artificial intelligence (AI) in hospitals: predicting adverse events. These events, which include medication side effects, physical injury, psychological trauma, and death, represent a major concern in healthcare. Predicting such events is crucial as it allows physicians to take preemptive actions, enhancing patient safety and optimizing care delivery.</p><p>In clinical practice, substantial amounts of data are routinely collected, especially in high-risk environments such as postoperative care and intensive care units (ICUs). This data presents a valuable resource for developing predictive models. By leveraging machine learning and other AI techniques, researchers and clinicians can identify patterns and signals that precede adverse events, enabling timely interventions. Using this data, several methods have been proposed to forecast these events <ref type="bibr" target="#b7">(8)</ref><ref type="bibr" target="#b8">(9)</ref><ref type="bibr" target="#b9">(10)</ref><ref type="bibr" target="#b10">(11)</ref>.</p><p>Accurate adverse event prediction has profound clinical implications. Effective models enable earlier detection of patient deterioration, prompt treatment adjustments, and optimal resource allocation, thereby reducing morbidity and mortality <ref type="bibr" target="#b7">(8)</ref>. These models also support clinical decision-making by tailoring interventions to individual patient risk profiles. However, challenges such as data quality, model interpretability, and integration into clinical workflows must be addressed <ref type="bibr">(12,</ref><ref type="bibr" target="#b11">13)</ref>. Overcoming these obstacles can enhance predictive accuracy and reliability, allowing healthcare providers to better utilize AI for improved patient care and outcomes.</p><p>In this paper, we aim to summarize and discuss the significant challenges and key considerations involved in using AI for the prediction of critical healthcare events. Our discussion centers on issues like data biases, the lack of interpretability, the potential impact on clinical skills, and ethical questions. Given the concise nature of this mini-review, the issues and mitigation strategies discussed are selective examples from broader fields. Nevertheless, unlike other papers that address these challenges in isolation, this review offers a unified perspective, covering data biases, model interpretability, ethical concerns, and clinical integration in one accessible overview. By doing so, it serves as a practical resource for researchers and clinicians, highlighting the need for meticulous development, rigorous validation, and responsible implementation of AI in clinical decision support systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Search strategy</head><p>PubMed and Google Scholar were used for the research, with only articles in the English language, using terms similar to: "Clinical Decision Support," "Artificial Intelligence" and "Adverse Events." Articles included in this review were reviews, original papers, and opinion articles. Literature was searched from inception to February 2024. This mini-review synthesizes evidence by categorizing selected articles into thematic groups based on the application of AI in adverse event prediction, challenges faced in clinical implementation, and ethical considerations. Each article was reviewed to extract relevant challenges, solutions, and conclusions. Table <ref type="table">1</ref> provides an overview of the relevant literature categorized in thematic groups.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Data acquisition and preparation</head><p>Data acquisition is critical for AI applications as learning hinges on data. Biases that are present within the data will result in biases during the learning process. In machine learning, bias can lead to erroneous assumptions created during the learning process, and illustrations of these types of errors can be found in Figure <ref type="figure" target="#fig_0">1</ref>. These errors can arise from several factors in the learning process, the most important of which is the data. In risk prediction, biases can lead to wrongful determination of the supposed risk that a patient has of suffering an adverse event. For example, in one scenario, there is a hospital focused on cardiology that conducts numerous high-risk cardiac surgeries but only a handful of low-risk oncology surgeries. Conversely, another hospital specializes in oncology and handles many high-risk oncology surgeries. In this setup, a risk prediction model developed by the cardiology-focused hospital might show bias towards cardiac surgery, potentially leading to an underestimation of risk when applied to oncology surgeries at the second hospital.</p><p>The biggest problem in the prediction of adverse events is that these are not randomized controlled trials. Whether a patient is assigned to the control group or suffers from an adverse event is</p><p>TABLE 1 Evidence and solutions for challenges in AI implementation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges</head><p>Possible solutions</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data acquisition and preprocessing</head><p>Bias in event defintion <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref> Adapting outcome definition <ref type="bibr" target="#b14">(15)</ref>, use weighting or resampling strategies <ref type="bibr" target="#b15">(16)</ref> Imbalance in data <ref type="bibr" target="#b16">(17)</ref> Use weighting or resampling strategies <ref type="bibr" target="#b15">(16)</ref> Population shift (18) Out of distribution detection <ref type="bibr" target="#b17">(19)</ref>, external validation <ref type="bibr" target="#b18">(20,</ref><ref type="bibr" target="#b19">21)</ref> Data scarcity <ref type="bibr" target="#b20">(22)</ref> Resampling and/or data augmentation <ref type="bibr" target="#b15">(16)</ref> Missing data <ref type="bibr" target="#b21">(23)</ref> Remove or impute variables based on reason of missing data <ref type="bibr" target="#b21">(23)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bias in model selection and training</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Underfitting during model training (24)</head><p>Increase model complexity or complexity of data transforms <ref type="bibr" target="#b22">(25,</ref><ref type="bibr" target="#b23">26)</ref> Overfitting during model training <ref type="bibr" target="#b22">(25,</ref><ref type="bibr" target="#b24">27)</ref> Regularization <ref type="bibr" target="#b23">(26)</ref>, early stopping <ref type="bibr" target="#b25">(28)</ref>, or limiting model complexity <ref type="bibr" target="#b25">(28)</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Trust and adoption in clincal workflow</head><p>Black box AI and lack of trust <ref type="bibr" target="#b20">(22)</ref> Employ explainable AI techniques <ref type="bibr" target="#b26">(29)</ref><ref type="bibr" target="#b27">(30)</ref><ref type="bibr" target="#b28">(31)</ref> Adoption in clinical workflow <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b29">32,</ref><ref type="bibr" target="#b30">33)</ref> Integrating alerts in existing workflow <ref type="bibr" target="#b29">(32,</ref><ref type="bibr" target="#b30">33)</ref>, adopting additional pathways for alerts <ref type="bibr" target="#b7">(8)</ref> not determined randomly, but is instead a result of a multitude of factors that may or may not have been observed during the data acquisition. Additionally, the definition of adverse events is subject to change and may be dependent on local hospital practices. CDS algorithms often use mortality as the primary outcome for risk stratification <ref type="bibr" target="#b13">(14)</ref>. However, this approach may not capture the full spectrum of patient deterioration. For a more comprehensive assessment, it could be beneficial to consider other indicators of deterioration. These may include interventions such as unanticipated ICU admissions, emergency surgeries, or the administration of fluids or other medication <ref type="bibr" target="#b13">(14,</ref><ref type="bibr" target="#b14">15)</ref>. Additionally, many patients do not experience adverse events. This lack of adverse events among a large number of patients can lead to a skewed representation in the data, creating an imbalance. When a dataset is imbalanced, it means that the ratio of cases to controls is not one-to-one. If this ratio is different compared to the targeted population this is called a population or prevalence shift <ref type="bibr" target="#b16">(17)</ref>. This shift can occur because of the demographic region where the data was collected or because of the hospital population present in the data (18). The underrepresentation of groups in the data can in some cases be solved by weighting or resampling strategies. Applying higher weights to certain groups will cause the training process to assign higher losses to the wrong predictions of this group. Using resampling, the underrepresented group is over-sampled, and/or the overrepresented group is under-sampled. This will have similar results as reweighing <ref type="bibr" target="#b15">(16)</ref>. In risk prediction models, population bias plays a large role. The best method to find and address this type of bias is through external validation. However, systematic reviews of risk prediction scores show that many of the studies regarding risk prediction do not utilize external validation <ref type="bibr" target="#b18">(20,</ref><ref type="bibr" target="#b19">21)</ref>.</p><p>Population shifts pose a challenge in continuous risk prediction models. These shifts occur when a prediction model is applied to a population that does not match the underlying distribution of the training population. This might happened because of a change in hospital, hardware, laboratory protocol, drift in population overtime, etc. For instance, if a model predicting patient deterioration over time is applied in a clinical setting, resulting actions by clinicians can influence subsequent predictions. Actions deviating from the norm, prompted by risk predictions, may lead to rare occurrences not seen during training, causing inaccurate predictions. Notably, these actions aren't necessarily incorrect, just different from most training data. It is possible to inform clinicians when this is occurring by employing out-of-distribution detection <ref type="bibr" target="#b17">(19)</ref>. This method can alert clinicians when the current data deviates from the training data, but it does not improve the model's prediction accuracy. Prospective studies on the use of machine learning algorithms are required to increase the accuracy since these studies allow us to see if those predictions that deviate from the norm are beneficial or detrimental.</p><p>Another bias that could occur during data acquisition is data scarcity. Data scarcity means that there is too little data for the model to represent small groups or rare occurrences, leading to reduced performance and reliability. This underrepresentation is present in most studies regarding risk prediction in clinical practice since most adverse events are rare occurrences. Additionally, over 50% of the studies applying machine learning to analyze ICU data, utilized data from less than 1,000 patients <ref type="bibr" target="#b20">(22)</ref>. Such small datasets tend to overestimate performance without external validation. Remedying data scarcity ideally involves collecting more data, but that is not always feasible. Data scarcity can be mitigated by data augmentation or synthetic data generation. Data augmentation alters available data with appropriate transformations, to create a larger, diverse dataset and can also infer missing data. Synthetic data generation uses a model to generate data, potentially introducing bias depending on the underlying model assumptions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Data preprocessing and AI training</head><p>While proper data acquisition can prevent biases in the data, improper data preprocessing and training can still result in biases. One of the most important factors is the handling of missing data. Missing data occurs mainly in three ways <ref type="bibr" target="#b21">(23)</ref>.</p><p>The first is data missing completely at random (MCAR), meaning the missing data is unrelated to any variable observed and unobserved. This is a very poor assumption, especially in risk prediction. For example, data could be missing because of faulty equipment. This process is random and therefore, not related to any variables. The second way is data missing at random (MAR), which means that the missing data is a consequence of observed variables. For example, preoperative screening data is missing, but it was observed that the patient was unconscious at hospital entry. In this case, the fact that the patient was unconscious at hospital entry could be used to infer something about the missing preoperative screening. The final is data missing not at random (MNAR), which means that the missing data is related to the unobserved variables. For example, some laboratory equipment is unable to produce a valid measurement if the value of the measurement is below a certain level. Mathematically the forms of missing data could be expressed as Equations 1-3,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>MCAR: P(M y ) ¼ P(M y jX, Y)</head><p>(1)</p><formula xml:id="formula_0">MAR: P(M y ) = P(M y jX)<label>(2)</label></formula><p>MNAR: P(M y ) = P(M y jY)</p><p>with M y being the missingness of the unobserved variables, X the observed variable, and Y the unobserved variable.</p><p>Determining the cause of missing data is often impossible. Therefore, the common assumption used is missing at random, since this allows for the use of observed variables to impute the missing data. When encountering missing data, attention should be paid to the reasons why data may be missing, and if possible these reasons should be included in the data used during the training of a prediction model.</p><p>Biases can also arise during prediction model training, known as under or overfitting. Underfitting occurs when a simpler model attempts to represent a complex problem, often resulting in reduced performance in both train and test sets <ref type="bibr" target="#b24">(27)</ref>. This bias may stem from incorrect assumptions about the data. For instance, logistic regression models assume linear relations between input and output variables, leading to underfitting in complex problems with nonlinear relations between variables <ref type="bibr" target="#b22">(25)</ref>. Chances of underfitting can be reduced by utilizing data transforms or machine learning models which can represent and fit data distributions of higher complexity <ref type="bibr" target="#b22">(25)</ref>.</p><p>Excessive use of complex models may lead to overfitting, the opposite of underfitting. In overfitting, the learning process identifies relationships in the training data that don't generalize to the test set, resulting in performance disparities (24). Specifically, the model may perform better on the training set than on the test set. Overfitting can be reduced through regularization. Regularization imposes constraints or penalties during training on the complexity of the method, such as adding cost terms to model weights. This encourages the model to increase only the weights of important features <ref type="bibr" target="#b23">(26)</ref>. Early stopping is another regularization method where the training set is split into a training-validation split, and training is halted when the validation loss begins to increase <ref type="bibr" target="#b25">(28)</ref>. Additional regularization methods for tree-based models often involve limiting the depth of the trees <ref type="bibr" target="#b25">(28)</ref>.</p><p>Besides complexity, another and perhaps more important aspect of model selection is the intended application. As discussed previously, CDS algorithms focus on the prediction of adverse events. This can be a prediction made at a specific moment, but more often it is used to create predictions along longitudinal data <ref type="bibr" target="#b14">(15,</ref><ref type="bibr" target="#b31">34)</ref>. Cascarano et al. provide a comprehensive review of various methods for applying AI to longitudinal biomedical data <ref type="bibr" target="#b31">(34)</ref>. The appropriateness of these methodologies is determined based on the nature of the input and output data. This approach allows for a more targeted and effective application of AI in CDS.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Interpretability and trust</head><p>AI can suffer from a lack of interpretability. This means it is not easy to determine why a model would for example assign a higher risk to one patient over another. The current clinical practice employs scoring cards such as the early warning score (EWS), which assigns a single score to a few chosen variables which together add up to a warning score (35). For these types of methods, determining the relevance of each variable is rather straightforward. However, when using more complicated methods, the influence of a single variable could be dependent on one or multiple other variables. This becomes even more complex when employing models containing hidden parameters such as hidden Markov models or (deep) neural networks. These parameters indirectly influence the input or output variables, instead of individual variables. Although these methods are becoming more commonly used because they can achieve higher performance when dealing with complex problems they inherently suffer from a lack of interpretability <ref type="bibr" target="#b20">(22)</ref>.</p><p>The primary problems created by the black-box nature of machine learning are mistrust and the lack of insight in the cases the model breaks down. A clinician will need to trust blindly that the algorithm will give accurate results since reasoning how the algorithm came to a specific conclusion is difficult. There are interpretation methods that aim at achieving explainable AI <ref type="bibr" target="#b26">(29,</ref><ref type="bibr" target="#b27">30)</ref>. In general, these methods are subdivided into global or local interpretations. Global methods attempt to explain the general behavior of the model by observing distributions or determining the influence of features on the overall performance. Local methods attempt to interpret how features affect individual predictions. However, these algorithms do not answer the question of why the relevant features influence the outcome. That is where clinical interpretation remains key. For (deep) neural networks, other interpretation methods are required since the input data is often raw data instead of engineered features. These interpretation methods work by determining the features that the network encodes in the latent space, finding the relevant raw data (attention maps), or making small changes in the raw data until the model breaks <ref type="bibr" target="#b28">(31)</ref>. These methods are especially useful for highlighting important artifacts in the raw data.</p><p>Nevertheless, algorithms utilizing machine learning will still need to be tested rigorously to eliminate any form of bias.</p><p>The best practice would be for every hospital to test an algorithm on their specific hospital population before deciding to implement it in clinical practice. The resulting performance will be an indication of how reliable this algorithm could be in a real-world pilot. However, performance should not be the only metric to judge risk prediction algorithms. A more important metric for risk prediction algorithms or, more in general, for clinical decision support systems is the clinical outcome. Evaluating clinical outcomes is, however, more challenging, as it requires the design of a prospective study that employs a randomized control trial to assign patients in a case group, for which the algorithm is used for the clinical decision-making, and a control group for which standard clinical practice is used. If a significant improvement in the clinical outcome can be shown by using AI, the acceptance of AI algorithm could greatly improve.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Clinical translation</head><p>Successful implementation of validated medical prediction algorithms into healthcare environments requires more than just technical functionality. Beyond the algorithms' accuracy and performance, these implementations involve an array of considerations, spanning ethical, clinical, societal, and organizational facets.</p><p>From a clinical standpoint, the adoption of AI tools involves thoughtful integration into existing healthcare workflows. Health professionals must be trained not only in the use of such tools, but also in the interpretation of the algorithm's outputs, considering the potential for nuanced clinical situations that may require human intervention. Such implementation may necessitate the development of new clinical protocols, in which AI tools are integrated into decision-making processes, while still retaining a space for the clinician's judgment. Studies by Escobar et al., <ref type="bibr">Kollef et al., and Evans et al.</ref> show how automated early warning scores can be integrated into rapid response team (RRT) alerts <ref type="bibr" target="#b7">(8,</ref><ref type="bibr" target="#b29">32,</ref><ref type="bibr" target="#b30">33)</ref>. The authors employed a nurse who would transfer actionable data to RRTs based on alerts by an automated early warning score. These kinds of integrations ensure that the AI is leveraged as an aid, not as a replacement for human expertise. Moreover, seamless integration should account for data security, privacy, and interoperability with existing systems, given the highly sensitive nature of healthcare data. These aspects are key to building trust with clinicians and patients alike and to compliance with various data protection regulations. Additionally, it is important that these algorithms are not a burden on the medical staff, for example by further increasing alarm fatigue. In the abovementioned studies, this was achieved by setting the thresholds of alarms at a rate that was deemed acceptable for the nursing staff.</p><p>Another important aspect of clinical translation is trust in the algorithms. Often transparency of the algorithm is brought up as a way to increase trust in AI algorithms. However, transparency in complex algorithms often comes at the cost of simplification, which could hurt performance and thereby create a false form of trust. Instead, we should aim at rigorous testing of AI algorithms, before implementation. Similar to how drugs with unknown mechanisms of action are still used in clinical practice after thorough investigation <ref type="bibr" target="#b32">(36)</ref>.</p><p>The adoption of AI tools in healthcare may also raise questions about the potential deskilling of healthcare practitioners <ref type="bibr" target="#b33">(37)</ref>. If AI algorithms are increasingly used to carry out diagnostic or prognostic tasks, it is possible that clinicians' skills in these areas might diminish over time. There is also the risk that over-reliance on AI tools may lead to complacency, causing clinicians to overlook or misinterpret signs that the AI might miss. It therefore seems important that training for healthcare professionals emphasizes the continued importance of their own judgment and clinical skills.</p><p>Finally, evaluation processes must be put in place to assess the real-world effectiveness and utility of AI tools post-implementation. This involves regular review and iteration of the algorithms, addressing any discovered biases or inconsistencies, and assessing user satisfaction and overall system impact. These reviews will ensure that AI prediction tools remain clinically relevant, ethically sound, and beneficial to both patients and healthcare practitioners.</p><p>AI regulation in healthcare is an evolving landscape, largely focusing on privacy, data protection, and the safety of AI systems. Regulatory frameworks like the Health Insurance Portability and Accountability Act in the U.S. and the General Data Protection Regulation and AI Act in the E.U. provide guidelines for legally compliant deployment of AI. However, as these regulations were not initially designed for AI in medicine, their adequacy for AIdriven healthcare solutions is subject to ongoing discussions <ref type="bibr" target="#b34">(38)</ref>. Moreover, the increasing prevalence of AI in healthcare prompts considerations around accountability for AI errors, transparency of its operations, potential algorithmic biases, and implications for patient consent and autonomy. Policymakers worldwide should address these unique challenges of AI through adjustments to existing laws or the formulation of new ones, aiming for a balanced approach that promotes innovation, builds trust, safeguards patient rights, and ensures the safe and effective use of AI in healthcare.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Limitations</head><p>This review has several limitations. Its brevity restricts in-depth exploration of technical or ethical nuances, and it does not extensively address unique challenges of specific AI approaches, such as large language models (LLMs) or deep learning. Due to the limited scope, the discussion is not exhaustive but aims to highlight significant areas for further exploration. Additionally, while ethical and regulatory considerations are highlighted, practical guidance on navigating these issues is limited.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8">Conclusion</head><p>The implementation of AI for predicting adverse events in healthcare is a complex endeavor that demands meticulous attention to data quality, preprocessing, model training, interpretability, and ethical considerations. Clarity on the populations used in the development of AI-driven tools can expose certain biases and proper use of regularization techniques can improve the generalizability of CDS algorithms outside their original population. Rigorous testing of these tools before implementation is required to build trust. In this regard, black-box AI algorithms can be treated the same as drugs with unknown mechanisms of action, as both require randomized controlled trials to ensure that their use achieves the desired effect. Implementation will also require the training of healthcare professionals not only to ensure the effective use of the algorithms but also to prevent deskilling. Addressing these challenges is essential to realizing the transformative potential of AI while ensuring its responsible and trustworthy integration into clinical decision-making processes.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1</head><label>1</label><figDesc>FIGURE 1 Illustration of how problems in data collection and processing can lead to errors during training. With I the positive class, and O the negative class. The example of imbalance shows how the negative class dominated the training set therefore the learned distribution reflects this even though it would still be possible for positive cases to occur. The population shift highlights how a decision boundary for one population is not always generalizable to another population. The data scarcity example illustrates how a small dataset during training can lead to wrongful assumptions of the underlying distribution. The final example displays what a decision boundary during under and overfitting might look like.</figDesc><graphic coords="3,70.47,95.36,454.28,125.01" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Oei et al. 10.3389/fdgth.2025.1403047 Frontiers in Digital Health 02 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Frontiers in Digital Health 03 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Frontiers in Digital Health 04 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Frontiers in Digital Health 05 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Frontiers in Digital Health 06 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Frontiers in Digital Health 07 frontiersin.org</p></note>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>The author(s) declare that no financial support was received for the research and/or publication of this article.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's note</head><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A brief history of artificial intelligence: on the past, present, and future of artificial intelligence</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haenlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kaplan</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0008125619864925</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Calif Manage Rev</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5" to="14" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Data from: Artificial intelligence in pathology: an overview</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Moxley-Wyles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Colling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Verrill</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mpdhp.2020.08.004</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence, machine learning, computer-aided diagnosis, and radiomics: advances in imaging towards to precision medicine</title>
+		<author>
+			<persName><forename type="first">Koenigkam</forename><surname>Santos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raniery</forename><surname>Ferreira</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tadao</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Priscilla</forename><surname>Magalhães Tenório</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henrique</forename><forename type="middle">Nogueira</forename><surname>Barbosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Azevedo Marques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1590/0100-3984.2019.0049</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Radiol Bras</publisher>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="387" to="396" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">MTIC. e/MTIC strategic paper-summary</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.2471/BLT.20.253823</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the world health organization</title>
+		<imprint>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The potential impact of artificial intelligence on healthcare spending</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Sahni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zemmel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cutler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in the health sector: ethical considerations</title>
+		<author>
+			<persName><surname>Who</surname></persName>
+		</author>
+		<idno type="DOI">10.2471/BLT.20.000420</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bull World Health Organ</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">229</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Automated identification of adults at risk for in-hospital clinical deterioration</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Escobar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kipnis</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMSA2001090/SUPPL&amp;lowbar;FILE/NEJMSA2001090&amp;lowbar;DISCLOSURES.PDF</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="1951" to="1960" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Towards early sepsis detection from measurements at the general ward through deep learning</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Oei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Van Sloun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Der Ven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Korsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mischi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.IBMED.2021.100042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intell Based Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">100042</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A machine learning method for automatic detection and classification of patient-ventilator asynchrony</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Bakkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Montree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mischi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mojoli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBS 2020-July</title>
+		<meeting>the Annual International Conference of the IEEE Engineering in Medicine and Biology Society, EMBS 2020-July</meeting>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="page" from="150" to="153" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Multi-modal uterine-activity measurements for prediction of embryo implantation by machine learning</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sammali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Blank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Bakkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rabotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Schoot</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/BIBM.2014.6999262</idno>
+		<idno>doi: 10.1109/BIBM. 2014.6999262</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2014 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014">2021. 2014</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+		</imprint>
+	</monogr>
+	<note>A framework for the creation of prediction models for serious adverse events</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Yasrebi-De</forename><surname>Kom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iar</forename><surname>Dongelmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>De Keizer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Jager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Schut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename></persName>
+		</author>
+		<imprint>
+			<pubPlace>Abu</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Electronic health record-based prediction models for in-hospital adverse drug event diagnosis or prognosis: a systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hanna</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocad014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="978" to="988" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The effects of clinical decision support system for prescribing medication on patient outcomes and physician practice performance: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Taheri Moghadam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sadoughi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Velayati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ehsanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poursharif</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-020-01376-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Inform Decis Mak</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">98</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Early warning scores for detecting deterioration in adult hospital patients: systematic review and critical appraisal of methodology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gerry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bonnici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Birks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kirtley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Virdee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Watkinson</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.m1501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">369</biblScope>
+			<biblScope unit="page">1501</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Resampling or reweighting: a comparison of boosting implementations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seiffert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Khoshgoftaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Hulse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Napolitano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">20th IEEE International Conference on Tools with Artificial Intelligence</title>
+		<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2008">2008. 2008</date>
+			<biblScope unit="page" from="445" to="451" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Implementing machine learning in health careaddressing ethical challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B ;</forename><surname>Glocker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Char</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Magnus</forename><forename type="middle">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1056/nejmp1714229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="10" to="1056" />
+			<date type="published" when="2018">2020. 2018</date>
+		</imprint>
+	</monogr>
+	<note>Causality matters in medical imaging Nat Commun.</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Generalized out-of-distribution detection: a survey</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Opportunities and challenges in developing risk prediction models with electronic health records data: a systematic review</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Navar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pencina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpa</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocw042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="198" to="208" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Risk prediction models for hospital readmission</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kansagara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Englander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salanitro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theobald</forename><forename type="middle">C</forename><surname>Freeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2011.1515</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">306</biblScope>
+			<biblScope unit="page">1688</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Use of machine learning to analyse routinely collected intensive care unit data: a systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jac</forename><surname>Sterne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Champneys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gibbison</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13054-019-2564-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Crit Care</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">284</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Missing data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Newgard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lewis</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2015.10516</idno>
+	</analytic>
+	<monogr>
+		<title level="m">24. von Luxburg U, Schoelkopf B. Statistical learning theory: models, concepts, and results</title>
+		<imprint>
+			<date type="published" when="2008">2015. 2008</date>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page">940</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The Elements of Statistical Learning</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Friedman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Springer Series in Statistics</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bishop</surname></persName>
+		</author>
+		<title level="m">Pattern Recognition and Machine Learning (Information Science and Statistics)</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An Introduction to Statistical Learning</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Witten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Springer Texts in Statistics</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">103</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Boosting with early stopping: convergence and consistency</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1214/009053605000000255</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Stat</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1538" to="1579" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A unified approach to interpreting model predictions</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S-I</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/3295222.3295230</idno>
+	</analytic>
+	<monogr>
+		<title level="m">NIPS&apos;17: Proceedings of the 31st International Conference on Neural Information Processing Systems</title>
+		<meeting><address><addrLine>Red Hook, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Curran Associates Inc</publisher>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="page" from="4768" to="4777" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Interpretable Machine Learning. A Guide for Making Black Box Models Explainable</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Molnar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page" from="145" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Grad-CAM: visual explanations from deep networks via gradient-based localization</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Selvaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cogswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vedantam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Batra</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11263-019-01228-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Comput Vis</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="336" to="359" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A randomized trial of real-time automated clinical deterioration alerts sent to a rapid response team</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Kollef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Larossa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jhm.2193</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Med</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="424" to="429" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Automated detection of physiologic deterioration in hospitalized patients</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Kuttler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Howe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Crossno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Johnson</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/amiajnl-2014-002816</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="350" to="360" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Exploring the performance of the national early warning score (NEWS) in a European emergency department</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cascarano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mur-Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hernández-González</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Camacho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>De Toro Eadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gkontra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.resuscitation.2015.02.011</idno>
+		<idno>doi: 10.1016/j. resuscitation.2015.02.011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif Intell Rev</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="111" to="115" />
+			<date type="published" when="2015">2023. 2015</date>
+		</imprint>
+	</monogr>
+	<note>Machine and deep learning for longitudinal biomedical data: a review of methods and applications Resuscitation</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Paracetamol-an old drug with new mechanisms of action</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Przybyła</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Szychowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gmiński</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1440-1681.13392</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Exp Pharmacol Physiol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="3" to="19" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Utopia versus dystopia: professional perspectives on the impact of healthcare artificial intelligence on clinical roles and skills</title>
+		<author>
+			<persName><forename type="first">Ysj</forename><surname>Aquino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Braunack-Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Frazer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Win</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Houssami</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/J.IJMEDINF.2022.104903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page">104903</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Integrating artificial intelligence into health care through data access: can the GDPR act as a beacon for policymakers?</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Forcier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gallois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mullan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Joly</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/JLB/LSZ013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Law Biosci</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="317" to="335" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

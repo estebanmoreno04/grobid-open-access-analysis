@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial intelligence in healthcare (Review)</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Spandidos Publications</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-11-12">2024-11-12</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>Dr</roleName><forename type="first">Abdul-Mohsen</forename><forename type="middle">G</forename><surname>Alhejaily</surname></persName>
+							<email>aalhejaily@kfmc.med.sa</email>
+							<affiliation key="aff0">
+								<orgName type="department">King Fahad Medical City</orgName>
+								<orgName type="institution" key="instit1">Academic Operations Administration</orgName>
+								<orgName type="institution" key="instit2">Riyadh Second Health Cluster</orgName>
+								<address>
+									<postCode>11525</postCode>
+									<settlement>Riyadh</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">King Fahad Medical City</orgName>
+								<orgName type="institution" key="instit1">Operations Administration</orgName>
+								<orgName type="institution" key="instit2">Riyadh Second Health Cluster</orgName>
+								<address>
+									<postBox>P.O. Box 59046</postBox>
+									<postCode>11525</postCode>
+									<settlement>Riyadh</settlement>
+									<country key="SA">Saudi Arabia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Artificial intelligence in healthcare (Review)</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Biomedical Reports</title>
+						<title level="j" type="abbrev">Biomed Rep</title>
+						<idno type="ISSN">2049-9434</idno>
+						<idno type="eISSN">2049-9442</idno>
+						<imprint>
+							<publisher>Spandidos Publications</publisher>
+							<biblScope unit="volume">22</biblScope>
+							<biblScope unit="issue">1</biblScope>
+							<date type="published" when="2024-11-12" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">737422A0F66E5340CD5A1F16A11D0EB8</idno>
+					<idno type="DOI">10.3892/br.2024.1889</idno>
+					<note type="submission">Received November 23, 2023; Accepted September 16, 2024</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>machine learning</term>
+					<term>deep learning</term>
+					<term>healthcare</term>
+					<term>clinical decision support</term>
+					<term>digital transformation</term>
+					<term>digital pathology</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The potential of artificial intelligence (AI) to significantly transform numerous aspects of contemporary civilization is substantial. Advancements in research show an increasing interest in creating AI solutions in the healthcare sector. This interest is driven by the broad spectrum and extensive nature of easily accessible patient data-including medical imaging, digitized data collection, and electronic health records -and by the ability to analyze and interpret complex data, facilitating more accurate and timely diagnoses. This review's goal is to provide a comprehensive overview of the advancements achieved by AI in healthcare, to elucidate the present state of AI in enhancing the healthcare system and improving the quality and efficiency of healthcare decision making, and to discuss selected medical applications of AI. Furthermore, the barriers and constraints that may impede the use of AI in healthcare are outlined, and the potential future directions of AI-augmented healthcare systems are discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Contents</head><p>1. Introduction 2. AI 3. Medical applications of AI 4. Challenges and opportunities of using AI for improving healthcare 5. Conclusions</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Artificial intelligence (AI) has become increasingly significant in the realm of innovation in the healthcare industry in the last few years <ref type="bibr" target="#b0">(1)</ref>. AI, in its broadest sense, is a branch of computer science that aims to replace human intelligence using computer systems <ref type="bibr" target="#b1">(2)</ref>. This replication is achieved through sophisticated pattern recognition, often at speeds and scales that surpass human abilities. Proponents ardently argue that AI will fundamentally transform healthcare for individuals and communities <ref type="bibr" target="#b2">(3)</ref>. Alongside AI, subsets such as machine learning (ML) and deep learning (DL) have seen significant advancements in recent years, leading to groundbreaking developments. Currently, AI is predominantly employed to enhance the pace and quality of healthcare. Some of the present applications of AI in this particular field include AI-assisted algorithms to analyze and interpret medical imaging data, including X-rays, MRIs and CT scans, to aid healthcare professionals in rapid and accurate diagnoses <ref type="bibr" target="#b3">(4)</ref>. The digitization of health-related data, coupled with rapid technological advancements, is driving the advancement of AI applications in healthcare <ref type="bibr" target="#b4">(5)</ref>. There is a substantial number of reviews that discussed the impact of AI on healthcare <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>. One of them is a review by Rajpurkar et al <ref type="bibr" target="#b4">(5)</ref> on AI in personalized medicine, which shows how AI is revolutionizing healthcare by tailoring therapies to individuals' genetic, environmental and lifestyle data. AI may improve the diagnosis of health conditions, treatment choices and health outcomes, notably in genomics and precision medicine (PM); the review also highlights how AI may save healthcare costs, boost efficiency and improve patient care, but it also raises data privacy and clinical validation issues <ref type="bibr" target="#b4">(5)</ref>.</p><p>The implementation of AI in healthcare systems represents a complex integration of multimodal systems that necessitates fundamental advancements in areas such as privacy, large-scale machine learning, optimization and model performance <ref type="bibr" target="#b5">(6)</ref>. To successfully incorporate AI into healthcare, two key concepts must be addressed: Data with security and analytics with insights. Regarding data and security, complete transparency and trust are essential for effective integration. Similarly, the role of data analytics and insight is crucial. AI has the capability to synthesize inputs from diverse unstructured and structured sources to aid in making more informed decisions, finding better solutions and fostering reasoned discussions in multimodal applications -for instance, enabling clinicians to make more accurate diagnoses and nurses to develop sensible care and follow-up plans <ref type="bibr" target="#b6">(7)</ref>. Over the past decade, rapid advancements in AI have unlocked the possibility of using aggregated healthcare data to construct sophisticated models. These models may automate diagnosis processes and enable a more precise approach to healthcare by tailoring treatments and allocating resources with utmost efficiency in a timely, effective and dynamic manner <ref type="bibr" target="#b6">(7,</ref><ref type="bibr" target="#b7">8)</ref>. The development of such advanced AI models that deliver high-quality healthcare applications requires skilled professionals equipped with cutting-edge technology.</p><p>An enormous amount of untapped data that could significantly impact our health exists outside the medical system. For instance, factors such as lifestyle, diet, environment, medical history and population health have significantly influenced health outcomes and collectively account for ~60% of the determinants of health. By contrast, genetics are responsible for only ~30% and the actual health care received contributes only 10% <ref type="bibr" target="#b8">(9)</ref>. Throughout an individual's lifetime, huge amounts of personal and health data are being generated. If utilized appropriately, these data can unlock unique insights leading to a longer and healthier life. Taking cancer as an example, it involves complex interactions among cancer cells, normal cells, surrounding tissue, the immune system and the underlying molecular changes.</p><p>In the near future, it will likely be possible to create dynamic visualizations of tumor development by employing computer modeling and data integration techniques to amalgamate these layers of information for more accurate diagnoses and improved prognoses <ref type="bibr" target="#b9">(10,</ref><ref type="bibr" target="#b10">11)</ref>. With optimism, it can be predicted that the advent of sophisticated AI technology and computational systems will bring a more comprehensive understanding of tumor biology within our grasp. The healthcare ecosystem is beginning to recognize the critical role that AI-powered tools will play in next-generation healthcare technologies. AI can enhance almost every aspect of healthcare applications and delivery <ref type="bibr" target="#b11">(12)</ref>. For instance, the cost reductions that AI may bring to the healthcare system are a significant motivator of AI application adoption. In 2026, it is predicted that AI applications would save the United States alone $150 billion in yearly healthcare expenses <ref type="bibr" target="#b4">(5)</ref>. A significant portion of these cost savings comes from shifting from a reactive to a proactive strategy, with an emphasis on health prevention of illnesses rather than treatment <ref type="bibr" target="#b12">(13)</ref>. In the present review, the aim is to provide a comprehensive analysis of the current knowledge of AI applications in healthcare, with a particular focus on novel and emerging trends. Unlike previous reviews that often focus on a specific application, this article uniquely integrates insights from multiple domains, including diagnostic AI, patient care optimization and personalized medicine. Furthermore, the evolving regulatory and ethical considerations are highlighted, enabling readers to grasp the multifaceted impacts of AI on the future of healthcare.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">AI</head><p>It is widely agreed that the term 'AI' indicates the execution by computer of activities that are typically associated with intelligent humans (4). ML algorithms are at the heart of AI. Algorithms are converted to code, which contains instructions for fast analysis and translation of input into conclusions, information or other outputs. AI is fueled by massive amounts of data and the ability to analyze that data in a short period of time. An AI system is a machine-based system that, given a set of human-defined goals, can make a prediction, suggestion or choice that may have an impact on real or virtual surroundings. Automated intelligence systems are intended to function with various degrees of autonomy. When it comes to data definition and analysis, ML is a subset of AI methods that is based on the application of statistical and mathematical modeling techniques (3). These newly acquired patterns are then used to execute or steer specific activities, as well as to create predictions.</p><p>ML may be divided into three types of learning based on how it learns from data: Supervised learning, unsupervised learning and reinforced learning <ref type="bibr" target="#b13">(14)</ref>. A model is trained using labeled data (where the outcome variable is known) and the model infers a function from the data that can be used to predict various outputs based on different inputs. In contrast to supervised learning, unsupervised learning includes the detection of hidden patterns in data by a computer rather than the labeling of data. Reinforcement learning is a method of teaching a machine to learn through trial and error in order to achieve a goal, for which the machine is either 'rewarded' or 'punished' based on whether its conclusions help or hinder goal achievement <ref type="bibr" target="#b4">(5)</ref>.</p><p>DL, also known as 'deep structured learning', is a subset of machine learning that utilizes multi-layered neural networks to extract features from data in a hierarchical fashion manner (Fig. <ref type="figure" target="#fig_0">1</ref>). DL can be conducted under supervised, unsupervised or semi-supervised settings. It is commonly associated with the need for large volumes of data to effectively train models. Many machine learning techniques are rooted in data-driven methodologies that depend on vast quantities of high-quality data, often referred to as 'big data' (BD) to yield accurate results. Consequently, complex information is rapidly accumulated, resulting in the need for terabytes or even petabytes of storage capacity (15).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Medical applications of AI</head><p>AI is rapidly becoming an important component of contemporary healthcare, due to recent advancements in computer science and informatics, among other factors. AI algorithms and applications powered by AI are being utilized to assist medical practitioners in clinical settings and ongoing research (Table <ref type="table">I</ref>). Currently, clinical decision support and image analysis are the most commonly encountered applications of AI in medical contexts <ref type="bibr" target="#b2">(3)</ref>. Treatment, medication and other patient requirements are all addressed through clinical decision support systems, which provide clinicians with fast access to up-to-date information and research that is relevant to the patient's situation <ref type="bibr" target="#b2">(3,</ref><ref type="bibr" target="#b15">16)</ref>.</p><p>AI opens up an array of possibilities for the development of intelligent medical products, innovative services and new business models. There are numerous different types of AI technologies in medicine, spanning from virtual to physical. The ability of AI technologies to identify complex patterns and hidden structures has allowed image-based detection and diagnostic systems in healthcare to perform similarly or at times even better than a clinician in certain instances, according to recent research <ref type="bibr" target="#b16">(17)</ref>. Furthermore, clinical decision-support systems that are powered by AI have the potential to minimize human diagnostic errors, enhance decision-making support, increase reproducibility and assist physicians in making better use of data and documentation <ref type="bibr" target="#b17">(18)</ref>.</p><p>In medical imaging, for instance, AI technologies are being used to detect abnormalities that may otherwise be overlooked by a human radiologist in CT scans, X-rays, MRIs and other imaging systems <ref type="bibr" target="#b18">(19)</ref>. Several studies have already shown that AI can diagnose diseases as well as or better than humans.</p><p>Recent advances in AI have shown significant promise in medical diagnosis, particularly in the early detection of diseases. In a study conducted by Esteva et al <ref type="bibr" target="#b19">(20)</ref> a DL-algorithm was developed and trained to identify skin cancer using images of skin lesions. The model achieved an accuracy comparable to that of certified dermatologists, with the ability to distinguish between malignant and benign skin lesions <ref type="bibr" target="#b19">(20)</ref>.</p><p>Another study by Abràmoff et al <ref type="bibr" target="#b20">(21)</ref> conducted a pivotal study to evaluate the effectiveness of an autonomous AI system in detecting diabetic retinopathy (DR) from retinal images. DR is a leading cause of vision loss in adults, and early detection is crucial for preventing progression. Traditional screening methods require specialized ophthalmologists, which can be limited in accessibility, especially in primary care settings <ref type="bibr" target="#b20">(21)</ref>. In another study they created an AI model that achieved a sensitivity of over 90%, indicating a high true positive rate in detecting early DR. Specificity was also high, reducing the number of false positives and unnecessary referrals. Their AI model demonstrated high sensitivity and specificity, outperforming traditional diagnostic methods <ref type="bibr" target="#b20">(21)</ref>.</p><p>Table I. Applications of artificial intelligence that have the greatest potential in the healthcare industry. Application Description AI techniques used Benefits Medical imaging AI algorithms can analyze DL (CNNs) and computer Improved accuracy and and diagnostics medical images to detect diseases vision faster diagnosis (e.g., cancer, fractures) Drug discovery Accelerates identification of ML and predictive analytics Reduced time and cost in and development potential drug candidates and drug development purposing existing drugs Personalized Tailoring treatment plans based DM, genomic analysis and ML More effective treatments medicine on individual genetics and health and better outcomes data Predictive analytics Predicts patient outcomes and ML and statistical modeling Proactive care and risk disease risks based on data patterns reduction Patient monitoring Real-time monitoring of IoT devices and ML algorithms Early issue detection and and care patient vital signs with alert systems improved safety Robotic surgery AI-assisted robots enhance Robotics, computer Minimally invasive precision in surgical procedures vision and ML surgery and better outcomes Disease outbreak Uses data analysis to predict Big data analytics and Early intervention and prediction and track disease outbreaks epidemiological modeling public health planning EHR management Organizes and analyzes EHR data NLP, DM Improved data accessibility for clinical insights and decision-making Telemedicine and Delivers medical care remotely via Video Analytics, ML and NLP Increased access and patient remote care AI platforms convenience Clinical decision Aids clinicians with evidence-Expert systems, ML and NLP Improved patient outcomes support based recommendations and care quality Health Offers patients information and NLP, ML and conversational 24/7 engagement and chatbots symptom checking AI reduced healthcare workload AI, artificial intelligence; CNN, convolutional neural network; DL, deep learning; DM, data mining; EHR, electronic health records; ML, machine learning; NLP, natural language processing.</p><p>AI has exceeded radiologists in detecting tumors and has aided researchers in building cohorts for clinical studies <ref type="bibr" target="#b21">(22)</ref>. For instance, in a study conducted by Akselrod-Ballin et al <ref type="bibr" target="#b22">(23)</ref>, a breast cancer prediction algorithm trained on 38,444 mammography images from 9,611 women and integrated with related health data, was able to predict biopsy malignancy with an accuracy comparable to expert radiologists. This algorithm could distinguish between benign and malignant screening findings and had the potential to significantly reduce the number of missed breast cancer diagnose. Radiologists, oncologists and pathologists are poised to benefit from this synergy of AI, ML and DL, which has been trained on a dataset of integrated imaging and matched clinical records. It will assist them in improving diagnoses and could help in the early detection of diseases when intervention and treatment are most effective.</p><p>To investigate whether AI can reduce interval cancer in mammography screening, Lång et al <ref type="bibr" target="#b23">(24)</ref> conducted a significant study on the use of artificial intelligence (AI) in mammography, which was published in The Lancet Digital Health in 2020 and further discussed in The Lancet Oncology in 2021. Their research focused on evaluating the effectiveness of AI in breast cancer screening programs by performing a study to analyze initial screening mammograms of 429 sequential cases of women diagnosed with interval cancer with a deep learning-based AI system. They found that the AI system was able to spot 19% of interval cancers at the preceding mammograms that showed negligible signs of malignancy. Of note, these malignancies were accurately located and ranked as 'high risk' by AI, thus avoiding additional screening.</p><p>Chaurasia et al <ref type="bibr" target="#b24">(25)</ref> presented a breast cancer detection system based on three data mining techniques (RepTree, RBF Network and Simple Logistic). These algorithms were used to forecast the survival rate of breast cancer data collection. The three categorization methods were evaluated in order to determine which was the most accurate in predicting the cancer survival rate in another patient group.</p><p>Litjens et al <ref type="bibr" target="#b25">(26)</ref> investigated the ability of DL to enhance histopathologic slide analysis objectivity. To evaluate the effectiveness of deep neural networks (DLN) in accurately detecting prostate cancer from digitized H&amp;E-stained histopathology slides. Using DLN, the authors digitized histopathology in prostate cancer detection in biopsy specimens with good accuracy.</p><p>Weng et al <ref type="bibr" target="#b26">(27)</ref> developed a prediction method for cardiovascular disease (CVD) utilizing ML on data collected from &gt;350,000 individuals exhibiting symptoms of CVD and the dataset of 5,209 patients with CVD from the Framingham research, in which the Framingham risk score was experimentally tested and compared. They suggested a system that can predict the CVD risk with outstanding accuracy. The implementation of ML techniques has been shown to yield notable enhancements in the precision of CVD risk assessment. This results in a greater number of patients being identified as potential candidates for preventive treatment, while concurrently reducing the incidence of unnecessary treatment.</p><p>In the field of digital pathology, with integration of digital slides into the pathology workflow, advanced algorithms and computer-aided diagnostic techniques extend the frontiers of the pathologist's view beyond a microscopic slide and enable true utilization and integration of knowledge beyond human limits and boundaries. AI has already enabled pathologists to identify unique imaging markers associated with disease processes with the goal of improving early detection, determining prognosis and selecting treatments most likely to be effective. This allows pathologists to serve more patients while maintaining diagnostic and prognostic accuracy. Automated image analysis tools offer a higher level of precision and reliability in quantification compared to traditional light microscopy techniques. For instance, the utilization of computer-aided diagnosis is prevalent in the evaluation of estrogen and progesterone receptor and HER2/neu in breast cancer, Ki67 assessment in carcinoid tumors and various other clinical and research stains <ref type="bibr" target="#b27">(28)</ref>.</p><p>For digital slide analysis, Senaras et al <ref type="bibr" target="#b28">(29)</ref> presented a new DL architecture, named DeepFocus™, which allows the automated detection of unclear areas in digital slides for rapid re-scan in order to enhance image quality for pathologists and image analysis algorithms. Janowczyk et al <ref type="bibr" target="#b29">(30)</ref> introduced an open-source program called HistoQC to evaluate color histograms, brightness and contrast of each slide and to detect cohort-level outliers. These techniques have an important role in the quality control of whole-slide scans to standardize the quality of images in computational pathology (Fig. <ref type="figure" target="#fig_1">2</ref>).</p><p>Niazi et al <ref type="bibr" target="#b30">(31)</ref> employed DL techniques to detect tumor regions in pancreatic neuroendocrine tumors. Their methodology utilized transfer learning, a technique in which the characteristics of a pre-existing DL-algorithm that has been trained on a different classification task are adjusted and retrained to classify regions of tumors and stroma. Tumor cells exhibiting both Ki67 positivity and negativity were employed. Using AI, pathologists can now be relieved from the heavy manual annotations for each slide scan thanks to improvements in various smart image-recognition algorithms. Campanella et al used ML methods based on CNN and recurrent neural networks to evaluate programmed cell Table II. Summary of studies on AI applications in healthcare. Author(s), year Title of study Findings (Refs.) Esteva et al, Dermatologist-level classification of Developed a deep learning algorithm that identifies skin (20) 2017 skin cancer with deep neural networks cancer from images of skin lesions with accuracy comparable to certified dermatologists, effectively distinguishing between malignant and benign lesions. Abràmoff et al, Pivotal trial of an autonomous AI-based Evaluated an autonomous AI system for detecting (21) 2018 diagnostic system for detection of diabetic retinopathy from retinal images. The AI model diabetic retinopathy in primary care achieved &gt;90% sensitivity and high specificity, outperforming traditional diagnostic methods and reducing false positives and unnecessary referrals. Akselrod-Predicting breast cancer by applying Created a breast cancer prediction algorithm trained on (23) Ballin et al, deep learning to linked health records 38,444 mammography images and integrated health 2019 and mammograms data from 9,611 women. The algorithm predicted biopsy malignancy with accuracy comparable to expert radiologists, potentially reducing missed breast cancer diagnoses. Lång et al, Can artificial intelligence reduce the Analyzed initial screening mammograms of 429 women (24) 2020</p><p>interval cancer rate in mammography diagnosed with interval cancer using an AI system. screening?</p><p>Found that AI could detect 19% of interval cancers in prior mammograms, accurately locating and ranking them as 'high risk', which could reduce missed diagnoses in screening programs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Chaurasia et al, Data mining technique approach to</head><p>Presented a breast cancer detection system using three death ligand-1 expression in immunohistochemistry slides of late-stage non-small cell lung cancer specimens from needle biopsies <ref type="bibr" target="#b31">(32)</ref>.</p><p>There are large volume of study and review on AI in healthcare highlighted the dominance of imaging-based specialties such as radiology, gastroenterology, and ophthalmology in AI research. A substantial portion of studies use deep learning (DL), with 75.2% of them focusing on image data. Large Language Models (LLMs) are gaining traction, particularly in general healthcare and surgery, suggesting a shift toward their broader application. The review suggests that future developments may involve multimodal models, enhancing both clinical and administrative aspects of healthcare through AI advancements. The above-mentioned studies are summarized in (Table <ref type="table">II</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Challenges and opportunities of using AI for improving healthcare</head><p>Although the advantages of implementing AI in the healthcare industry are evident, there are noteworthy obstacles that require resolution. The following challenges are deemed to be of utmost significance: The ethical implications associated with the integration of AI technology, such as potential breaches of data privacy and confidentiality, informed consent and patient autonomy, must be addressed. In the realm of PM, AI, ML and BD analysis, establishing robust data protection regulations to effectively safeguard individual confidentiality, particularly for those receiving medical treatment, is crucial. Furthermore, the accurate analysis by AI algorithms heavily depends on the availability of large amounts of high-quality data. Healthcare data are often present in a fragmented manner, lacking interoperability and consistency, which leads to potential issues of completeness and accuracy. Ensuring the quality, accessibility and standardization of data poses significant obstacles.</p><p>The implementation of AI in healthcare decision-making processes raises a range of ethical questions. A conscientious examination of the transparency and accountability of AI algorithms, potential biases inherent in data and algorithms and the attribution of liability for AI-generated decisions is imperative. The dynamic nature of regulatory frameworks and guidelines aims to tackle these challenges. Furthermore, the process of integrating AI into pre-existing healthcare systems and workflows can be challenging. The successful implementation of AI technologies requires overcoming obstacles such as ensuring smooth integration and compatibility with legacy systems. Additional significant challenges to predict include healthcare system regulations that may limit the full potential of AI technology, as well as understanding the best practices for applying knowledge gained from AI in an ethical and optimal manner. From a clinical perspective, a considerable issue for healthcare providers will be that they are no longer the sole authorities in medical treatment delivery. They must also respond to patients who, in certain cases, may have an understanding of their medical conditions comparable to that of the experts. Furthermore, healthcare providers may find themselves required to consider insights from an AI program that could be more knowledgeable in certain areas. Nonetheless, in both scenarios, it is the healthcare providers' responsibility to assess the information provided and administer the appropriate care, which may or may not align with the AI technology's recommendations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>AI has the potential to enhance healthcare service delivery in areas such as illness prevention, early diagnosis and treatment. The provision of health services is already undergoing a transformation. AI applications may be categorized based on the specific objectives they serve and the methods they employ to accomplish these goals. The integration of data from multiple sources, such as wearable devices, genetic information from genome sequencing, electronic health records, radiological imaging and even hospital rooms, has resulted in a surge of valuable data in healthcare.</p><p>For AI to directly impact and improve clinical care delivery, a corresponding evidence base is required to demonstrate improved outcomes and the absence of unintended consequences. For instance, validating the accuracy of AI-enabled imaging applications against current quality standards for</p><p>Table II. Continued. Author(s), year Title of study Findings (Refs.) stroma, using tumor cells exhibiting both Ki67 positivity and negativity, enhancing diagnostic accuracy. Campanella Clinical-grade computational pathology Used machine learning methods based on convolutional (32) et al, 2019 using weakly supervised deep neural networks and recurrent neural networks to learning on whole slide images evaluate PD-L1 expression in immunohistochemistry slides of late-stage non-small cell lung cancer specimens from needle biopsies, reducing manual annotation workload. DR, diabetic retinopathy; DME, diabetic macular edemal CVD, cardiovascular disease; AI, artificial intelligence; ML, machine learning; DL, deep learning; PD-L1, programmed cell death ligand 1; IHC, immunohistochemistry; CNN, convolutional neural network; RNN, recurrent neural network.</p><p>conventional imaging may serve for clinical use. However, when AI applications extend to prediction, diagnosis and treatment, the evidence threshold should increase significantly, so that the wealth of information provides a fertile ground for AI systems to learn complex patterns, predict outcomes, and support decision-making processes that were previously beyond human capability. Eventually, the integration of AI in healthcare poses potential benefits and challenges. Successful AI implementation requires addressing key issues such as data quality and accessibility, privacy and ethical considerations and seamless integration. Despite the challenges, the use of AI in healthcare can offer significant benefits, including improved diagnostic precision, personalized care, enhanced efficiency and accelerated medical research. As such, AI has become an invaluable asset in healthcare transformation and holds promise for improving patient outcomes. By adeptly navigating the challenges and leveraging the benefits, healthcare stakeholders can fully harness AI's capabilities to revolutionize healthcare services. Ethical considerations and human rights must be at the forefront of AI health technology design, development and deployment to benefit public health and medicine.</p><p>For AI to effectively integrate into healthcare systems, it is essential to eliminate existing biases encoded in the data used to train algorithms. Addressing the digital divide, or the unequal distribution of access the use of information and communication technologies is necessary. Global technology corporations are making substantial investments in data collection, big data algorithms and AI implementation. When used appropriately, AI has the potential to empower patients and communities to manage their healthcare and better understand their evolving needs. Of note, all of the revolutions seen today in AI are only the beginning.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Schematic outlining the relationship between artificial intelligence, machine learning and deep learning.</figDesc><graphic coords="2,313.31,57.64,230.86,230.62" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Workflow chart depicting the utilization of AI in digital pathology. AI, artificial intelligence; EHR, Electronic Health Record.</figDesc><graphic coords="4,42.52,57.98,248.03,212.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>using machine data mining techniques (RepTree, RBF Network and learning Simple Logistic) to forecast survival rates. Evaluated these methods to determine the most accurate in predicting cancer survival rates in different patient groups. Litjens et al, Deep learning as a tool for increased Investigated the use of deep learning to enhance (26) 2016 accuracy and efficiency of objectivity in histopathological slide analysis. Using histopathological diagnosis deep neural networks, they achieved good accuracy in detecting prostate cancer from digitized H&amp;E-stained histopathology slides, improving diagnostic precision. Weng et al, Can machine-learning improve Developed a machine learning-based method for (27) 2017 cardiovascular risk prediction using cardiovascular disease risk prediction using data from routine clinical data? &gt;350,000 individuals. Their system showed outstanding accuracy compared to traditional methods, identifying more candidates for preventive treatment while reducing unnecessary interventions. Senaras et al, DeepFocus: Detection of out-of-focus Introduced DeepFocus™, a deep learning architecture for (29) 2018 regions in whole slide digital images automated detection of unclear areas in digital slides. using deep learning This allows rapid re-scanning to enhance image quality for pathologists and image analysis algorithms, improving the overall efficiency of digital pathology workflows. Janowczyk HistoQC: An open-source quality Developed HistoQC, an open-source program that (30) et al, 2019 control tool for digital pathology slides evaluates color histograms, brightness and contrast of each slide to detect cohort-level outliers. This tool plays a crucial role in the quality control of wholeslide scans, standardizing image quality in computational pathology. Niazi et al, Leveraging transfer learning in deep Employed deep learning techniques with transfer (31) 2019 neural networks for tumor classification learning to detect tumor regions in pancreatic using non-small cell lung cancer neuroendocrine tumors. Adjusted a pre-existing deep learning algorithm to classify regions of tumors and</figDesc></figure>
+		</body>
+		<back>
+
+			
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgements</head><p>Not applicable.</p></div>
+			</div>
+
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Funding</head><p>No funding was received.</p></div>
+			</div>
+
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Availability of data and materials</head><p>Not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' contributions</head><p>The author confirms sole responsibility for the following: Study conception and design, data collection and manuscript preparation. The author has read and approved the final manuscript. Data authentication is not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ethics approval and consent to participate</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Not applicable.</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient consent for publication</head><p>Not applicable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Competing interests</head><p>The author has no competing interests to declare.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The potential for artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalakota</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Future Healthc J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="94" to="98" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Brief History of Artificial Intelligence</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Muthukrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maleki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ovens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Reinhold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Forghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Forghani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neuroimaging Clin N Am</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="393" to="399" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence powers digital medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Fogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kvedar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kohane</forename><surname>Is</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="719" to="731" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">AI in health and medicine</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rajpurkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="31" to="38" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Advancing AI in healthcare: A comprehensive review of best practices</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Polevikov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Chim Acta</title>
+		<imprint>
+			<biblScope unit="volume">548</biblScope>
+			<biblScope unit="page">117519</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in healthcare: Past, present and future</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stroke Vasc Neurol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="230" to="243" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Implementing ethics in healthcare Ai-based applications: A scoping review</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goirand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Austin</forename><forename type="middle">E</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clay-Williams R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Eng Ethics</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">61</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Computing better healthcare</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Conn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Modern Healthcare</title>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The promise of artificial intelligence: A review of the opportunities and challenges of artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">Yym</forename><surname>Aung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dcs</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsw</forename><surname>Ting</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Br Med Bull</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="4" to="15" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Introduction to artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brodie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Minim Invasive Ther Allied Technol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="73" to="81" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Revolutionizing healthcare: The role of artificial intelligence in clinical practice</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Alowais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Alghamdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alsuhebany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alqahtani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Alshaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Almohareb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aldairem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alrashed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bin</forename><surname>Saleh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Badreldin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Educ</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">689</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence: future impacts, challenges and recommendations on healthcare services</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kore</forename><surname>Sa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Community Med Public Health</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1596" to="1598" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Future of the Artificial Intelligence in Daily Health Applications</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Triantafillou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Minas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The European Journal of Social &amp; Behavioural Sciences</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Artificial Intelligence: State of the Art</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mondal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Recent Trends and Advances in Artificial Intelligence and Internet of Things. Intelligent Systems Reference Library</title>
+		<editor>
+			<persName><forename type="first">V</forename><surname>Balas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Kumar</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><surname>Srivastava</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">172</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Introduction to artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brodie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Minim Invasive Ther Allied Technol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="73" to="81" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Machine Learning in Medical Imaging</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Giger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Radiol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="512" to="520" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Pt B</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Integrating artificial intelligence into healthcare research</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Choi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hu Li Za Zhi</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="12" to="18" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>In Chinese</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">High-Definition Medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Torkamani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Steinhubl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="828" to="843" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A guide to deep learning in healthcare</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robicquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ramsundar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kuleshov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Depristo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="24" to="29" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Pivotal trial of an autonomous AI-based diagnostic system for detection of diabetic retinopathy in primary care offices</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Abràmoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Lavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Birch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Folk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">39</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Implications of conscious AI in primary healthcare</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ranjbari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abbasgholizadeh</forename><surname>Rahimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fam Med Community Health</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>Suppl 1): e002625</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Predicting breast cancer by applying deep learning to linked health records and mammograms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akselrod-Ballin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chorev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shoshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Spiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Melamed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Barkan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Herzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Naor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Karavani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiology</title>
+		<imprint>
+			<biblScope unit="volume">292</biblScope>
+			<biblScope unit="page" from="331" to="342" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence-supported screen reading versus standard double reading in the Mammography Screening with Artificial Intelligence trial (MASAI): A clinical safety analysis of a randomised, controlled, non-inferiority, single-blinded, screening accuracy study</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lång</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Josefsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Högberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sartor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hofvind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rosso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Oncol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="936" to="944" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Prediction of benign and malignant breast cancer using data mining techniques</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chaurasia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Tiwari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Algorithm Comput Technol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Litjens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Sánchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Timofeeva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hermsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Nagtegaal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kovacs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hulsbergen-Van De Kaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bult</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Ginneken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Van</forename><surname>Der Laak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">26286</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Can Machine-learning improve cardiovascular risk prediction using routine clinical data?</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Weng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reps</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Garibaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Qureshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">174944</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Automatic Nuclei Segmentation in H&amp;E Stained Breast Cancer Histopathology Images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Veta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Van Diest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kornegoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Huisman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Viergever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Pluim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">70221</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">DeepFocus: Detection of out-of-focus regions in whole slide digital images using deep learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Senaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mkk</forename><surname>Niazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lozanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">205387</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">HistoQC: An open-source quality control tool for digital pathology slides</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Janowczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gilmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madabhushi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCO Clin Cancer Inform</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Identifying tumor in pancreatic neuroendocrine neoplasms from Ki67 images using transfer learning</title>
+		<author>
+			<persName><forename type="first">Mkk</forename><surname>Niazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Tavolara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Arole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Hartman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pantanowitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Gurcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">195621</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Clinical-grade computational pathology using weakly supervised deep learning on whole slide images</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Campanella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Hanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Geneslaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Miraf Lor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Werneck</forename><surname>Krauss Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Busam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Brogi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Reuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">E</forename><surname>Klimstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1301" to="1309" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

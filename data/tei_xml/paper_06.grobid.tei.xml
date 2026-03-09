@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The role of Open Access Data in democratizing healthcare AI: A pathway to research enhancement, patient well-being and treatment equity in Andalusia, Spain</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Public Library of Science (PLoS)</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-09-16">September 16, 2024</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Álvaro</forename><surname>Ritoré</surname></persName>
+							<idno type="ORCID">0000-0002-7292-9842</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Claudia</forename><forename type="middle">M</forename><surname>Jiménez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><forename type="middle">Luis</forename><surname>González</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juan</forename><forename type="middle">Carlos</forename><surname>Rejón-Parrilla</surname></persName>
+							<idno type="ORCID">0000-0002-0680-7353</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Pablo</forename><surname>Hervás</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Esteban</forename><surname>Toro</surname></persName>
+							<idno type="ORCID">0009-0004-2147-398X</idno>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Information Systems</orgName>
+								<orgName type="institution">Fundacio ´n Progreso y Salud</orgName>
+								<address>
+									<settlement>Seville</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Carlos</forename><forename type="middle">Luis</forename><surname>Parra-Calderón</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Leo</forename><forename type="middle">Anthony</forename><surname>Celi</surname></persName>
+							<idno type="ORCID">0000-0001-6712-6626</idno>
+							<affiliation key="aff6">
+								<orgName type="department">Institute of Biomedicine of Seville</orgName>
+								<orgName type="institution">Biomedical Engineering and Health Economics</orgName>
+								<address>
+									<settlement>Seville</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Medicine</orgName>
+								<orgName type="institution" key="instit1">United States of America</orgName>
+								<orgName type="institution" key="instit2">Beth Israel Deaconess Medical Center</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Biostatistics</orgName>
+								<orgName type="institution" key="instit1">Harvard T.H</orgName>
+								<orgName type="institution" key="instit2">Chan School of Public Health</orgName>
+								<address>
+									<settlement>Boston</settlement>
+									<region>Massachusetts</region>
+									<country key="US">United States of America</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Isaac</forename><surname>Túnez</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Miguel</forename><forename type="middle">Ángel</forename><surname>Armengol De La Hoz</surname></persName>
+							<idno type="ORCID">0000-0002-7012-2973</idno>
+						</author>
+						<author>
+							<affiliation key="aff7">
+								<orgName type="department">Laboratory for Computational Physiology</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff14">
+								<orgName type="institution">National Tsing-Hua University: National Tsing Hua University</orgName>
+								<address>
+									<country key="TW">TAIWAN</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff15">
+								<orgName type="institution" key="instit1">PLOS Digital Health and Miguel A ´ngel Armengol de la Hoz is a Section Editor of PLOS Digital Health. AR</orgName>
+								<orgName type="institution" key="instit2">CMJ, JLG, JCR</orgName>
+								<address>
+									<region>PH ET IT</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The role of Open Access Data in democratizing healthcare AI: A pathway to research enhancement, patient well-being and treatment equity in Andalusia, Spain</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">PLOS Digital Health</title>
+						<title level="j" type="abbrev">PLOS Digit Health</title>
+						<idno type="eISSN">2767-3170</idno>
+						<imprint>
+							<publisher>Public Library of Science (PLoS)</publisher>
+							<biblScope unit="volume">3</biblScope>
+							<biblScope unit="issue">9</biblScope>
+							<biblScope unit="page">e0000599</biblScope>
+							<date type="published" when="2024-09-16">September 16, 2024</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">50F4518BEE891F344D1AD869FA9F4A6F</idno>
+					<idno type="DOI">10.1371/journal.pdig.0000599</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Artificial Intelligence (AI), a transformative technology with vast potential in the field of healthcare, presents an array of opportunities for innovation, with the ability to transform medical care from diagnosis to treatment and patient monitoring <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. However, one of the main concerns about AI is the issue of data bias, which refers to the distortion or unfairness that can arise from the data used to train or evaluate AI algorithms. Data bias can affect the accuracy, validity and reliability of algorithms, and can lead to discriminatory or harmful outcomes for certain groups of people <ref type="bibr" target="#b2">[3]</ref>. Traditionally, data-driven initiatives have primarily focused on building models and optimizing accuracy, often overlooking the fundamental issue of data bias. This oversight has the potential to propagate algorithmic bias, reinforcing stereotypes and structural inequities, particularly when deployed in real-world scenarios. Thus, it is essential to recognize that many of the models published so far may inadvertently perpetuate disparities present in data sources and patient populations <ref type="bibr" target="#b3">[4]</ref>.</p><p>In the medical field, AI's most significant contribution lies in illuminating the critical role of data in facilitating more objective, consistent, and immediate decision-making, while promoting health equity <ref type="bibr" target="#b4">[5]</ref>. However, healthcare data is powered by the medical knowledge system, which includes influential stakeholders like research funders, universities, researchers, and academic journals. These entities play pivotal roles in determining research priorities, defining patient cohorts, providing platforms for research, and disseminating research findings, whose collective influence significantly shapes the trajectory of medical research and our understanding of health and diseases, thus contributing to the persistence of health disparities PLOS DIGITAL HEALTH</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"> <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref><p>. In this regard, a significant absence of diversity exists within the medical knowledge system. For instance, more than half of the clinical datasets used for developing and validating AI algorithms originated from either the United States (US) or China <ref type="bibr" target="#b7">[8]</ref>. This limited representation of diverse patient cohorts may result in unbalanced model performance globally. Other relevant differences within the AI landscape in clinical medicine include author nationality, sex, clinical specialty, and expertise, further increasing the overall risk of AI bias. Additionally, it's crucial to underscore the implicit biases among healthcare professionals regarding race/ ethnicity, gender, age, weight, socio-economic status, mental illness, or disability, which parallel those found in the general population <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. Unconscious bias towards specific populations may have an influence on clinical decisions, affecting the quality of care provided to patients and perpetuating health disparities across stored medical records, databases, trained models and AI-driven clinical decision-making processes. Overall, a few approaches and frameworks have been considered to reduce AI bias in healthcare <ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. Going forward, a paramount concern should be gaining a comprehensive understanding of the underlying data: exploring the composition of patient cohorts, evaluating the accuracy of medical devices across diverse patient groups, or examining monitoring practices in terms of factors like race, sex, socio-economic status or language proficiency. Recognizing and addressing these discrepancies is vital for improving the fairness, reliability, and equity of AI algorithms in healthcare, ultimately bringing the AI-represented world closer to the reality we encounter.</p><p>The path to ensure AI benefits everyone may hinge on two crucial requirements. The first entails the establishment of robust regulations and policies shaped through ongoing open dialogue, actively involving communities disproportionately affected by health disparities. The second requirement is to foster an extensive dialogue concerning the methods and stakeholders involved, by shifting the focus from 'what' to 'who'-those responsible for AI development and deployment-and 'how'-ensuring transparency and accountability in responsible AI practices. In this article, we will explore the 'how', with a specific focus on achieving transparency and accountability in responsible AI practices, recognizing that building fair and reliable AI algorithms in healthcare necessitates a thorough comprehension of data sources and their inherent biases, while promoting collaboration and knowledge exchange through open-source initiatives. In this context, the utilization of open data emerges as a crucial and potent approach to mitigating data bias within the healthcare domain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open Access Data</head><p>In an information-driven world, data has become an extremely valuable resource. The growing demand for access to information has led to a global movement towards openness and democratization of data <ref type="bibr" target="#b13">[14]</ref>. In healthcare, Open Access Data refers to data that are available on platforms that foster access to information sets for researchers through a transparent and collaborative process <ref type="bibr" target="#b14">[15]</ref>. This collaborative philosophy towards data provides researchers with the opportunity to access and use information relevant to their studies, which drives scientific progress and contributes to knowledge, while promoting the transparency of algorithms and enabling the reproducibility of scientific results by other researchers.</p><p>Building fair and reliable AI algorithms in healthcare requires a deeper understanding of the data sources and the potential biases they contain. In this regard, the use of open data represents a very important and effective way to address data bias in healthcare <ref type="bibr" target="#b11">[12,</ref><ref type="bibr" target="#b15">16]</ref>. Open data can help detect, correct and prevent data bias by enabling the scrutiny, audit and assessment of algorithms by the scientific, media and civil societies. In addition, open data can also foster innovation and collaboration in the development of more fair, transparent and accountable algorithms that respect ethical principles and human rights. To this end, establishing a robust governance model is essential to ensure secure and ethical handling of open access healthcare data, promoting transparency, reliability, and privacy protection in data-driven research.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Governance models</head><p>To make open access data in healthcare both possible and secure, it is necessary to establish a regulatory and ethical framework that governs its use and protects the privacy of the people whose data are anonymized. In this context, open access data refers to information that is publicly accessible but always subject to rules and standards that regulate its use. Through a rigorous governance process, policies and procedures are defined to safeguard the privacy and security of information, while at the same time promoting transparency and reliability in data access. This governance process involves the multidisciplinary collaboration of various stakeholders, including government agencies, academic institutions, privacy and data security experts, and regulatory bodies. Data use agreements (DUAs) in open access repositories emphasize the user's commitment to act as a responsible researcher and the need for accountability in data usage. DUAs also state that access to the data should not be shared with third parties and that its use should be limited to legitimate scientific research. Moreover, while the organization sharing the data is legally obligated to take all technically possible measures to prevent patient reidentification, the DUA also requires the user to commit not to attempt patient reidentification. Caution is essential to avoid inadvertently disclosing patient sensitive data in publications and communications, and if any information is found that may allow identification, it should be reported immediately through the established channel to the administrator. Finally, the user is encouraged to share any code associated with publications in a public repository, thus fostering further scientific collaboration. In summary, an operational governance model seeks to establish clear rules on who can access the data, how it can be used, what restrictions can be applied and how patient privacy will be protected. Ultimately, this aims to reduce the time between the request for data and the data analysis process itself.</p><p>Two main types of open data can be distinguished based on their level of accessibility: intra-open access data and extra-open access data <ref type="bibr" target="#b16">[17]</ref>. These distinctions are based on the accessibility of the data and who can benefit from it. On the one hand, intra-open access data refer to data that are available only to a particular group of users, either limited to a specific geographic region, health center, or research project. This means that only those users belonging to this group have access to the repositories. This category can be useful when dealing with protected health information (PHI) or when there are legal restrictions or policies that limit the disclosure of certain data. Nevertheless, it's crucial to remember that even within the field of intra-open access data, applying the principles of the aforementioned governance model remains essential. On the other hand, extra-open access data encompasses information that is globally available to the research community. In this regard, researchers worldwide have the opportunity to request access and engage with the data, provided they consent to the DUA and demonstrate a genuine and ethical research purpose. Normally, they should also have a recognized institutional affiliation, a background in health research, and have completed a comprehensive research ethics training course.</p><p>For publicly accessible databases, particular attention must be given to patient privacy before data sharing, facilitated by a strong regulatory framework. Health datasets must undergo robust deidentification processes to erase any traces of PHI and to minimize the risk of reidentification. While achieving total data anonymization may not always be possible, and concerns about the security of shared data remain, the drawbacks of hindering healthcare progress through insights from data and restricting medical innovations from the application of AI on publicly available datasets far surpass the risks associated with the potential reidentification of an individual patient <ref type="bibr" target="#b17">[18]</ref>. Overall, the European Union (EU) and US differ in their approach to health and data privacy legislation, with the General Data Protection Regulation (GDPR) in the EU and the Health Insurance Portability and Accountability Act (HIPAA) in the US playing central roles <ref type="bibr" target="#b18">[19]</ref>. While both aim to ensure robust data protection and provide individuals with control over their data, they vary in scope and approach. Specifically, HIPAA is tailored to the healthcare sector and thus focuses solely on health information, whereas GDPR addresses a wider range of personal data across industries. Consequently, HIPAA's specificity and less ambiguous provisions, compared to GDPR's broader approach, facilitates a more clear, direct and precise implementation of security measures, enhancing the protection of health information.</p><p>The Open Data philosophy thus presents itself as a catalyst for interdisciplinary collaboration and the creation of integrated solutions that have a real impact on health, by allowing the development of more fair and transparent algorithms, and the reproducibility of results by the scientific community.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>FAIR principles</head><p>In the context of publicly available health data repositories, it is important to highlight the FAIR principles (Findable, Accessible, Interoperable, and Reusable) that promote the effective and responsible use of data. These principles were developed by a group of experts and international organizations that seek to promote the management and sharing of data in an open and accessible manner <ref type="bibr" target="#b19">[20]</ref>.</p><p>First, data must be "Findable", meaning that they must have clear and descriptive documentation that facilitates their discovery and location. Ultimately, data findability translates into ensuring that resources are easily discovered and accessible by those interested in using them for knowledge generation and informed decision-making. Secondly, data must be "Accessible", which implies that any interested person can interact directly with them. However, when dealing with PHI, additional accessibility restrictions need to be implemented due to the confidential nature of the information. As highlighted earlier, these restrictions may include the need to obtain special authorizations or permissions, to comply with ethical requirements, legal requirements and DUAs, as well as to establish security protocols to protect patient privacy. It is critical that these security measures are implemented in a manner that does not compromise the operability of the data access time. Thirdly, data must be "Interoperable", which means that they must be structured in such a way that they can be combined and used in conjunction with other datasets. This implies the use of common standards and formats that facilitate the integration and exchange of data between different systems and applications. Finally, data must be "Reusable", indicating that they must be prepared and documented in such a way that they can be used in different contexts and by different users. This includes providing information on the terms of use, restrictions and applicable licenses, as well as providing clear and complete documentation that allows the reproduction of the results obtained from the data.</p><p>Hence, the FAIR principles offer a sturdy framework that guarantees the ethical and responsible use of publicly available data, all while fostering transparency, collaboration, and research progress. By adhering to these principles, one can bolster data reliability during utilization, facilitate the discovery of novel insights, ease data accessibility, maximize its potential for reuse, and promote the reproducibility of outcomes. This approach, in turn, cultivates a culture of open and shared data to be leveraged by the entire healthcare community for countless medical applications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Application of open data in medical contexts</head><p>The potential of massive datasets analyzed with Big Data and AI tools is immense and their impact on patient health is going to be paradigm-changing <ref type="bibr" target="#b1">[2]</ref>. For instance, during the COVID-19 pandemic, clinical data became a vital resource to improve our understanding of the disease and facilitate more effective decision-making and treatments <ref type="bibr" target="#b20">[21]</ref>. Using machine learning techniques and deep learning models, researchers were able to more accurately predict patient outcomes and mortality, opening up new opportunities to deliver personalized and optimized care <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>. While some models were primarily used for research purposes, others found practical applications in clinical scenarios. A systematic review identified 66 AI applications that performed a variety of diagnostic, prognostic, and triage functions in the clinical management of COVID-19 <ref type="bibr" target="#b23">[24]</ref>. In general, open innovation strategies during global health crises such as the COVID-19 pandemic facilitate an ecosystem for multi-disciplinary relationships, crowdsourcing and accelerated progress and innovation <ref type="bibr" target="#b24">[25]</ref>. These advances demonstrate the transformative power of open innovation and open data in healthcare and the tangible benefits they hold for improving people's quality of life in actual clinical settings.</p><p>Open access data repositories in clinical research play a pivotal role in providing a transparent, collaborative and operational platform to address a wide variety of clinical questions. Ultimately, this approach leads to a model of coexistence of different types of repositories, including pseudo-anonymized, anonymized, and synthetic data; these resources further expand research possibilities and promote significant advances in the field of data science in the clinical setting. There has been a significant increase in attention and acknowledgment of open data initiatives within the healthcare sector. In this context, significant international initiatives in the field of healthcare open data are outlined.</p><p>MIMIC (Medical Information Mart in Intensive Care) is the most widely used clinical database internationally, as a result of collaboration between Beth Israel Deaconess Medical Center and the Massachusetts Institute of Technology. The MIMIC-IV version contains data on approximately 300,000 patients between the years 2008 and 2022, of which more than 70,000 have been admitted to the Intensive Care Unit (ICU) <ref type="bibr" target="#b25">[26]</ref>.</p><p>eICU is a collaborative research database populated with data from a combination of multiple critical care units across the continental US. The data in the collaborative database covers patients admitted to critical care units in 2014 and 2015, with information from more than 200,000 ICU admissions <ref type="bibr" target="#b26">[27]</ref>.</p><p>AMDS was created by the Amsterdam University Hospital Consortium (Amsterdam UMC) as the first open-access intensive care database within the EU containing deidentified health data related to tens of thousands of admissions to European ICUs, including demographic information, vital signs, laboratory tests, and medications <ref type="bibr" target="#b27">[28]</ref>.</p><p>The Dutch ICU Data Warehouse is a project initiated by the Amsterdam University Hospital Consortium (Amsterdam UMC), which comprises severe COVID-19 patient data collected from more than 35 ICUs in the Netherlands <ref type="bibr" target="#b28">[29]</ref>.</p><p>HiRID is an open dataset containing information on 33,000 patients admitted to the Department of Intensive Care Medicine of the University Hospital of Bern, Switzerland. This project was promoted collaboratively with the Swiss Federal Institute of Technology (ETH) Zu ¨rich <ref type="bibr" target="#b29">[30]</ref>.</p><p>COVID Data Save Lives is an anonymized multimodal database comprising medical data from patients treated for the SARS-CoV-2 virus in Spanish private hospitals from the group 'HM Hospitales'. This clinical dataset compiles various interactions within the COVID-19 treatment process, providing comprehensive details on diagnoses, treatments, admissions, ICU visits, diagnostic imaging tests, laboratory results and discharges, among other records <ref type="bibr" target="#b30">[31]</ref>.</p><p>OPEN DATA COVID is a secure and anonymized database provided by Spanish healthcare company 'Sanitas', offering data related to COVID-19 patients admitted to the company's medical centers for use by the scientific and academic community. This project is part of Sanitas Data4Good, Sanitas' Open Data initiative that was created with the aim of contributing to society through data, especially in the field of health and well-being <ref type="bibr" target="#b31">[32]</ref>.</p><p>CARMEN-I (Corpus of Anonymized Records for Medical information Extraction) is a project created by the Hospital Clı ´nic Barcelona involving the digitalization of medical records. CARMEN-I is designed to be a publicly accessible anonymized health database with the primary goal of advancing technological development and AI applications in healthcare, by providing a structured information format suitable for leveraging Natural Language Processing (NLP) technologies to automatically extract clinical information from the data <ref type="bibr" target="#b33">[33]</ref>.</p><p>These successful international open data initiatives represent a crucial foundation for the development of open-source AI models in healthcare. The applications of AI utilizing open healthcare databases are diverse, encompassing associations between exposures and outcomes <ref type="bibr" target="#b34">[34]</ref>, predictive modeling <ref type="bibr" target="#b35">[35]</ref><ref type="bibr" target="#b36">[36]</ref><ref type="bibr" target="#b37">[37]</ref>, medical imaging diagnosis <ref type="bibr" target="#b38">[38]</ref>, clinical decision support systems (CDSS) <ref type="bibr" target="#b39">[39]</ref>, NLP <ref type="bibr" target="#b40">[40]</ref>, and reinforcement learning <ref type="bibr" target="#b41">[41]</ref>. Moreover, open databases serve as valuable resources for external validation of locally trained algorithms and assessment of performance metrics <ref type="bibr" target="#b42">[42]</ref>. The wealth of clinical information amassed in open databases provides a valuable resource for training and fine-tuning AI models. As open datasets continue to grow, so does the potential for open-source AI models to enhance medical diagnosis, treatment personalization, and clinical predictions.</p><p>Open access data platforms, both intra and extra, are presented as a guiding philosophy that catalyzes collaboration and the exchange of clinical knowledge, allowing scientists, academics and experts from different areas to work together in the resolution of relevant covered needs. Open data, along with the sharing of source code for analysis, cultivates an environment that encourages collaborations among researchers of various backgrounds and expertise levels, thereby maximizing the potential for new scientific discoveries and breakthroughs. Secure and controlled access to data, coupled with optimized infrastructure and transparency in model training, streamlines the hypothesis validation process and expedites the development of reliable algorithms.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Open-source AI ecosystem: A beacon of progress in healthcare</head><p>The future of AI appears promising, with significant attention being directed towards Large Language Models (LLMs) since the launch of ChatGPT in November 2022 <ref type="bibr" target="#b43">[43]</ref>. However, closed-source AI models such as ChatGPT and other LLMs, primarily controlled by Big Tech companies, lack transparency and allow limited accessibility to training datasets and source code. These limitations can result in biased outcomes and perpetuate inequities <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b7">8]</ref>. In response, the open-source AI ecosystem has emerged as an alternative solution, promoting a more accessible, transparent, cost-effective and tunable framework by leveraging the collaborative efforts and ideas generated worldwide <ref type="bibr" target="#b45">[44]</ref>. In this scenario, open-source LLMs, such as LLaMA (along with its fine-tuned versions Alpaca, Vicuna, and Wizard), Mistral, or SOLAR, have allowed to drive innovations and advancements in AI and compete with closed-source LLMs <ref type="bibr" target="#b46">[45,</ref><ref type="bibr" target="#b47">46]</ref>. Therefore, the development of open-source AI tools emerges as an opportunity for learning and collective development, surpassing the limitations of proprietary models in terms of reproducibility and ethics <ref type="bibr" target="#b48">[47]</ref>. In general, this approach fosters a more collaborative mindset for the benefit of patients.</p><p>Specifically, several LLM tailored to the healthcare domain have been developed for medical question answering <ref type="bibr" target="#b49">[48]</ref>, such as Med-PaLM 2, a proprietary LLM with medical domain-specific finetuning <ref type="bibr" target="#b50">[49]</ref>; Biomistral, an open-source LLM using Mistral as foundation model and further pre-trained on PubMed Central <ref type="bibr" target="#b51">[50]</ref>; HuatuoGPT, an open-source patient-friendly and doctor-like medical advice provider <ref type="bibr" target="#b52">[51]</ref>; and Visual Med-Alpaca, an open-source biomedical LLM with visual capabilities <ref type="bibr" target="#b53">[52]</ref>. Notably, Med-PaLM was the first AI model to surpass the pass mark (&gt;60%) in the US Medical Licensing Examination (USMLE) style questions. However, while biomedical-focused LLMs have the innovative potential to democratize medical knowledge and enhance patient care, they still raise concerns regarding patient privacy, validation issues, and ethical aspects such as misinformation and misuse <ref type="bibr" target="#b54">[53]</ref>. Biasrelated limitations could be mitigated by enhancing the overall LLM development process, including improvements in input data, model architectures, and harmful output detection, along with the promotion of transparent frameworks through publicly available training datasets and open-source code.</p><p>Open-source AI technologies applied to healthcare present an opportunity to retrain these large open models for addressing complex tasks in secure health system environments in order to support clinicians in their decision-making. In this context, the use of open healthcare data plays a key role. Through the secure sharing of clinical datasets, the adjustment of these highly customizable models can take place, leading to improved prediction quality and fostering algorithm transparency, collaboration and equity in healthcare. By retraining these models in secure environments, the accuracy and efficacy of diagnostics, personalized treatments and clinical predictions are enhanced, while ensuring equitable access to healthcare and preserving the confidentiality of PHI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Leveraging Open Data repositories: Navigating commercialization through data use agreements</head><p>While open data repositories offer valuable resources for training algorithms, it's essential to recognize that open data doesn't equate to unrestricted commercial use. The nuances of potential commercial use of trained algorithms hinge on DUAs and specific collaboration agreements. Different licenses offer significant commercial freedoms, as detailed in Table <ref type="table" target="#tab_0">1</ref>, which include the Public Domain Dedication and License (PDDL), the MIT License for Data, the Apache License 2.0 for Data, and the Creative Commons License (CC0). However, others, like the Attribution License (ODC-By) or the Open Database License (ODbL), both from Open Data Commons, may impose medium-level restrictions, potentially affecting commercial use. Despite potential restrictions outlined in DUAs and licenses, companies can still derive significant benefits from utilizing open data for research and development, product validation, collaborations, market analysis, and operational efficiency enhancements. Moreover, companies with dedicated research departments can indirectly benefit from open data repositories by entering into specific collaboration agreements with data providers. This collaborative approach fosters knowledge exchange between industry and open data providers, which can pave the way to the collaborative development of innovative solutions tailored to market needs. By adhering to rigorous ethical and security standards, companies can mitigate risks and ensure the reliability of insights gleaned from open data sources.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Enhancing the use of healthcare data for research in Andalusia, Spain</head><p>With 8.5 million inhabitants, Andalusia is the 30ths most populated region in Europe, surpassing countries like Austria, the Netherlands or Belgium. A significant portion of Andalusia's population (around 80%), spanning various socioeconomic statuses, relies on public healthcare services <ref type="bibr" target="#b55">[54]</ref>. Nevertheless, Andalusia possesses significant potential for clinical research and innovation, given its comprehensive dataset encompassing diverse socioeconomic statuses, health conditions, risk factors, and outcomes across a patient's medical history spanning more than two decades. Through collaborative analysis of Andalusian data, this resource would serve as critical raw-material for addressing unmet needs identified by healthcare system clinicians and decision-makers, enabling the enhancement of treatments, optimization of diagnostics, and more efficient management of resources.</p><p>Through a human and technological infrastructure in massive data processing and AI, the Big Data Department, PMC-Fundacio ´n Progreso y Salud (FPS), from the Andalusian Regional Ministry of Health and Consumer Affairs, aims to facilitate the secondary use of Andalusian data for R&amp;I applications in health, clinical practice and management. By employing the It requires attribution when using the data, which may be a minor obstacle, but it does not impose strong restrictions on commercial uses or creating derived products, provided adequate recognition is given.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medium Open Database License (ODbL) from Open Data Commons</head><p>It is designed to allow users to freely share, modify, and use a database while ensuring that any derivatives remain available under the same license. This license is particularly beneficial from a commercialization perspective because it grants the freedom to use the data commercially, but with the stipulation that any public use of the database, or derivatives thereof, must remain freely available. This ensures that businesses can commercially use and enhance the database, but must keep derivatives open, promoting a cycle of continuous sharing and improvement.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medium</head><p>Customized Licenses Organizations create their own licenses for specific needs or restrictions on their data. These can be very restrictive, limiting use to non-commercial purposes, prohibiting derived databases without permission, or imposing specific conditions for redistribution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Low</head><p>Creative Commons Attribution-NonCommercial (CC BY-NC)</p><p>It explicitly restricts commercial use. However, it's not typically recommended for software due to its inability to address unique software distribution issues. Nonetheless, some projects use it to limit commercial use or distribution</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Low</head><p>Aladdin Free Public License (AFPL) It does not restrict commercial use per se but prohibits the resale of the software. It allows the software to be used in-house within a commercial enterprise. However, it could cause potential legal complications and the likelihood that most software distributions will avoid including programs under these licensesSoftware Engineering Stack Exchange).</p><p>Low <ref type="url" target="https://doi.org/10.1371/journal.pdig.0000599.t001">https://doi.org/10.1371/journal.pdig.0000599.t001</ref> </p><p>philosophy of distributed open collaboration, the resilience of the system in the face of new challenges is improved. To put all this data into value and given the size and complexity of the data, a strategy based on five fundamental principles is being deployed: Security, Integration, Operability, Collaboration and Knowledge. In this regard, ODACI (Andalusian Intensive Care Open Data), PRAETORIA (Andalusian Platform for the Development of Clinical Decision Support Systems) and EVIAS (Assessment and Validation of Artificial Intelligence in Healthcare) stand out as top-notch initiatives and frameworks leveraging the potential of Andalusian healthcare data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A potential Andalusian intra-open critical care data initiative, ODACI</head><p>ODACI, a Spanish acronym that stands for Andalusian Intensive Care Open Data, is a collaborative open data healthcare initiative from Andalusian ICUs that, if deployed, could improve diagnosis and optimize the treatment of patients through the development of AI algorithms.</p><p>The source data for ODACI could be Diraya, an Andalusian interoperable electronic medical record storing information from almost 30 hospitals and more than 1,000 primary care centers, integrating data from an accumulated cohort of over 13 million people. ODACI would be governed by the FAIR principles, which guarantee the effective and responsible use of open data in healthcare. Through the opening of ODACI to the scientific community and under strict data protection measures, this clinical database would follow in the footsteps of other similar international open data initiatives that have enabled innovative healthcare improvement through an optimized clinical decision-making procedure based on the application of Big Data and AI analytical tools <ref type="bibr" target="#b56">[55]</ref>. ODACI's initiative has garnered support from the Andalusian Society of Intensive Medicine and Coronary Units (SAMIUC) and the Platform of Patient Organizations (POP). As of May 2024, efforts are primarily directed towards obtaining the necessary authorizations. Being one of the first healthcare data repositories to emerge from the public system, particularly in Andalusia, presents a significant challenge due to the absence of precedents. Ensuring full compliance with legal, ethical, and security regulations is paramount. In line with this approach, ODACI would function as the primary data source for the PRAETORIA platform. This combination perfectly exemplifies how open data drives healthcare innovation, enabling the development of efficient and transparent CDSS within the framework of the PRAETORIA initiative.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A platform for the development of clinical decision support systems, PRAETORIA</head><p>CDSS are technological tools designed to assist healthcare professionals in making informed, evidence-based decisions that promote personalized medicine. These systems use algorithms and computational models to analyze clinical data, such as medical records, diagnostic test results or radiological imaging, with the aim of providing relevant recommendations. By combining medical knowledge and patient information with the power of data processing, CDSS can improve diagnostic accuracy, optimize treatment plans and help prevent medical errors. In this context, the Andalusian Platform for the Development of Clinical Decision Support Systems (PRAETORIA) has emerged as an opportunity to improve the quality of care, optimize resource management and reduce costs in the Andalusian Public Health System (APHS). PRAETORIA, as an initiative within the APHS, aims to train algorithms using ODACI as data source, which provides accurate and updated patient information, facilitating the process of informed decision-making by healthcare professionals in the diagnosis, treatment and followup of patients. Regarding PRAETORIA, several projects are underway to develop CDSS, such as the Horizon Europe-funded project IntelliLung <ref type="bibr" target="#b57">[56]</ref>, in which Andalusian researchers are participating. Among Andalusian healthcare data projects utilizing CDSS are those focused on combating multi-resistant bacteria and improving healthcare delivery for patients affected by COVID or inflammatory bowel disease, which are in the phase of retrospective validation as of May 2024. Finally, these systems will be evaluated using the EVIAS framework, by addressing concerns about AI-based healthcare technology assessment and patient safety.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A framework for the validation and assessment of AI in healthcare, EVIAS</head><p>The accelerated pace of innovation in the field of digital health technologies and the use of AI pose challenges in terms of decision-making, assessment, and adoption of AI-based healthcare technologies. As AI systems become more common in healthcare, concerns arise about patient safety, generalizability of algorithms, and appropriate interpretation of results by clinicians. In this regard, the EU AI Act, enacted in March 2024, represents the world's first comprehensive AI law. It aims to ensure safety, protect fundamental rights, and promote innovation in AI technologies. In the healthcare sector, machine learning algorithms are likely to be classified as high-risk AI systems and must comply with specific criteria related to transparency (auditability, bias testing), explainability (data quality, traceability, human oversight), and data governance (data security, data privacy) <ref type="bibr" target="#b58">[57]</ref>. Notably, public institutions deploying high-risk AI systems will need to register them in a public EU database. In general, stakeholders will need to adapt to this AI Regulation to foster a more fair, robust, and secure AI ecosystem.</p><p>A new framework called EVIAS (Spanish acronym for 'Assessment and Validation of Artificial Intelligence in Healthcare') is being developed in response to the need to validate and evaluate AI-based health technologies created by both private companies and public research institutions in the healthcare sector. This initiative was promoted by the FPS-Big Data Department in collaboration with the FPS-Health Technology Assessment Area (in Spanish AETSA), and the APHS-Technology Transfer Office (In Spanish OTT). The main objective of EVIAS will be to guarantee the efficacy and added value of AI algorithms, as well as the safety of deploying them in clinical practice. This, in turn, supports institutions in enhancing the quality of their AI development. To achieve this, EVIAS consists of two main phases: the validation of the algorithm using real-world data from the APHS through data science methodologies, and the assessment of AI-based health technologies using Health Technology Assessment (HTA) methods and processes. Consequently, EVIAS introduces a hybrid protocol that combines validation methods utilizing data science tools with assessment criteria from HTA. This new validation/assessment protocol is being carried out in a detailed and comprehensive manner to form a complete framework of procedures and methodologies through the analysis of different healthcare databases initiatives, in order to achieve the best guarantees of efficacy and safety for the algorithms that will support decisions on patient care. As part of this effort, the EVIAS team is reviewing existing HTA approaches for AI-based health technologies, to identify strengths and weaknesses, and develop innovative assessment approaches that go beyond the current state of the art.</p><p>Within the ASSESS-DHT project, funded by Horizon Europe and supported by the European Commission, methods required to validate and assess AI-based health technologies are being refined <ref type="bibr" target="#b59">[58]</ref>. This collaborative effort involves academic experts, professionals from HTA agencies, independent research organizations, and companies to propose and pilot an assessment framework suitable for digital health technologies, including those leveraging AI algorithms. FPS-based researchers will collaborate with international leaders to address challenges related to validating and assessing AI-based health technologies and other types of digital health technologies. This includes developing real-world validation methods for AI-based algorithms using local data and establishing an HTA framework to evaluate digital health technologies, including AI-based ones. A comprehensive review of protocols endorsed by HTA and regulatory agencies has been conducted, with publication slated throughout 2024.</p><p>In summary, the ODACI-PRAETORIA-EVIAS framework embodies an innovative and necessary initiative that can achieve a significant improvement in the quality of care, efficiency in the use of resources and potentially, in some cases, cost reductions. Starting with open healthcare data within ODACI, AI algorithms would be trained and developed within the PRAETORIA platform, facilitating the process of decision-making by healthcare professionals. Finally, these algorithms would be validated and evaluated with EVIAS to ensure trustworthiness, safety and efficacy of prediction models, as well as to assess whether they do actually offer an added value compared to current standard of care. Overall, this workflow promotes the generation of cutting-edge AI tools and valuable knowledge based on open and transparent algorithms, which can be applied in daily medical practice. Ultimately, this open data ecosystem would strengthen the potential for R&amp;D in the field of medicine and position Andalusia as a leader in leveraging data for health and driving significant advances in patient care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusion</head><p>Open access data represents a dynamic philosophy that not only fosters collaboration and knowledge exchange within the healthcare field but also contributes to the advancement of clinical research, hospital care and patient safety. By granting access to findable, accessible, interoperable and reusable databases, open access promotes scientific progress and the development of fair, transparent and reliable algorithms that drive the reproducibility of results while reducing data bias. Through the implementation of robust governance models and anonymization techniques, privacy risks are mitigated, ensuring that data access meets security, ethics, and compliance standards. The tangible benefits of open data in healthcare research are evidenced by successful international initiatives, which have led to betterinformed clinical decisions and enhanced patient outcomes. Moreover, the role of open-source AI in healthcare, particularly the release of open large language models, demonstrates the potential for transformative breakthroughs when open-source collaboration meets advanced technology.</p><p>As we look to the future, open data frameworks in healthcare hold the promise of collaborative innovation, personalized medicine and clinical progress. For instance, initiatives like ODACI, PRAETORIA and EVIAS in Andalusia, Spain, exemplify the integration of datadriven clinical decision support systems and AI assessment protocols within a potential open data environment. Through the utilization of open access data and adherence to robust ethical and security standards, these initiatives are poised to drive advancements in diagnostics, treatment optimization and patient safety. In the midst of a rapidly evolving healthcare landscape, the adoption of open access data as the raw material for AI-based health technologies stands as a beacon of progress and health equity, ultimately contributing to a healthier population.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Degrees of commercialization freedom in data licensing.</head><label>1</label><figDesc>It allows data providers to release their data into the public domain, making it available for use without restrictions, including for commercial purposes. This license waives all copyright and related rights that the data provider might have over the dataset, allowing any user to freely use, modify, and share the data.</figDesc><table><row><cell>License</cell><cell>Description</cell><cell>Commercialization freedom</cell></row><row><cell></cell><cell></cell><cell>established by data provider</cell></row><row><cell>MIT License for Data</cell><cell>It gives data providers the freedom to commercialize their datasets without any</cell><cell>High</cell></row><row><cell></cell><cell>obstacles. It allows them to share their data with others, enabling commercial use,</cell><cell></cell></row><row><cell></cell><cell>modification, and redistribution, all while ensuring that the provider's rights are</cell><cell></cell></row><row><cell></cell><cell>respected. This license empowers data providers to leverage their data for</cell><cell></cell></row><row><cell></cell><cell>commercial purposes, fostering innovation and collaboration while maintaining a</cell><cell></cell></row><row><cell></cell><cell>level of flexibility and simplicity in licensing terms.</cell><cell></cell></row><row><cell>Apache License 2.0 for Data</cell><cell>It enables data providers to freely commercialize their datasets without constraints.</cell><cell>High</cell></row><row><cell></cell><cell>It allows unrestricted use, modification, and distribution, fostering collaboration</cell><cell></cell></row><row><cell></cell><cell>and innovation while safeguarding provider rights.</cell><cell></cell></row><row><cell>Creative Commons License (CC0)</cell><cell>It grants data providers complete freedom to commercialize their datasets without</cell><cell>High</cell></row><row><cell></cell><cell>any restrictions. It allows for the unrestricted use, modification, and distribution of</cell><cell></cell></row><row><cell></cell><cell>data, fostering collaboration and innovation while safeguarding provider rights.</cell><cell></cell></row><row><cell>Public Domain Dedication and License</cell><cell></cell><cell>High</cell></row><row><cell>(PDDL) de Open Data Commons</cell><cell></cell><cell></cell></row><row><cell>GNU Lesser General Public License for</cell><cell>Common in software, it can be applied to data. It allows use within proprietary</cell><cell>Medium</cell></row><row><cell>data (LGPL)</cell><cell>applications if changes to the original LGPL data (or software) are shared under the</cell><cell></cell></row><row><cell></cell><cell>same license.</cell><cell></cell></row><row><cell>Creative Commons License (CC BY)</cell><cell>It allows use, distribution, modification, and building upon the work commercially,</cell><cell>Medium</cell></row><row><cell></cell><cell>with proper credit to the author.</cell><cell></cell></row><row><cell>Attribution License (ODC-By) from</cell><cell></cell><cell></cell></row><row><cell>Open Data Commons</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>PLOS Digital Health | https://doi.org/10.1371/journal.pdig.0000599September 16, 2024  </p></note>
+		</body>
+		<back>
+
+			
+			<div type="funding">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The author(s) received no specific funding for this work.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Artificial Intelligence in Pharmaceutical and Healthcare Research</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Bhattamisra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mayuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Candasamy</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/bdcc7010010</idno>
+		<ptr target="https://doi.org/10.3390/bdcc" />
+	</analytic>
+	<monogr>
+		<title level="j">Big Data Cogn. Comput</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7010010</biblScope>
+			<date type="published" when="2023-03">2023 Mar</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Transformative Potential of AI in Healthcare: Definitions, Applications, and Navigating the Ethical Landscape and Public Perspectives. Healthcare (Basel)</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bekbolatova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mayer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Toma</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/healthcare12020125</idno>
+		<idno type="PMID">38255014</idno>
+		<ptr target="https://doi.org/10.3390/healthcare12020125" />
+		<imprint>
+			<date type="published" when="2024-01-05">2024 Jan 5</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">125</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Addressing bias in artificial intelligence for public health surveillance</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Flores</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Young</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/jme-2022-108875</idno>
+		<idno type="PMID">37130756</idno>
+		<ptr target="https://doi.org/10.1136/jme-2022-108875" />
+	</analytic>
+	<monogr>
+		<title level="j">J Med Ethics</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="190" to="194" />
+			<date type="published" when="2024-02-20">2024 Feb 20</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Assessing the potential of GPT-4 to perpetuate racial and gender biases in health care: a model evaluation study. Lancet Digit Health</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lehman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suzgun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rodriguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Celi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gichoya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S2589-7500%2823%2900225-X</idno>
+		<idno type="PMID">38123252</idno>
+		<ptr target="https://doi.org/10.1016/S2589-7500(23)00225-X" />
+		<imprint>
+			<date type="published" when="2024-01">2024 Jan</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="12" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence to support clinical decision-making processes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Garcia-Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanjuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Puerta-Alcalde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Moreno-Garcı ´a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Soriano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ebiom.2019.07.019</idno>
+		<idno type="PMID">31303500</idno>
+		<ptr target="https://doi.org/10.1016/j.ebiom.2019.07.019" />
+	</analytic>
+	<monogr>
+		<title level="j">EBioMedicine</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="27" to="29" />
+			<date type="published" when="2019-08">2019 Aug</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">What is research funding, how does it influence research, and how is it recorded? Key dimensions of variation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Thelwall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Viney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Den Besselaar</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11192-023-04836-w</idno>
+		<ptr target="https://doi.org/10.1007/s11192-023-04836-w" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientometrics</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="6085" to="6106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Involving stakeholders in research priority setting: a scoping review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Grill</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40900-021-00318-6</idno>
+		<idno type="PMID">34715932</idno>
+		<ptr target="https://doi.org/10.1186/s40900-021-00318-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Res Involv Engagem</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">75</biblScope>
+			<date type="published" when="2021-10-29">2021 Oct 29</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Sources of bias in artificial intelligence that perpetuate healthcare disparities-A global review. PLOS Digit Health</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Celi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Charpignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Dee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dernoncourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eber</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pdig.0000022</idno>
+		<idno type="PMID">36812532</idno>
+		<ptr target="https://doi.org/10.1371/journal.pdig.0000022" />
+		<imprint>
+			<date type="published" when="2022-03-31">2022 Mar 31</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Implicit bias in healthcare professionals: a systematic review</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fitzgerald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hurst</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12910-017-0179-8</idno>
+		<idno type="PMID">28249596</idno>
+		<ptr target="https://doi.org/10.1186/s12910-017-0179-8" />
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Ethics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2017-03-01">2017 Mar 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A systematic review of racial/ethnic and socioeconomic disparities in COVID-19</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khanijahani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Iezadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gholipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Azami-Aghdash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Naghibi</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12939-021-01582-4</idno>
+		<idno type="PMID">34819081</idno>
+		<ptr target="https://doi.org/10.1186/s" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Equity Health</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">248</biblScope>
+			<date type="published" when="2021-11-24">2021 Nov 24</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Considerations for addressing bias in artificial intelligence for health equity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Abràmoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Tarver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Loyo-Berrios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Trujillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Char</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Obermeyer</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-023-00913-9</idno>
+		<ptr target="https://doi.org/10.1038/s41746-023-00913-9PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">37700029</biblScope>
+			<date type="published" when="2023-09-12">2023 Sep 12</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Addressing bias in big data and AI for health care: A call for open science</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Norori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Aellen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Faraci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tzovara</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patter.2021.100347</idno>
+		<idno type="PMID">34693373</idno>
+		<ptr target="https://doi.org/10.1016/j.patter.2021" />
+	</analytic>
+	<monogr>
+		<title level="j">Patterns (N Y)</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">100347</biblScope>
+			<date type="published" when="2021-10-08">2021 Oct 8. 100347</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Directing Research Toward Health Equity: a Health Equity Research Impact Assessment</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Castillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11606-021-06789-3</idno>
+		<ptr target="https://doi.org/10.1007/s11606-021-06789-3PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">33948804</biblScope>
+			<date type="published" when="2021-09">2021 Sep</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<orgName type="collaboration">European Commission</orgName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Global Health Data [Internet]. Opening health data to the public</title>
+		<ptr target="https://globalhealthdata.org/opening-health-data-to-the-public/" />
+		<imprint>
+			<date type="published" when="2024-05-08">2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Open source data science: How to reduce bias in AI</title>
+		<ptr target="https://www.weforum.org/agenda/2022/10/open-source-data-science-bias-more-ethical-ai-technology/" />
+	</analytic>
+	<monogr>
+		<title level="j">World Economic Forum</title>
+		<imprint>
+			<date type="published" when="2022-10-14">2022 Oct 14. 2023 Oct 25</date>
+		</imprint>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Unlocking the Power of Health Datasets and Registries: The Need for Urgent Institutional and National Ownership and Governance Regulations for Research Advancement</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Bahammam</surname></persName>
+		</author>
+		<idno type="DOI">10.4103/jnsm.jnsm%5F82%5F23</idno>
+		<ptr target="https://doi.org/10.4103/jnsm.jnsm_82_23" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nature and Science of Medicine</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="159" to="165" />
+			<date type="published" when="2023-09">2023 Sep</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Global healthcare fairness: We should be sharing more, not less, data. PLOS Digit Health</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Seastedt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schwab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wakida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Marcelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pgf</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pdig.0000102</idno>
+		<idno type="PMID">36812599</idno>
+		<ptr target="https://doi.org/10.1371/journal.pdig.0000102" />
+		<imprint>
+			<date type="published" when="2022-10-06">2022 Oct 6</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">102</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">The Main Differences Between GDPR and HIPAA. Itirra</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nikitin</surname></persName>
+		</author>
+		<ptr target="https://itirra.com/blog/the-main-differences-between-gdpr-and-hipaa/" />
+		<imprint>
+			<date type="published" when="2023-02-07">2023 Feb 7. 2024 Apr 15</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The FAIR Guiding Principles for scientific data management and stewardship</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Wilkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumontier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Aalbersberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Appleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Axton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sdata.2016.18</idno>
+		<idno type="PMID">26978244</idno>
+		<ptr target="https://doi.org/10.1038/sdata.2016.18" />
+	</analytic>
+	<monogr>
+		<title level="m">Sci Data</title>
+		<imprint>
+			<date type="published" when="2016-03-15">2016 Mar 15. 160018. 2019 Mar 19</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">6</biblScope>
+		</imprint>
+	</monogr>
+	<note>Erratum in: Sci Data</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Real-World Evidence for Assessing Pharmaceutical Treatments in the Context of COVID-19</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Gatto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Rassen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Glynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schneeweiss</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cpt.2185</idno>
+		<idno type="PMID">33529354</idno>
+		<ptr target="https://doi.org/10.1002/cpt.2185" />
+	</analytic>
+	<monogr>
+		<title level="j">Clin Pharmacol Ther</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="816" to="828" />
+			<date type="published" when="2021-04">2021 Apr</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Machine learning-based prediction of COVID-19 mortality using immunological and metabolic biomarkers</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Tulu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pym</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Czs</forename><surname>Tseng</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s44247-022-00001-0</idno>
+		<idno type="PMID">38014372</idno>
+		<ptr target="https://doi.org/10.1186/s44247-022-00001-0" />
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<publisher>BMC Digit Health</publisher>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">6</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Comparing machine learning algorithms to predict COVID-19 mortality using a dataset including chest computed tomography severity score data. Sci Rep</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Zakariaee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Naderi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ebrahimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kazemi-Arpanahi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-023-38133-6</idno>
+		<ptr target="https://doi.org/10.1038/s41598-023-38133-6PMID" />
+		<imprint>
+			<date type="published" when="2023-07-13">2023 Jul 13</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">37443373</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence applications used in the clinical response to COVID-19: A scoping review. PLOS Digit Health</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Berdahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Girosi</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pdig.0000132</idno>
+		<idno type="PMID">36812557</idno>
+		<ptr target="https://doi.org/10.1371/journal.pdig.0000132" />
+		<imprint>
+			<date type="published" when="2022-10-17">2022 Oct 17</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">132</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Open Innovation in Times of Crisis: An Overview of the Healthcare Sector in Response to the COVID-19 Pandemic</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/joitmc8010021</idno>
+		<ptr target="https://doi.org/10.3390/joitmc8010021" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Open Innov. Technol. Mark. Complex</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">MIMIC-IV, a freely accessible electronic health record dataset. Sci Data</title>
+		<author>
+			<persName><forename type="first">Aew</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bulgarelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gayles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shammout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Horng</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41597-022-01899-x</idno>
+		<ptr target="https://doi.org/10.1038/s41597-022-01899-xPMID" />
+		<imprint>
+			<date type="published" when="2023-01-03">2023 Jan 3</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">36596836</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aew</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Raffa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Celi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Mark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Badawi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sdata.2018.178</idno>
+		<idno type="PMID">30204154</idno>
+		<ptr target="https://doi.org/10.1038/sdata.2018.178" />
+		<title level="m">The eICU Collaborative Research Database, a freely available multi-center database for critical care research. Sci Data</title>
+		<imprint>
+			<date type="published" when="2018-09-11">2018 Sep 11</date>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">180178</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Sharing ICU Patient Data Responsibly Under the Society of Critical Care Medicine/European Society of Intensive Care Medicine Joint Data Science Collaboration: The Amsterdam University Medical Centers Database (AmsterdamUMCdb) Example</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Thoral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Peppink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Driessen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejg</forename><surname>Sijbrands</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejo</forename><surname>Kompanje</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kaplan</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/CCM.0000000000004916</idno>
+		<idno type="PMID">33625129</idno>
+		<ptr target="https://doi.org/10.1097/CCM.0000000000004916" />
+	</analytic>
+	<monogr>
+		<title level="j">Crit Care Med</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="563" to="577" />
+			<date type="published" when="2021-06-01">2021 Jun 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Dutch Data Warehouse, a multicenter and full-admission electronic health records database for critically ill COVID-19 patients</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Fleuren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Dam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tonutti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>De Bruin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rca</forename><surname>Lalisang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gommers</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13054-021-03733-z</idno>
+		<idno type="PMID">34425864</idno>
+		<ptr target="https://doi.org/10.1186/s13054-021-03733-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Crit Care</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">304</biblScope>
+			<date type="published" when="2021-08-23">2021 Aug 23</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Early prediction of circulatory failure in the intensive care unit using machine learning</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Hyland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Faltys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hu ¨ser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lyu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gumbsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Esteban</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41591-020-0789-4</idno>
+		<idno type="PMID">32152583</idno>
+		<ptr target="https://doi.org/10.1038/s" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="364" to="373" />
+			<date type="published" when="2020-03">2020 Mar</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">COMUNICADO: COVID DATA SAVE LIVES</title>
+		<author>
+			<persName><surname>Hm Hospitales</surname></persName>
+		</author>
+		<ptr target="https://www.hmhospitales.com/prensa/notas-de-prensa/comunicado-covid-data-save-lives" />
+		<imprint>
+			<date type="published" when="2020-04-15">2020 Apr 15. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Sanitas</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><surname>Open</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Covid</surname></persName>
+		</author>
+		<ptr target="https://landing.sanitasweb.es/data/opendatacovid/english.html" />
+		<title level="m">Sanitas Data4Good</title>
+		<imprint>
+			<date type="published" when="2022">2022. 2023 Oct 15</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">CARMEN-I: A resource of anonymized electronic health records in Spanish and Catalan for training and testing NLP tools</title>
+		<author>
+			<persName><forename type="first">Farre</forename><surname>Maduell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lima-Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Frid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Conesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asensio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lopez-Rueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.13026/x7ed-9r91</idno>
+		<ptr target="https://doi.org/10.13026/x7ed-9r91" />
+	</analytic>
+	<monogr>
+		<title level="j">Physionet</title>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Association of body temperature and mortality in critically ill patients: an observational study using two large databases</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jsq</forename><surname>Ong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rjx</forename><surname>Sin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Bui</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40001-023-01616-3</idno>
+		<idno type="PMID">38184625</idno>
+		<ptr target="https://doi.org/10.1186/s40001-023-01616-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Med Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2024-01-06">2024 Jan 6</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A Simple Weaning Model Based on Interpretable Machine Learning Algorithm for Patients With Sepsis: A Research of MIMIC-IV and eICU Databases</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiao</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2021.814566</idno>
+		<idno type="PMID">35118099</idno>
+		<ptr target="https://doi.org/10.3389/fmed.2021.814566" />
+	</analytic>
+	<monogr>
+		<title level="j">Front Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">814566</biblScope>
+			<date type="published" when="2022-01-18">2022 Jan 18</date>
+			<pubPlace>Lausanne)</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A nomogram for predicting hospital mortality of critical ill patients with sepsis and cancer: a retrospective cohort study based on MIMIC-IV and eICU-CRD</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">N</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2023-072112</idno>
+		<idno type="PMID">37696627</idno>
+		<ptr target="https://doi.org/10.1136/bmjopen-2023-072112" />
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">72112</biblScope>
+			<date type="published" when="2023-09-11">2023 Sep 11</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Predicting sepsis in-hospital mortality with machine learning: a multi-center study using clinical and inflammatory biomarkers</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40001-024-01756-0</idno>
+		<ptr target="https://doi.org/10.1186/s40001-024-01756-0PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">Eur J Med Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">38448999</biblScope>
+			<date type="published" when="2024-03-06">2024 Mar 6</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">MDF-Net for abnormality detection by fusing X-rays with clinical data. Sci Rep</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Nobre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brereton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Nascimento</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-023-41463-0</idno>
+		<idno type="PMID">37741833</idno>
+		<ptr target="https://doi.org/10.1038/s" />
+		<imprint>
+			<date type="published" when="2023-09-23">2023 Sep 23</date>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">15873</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence for clinical decision support for monitoring patients in cardiovascular ICUs: A systematic review</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Moazemi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vahdati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kalkhoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ljv</forename><surname>Castano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dewitz</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2023.1109411</idno>
+		<idno type="PMID">37064042</idno>
+		<ptr target="https://doi.org/10.3389/fmed.2023.1109411" />
+		<imprint>
+			<date type="published" when="2023-03-31">2023 Mar 31</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">1109411</biblScope>
+		</imprint>
+	</monogr>
+	<note>Front Med (Lausanne)</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">A Natural Language Processing Algorithm for Classifying Suicidal Behaviors in Alzheimer&apos;s Disease and Related Dementia Patients: Development and Validation Using Electronic Health Records Data. medRxiv</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zandbiglari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Hasanzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kotecha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sajdeya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Goodin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2023.07.21.23292976</idno>
+		<idno type="PMID">37546764</idno>
+		<ptr target="https://www.medrxiv.org/content/10.1101/2023.07.21.23292976" />
+		<imprint>
+			<date type="published" when="2023">2023. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Development and validation of a reinforcement learning algorithm to dynamically optimize mechanical ventilation in critical care</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Peine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hallawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bickenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Fazlic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schmeink</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-021-00388-6</idno>
+		<ptr target="https://doi.org/10.1038/s41746-021-00388-6PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">33608661</biblScope>
+			<date type="published" when="2021-02-19">2021 Feb 19</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Real-time machine learning model to predict short-term mortality in critically ill patients: development and international validation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Gim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">G</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13054-024-04866-7</idno>
+		<ptr target="https://doi.org/10.1186/s13054-024-04866-7PMID" />
+	</analytic>
+	<monogr>
+		<title level="j">Crit Care</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">38486247</biblScope>
+			<date type="published" when="2024-03-14">2024 Mar 14</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Openai</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Introducing</forename><surname>Chatgpt</surname></persName>
+		</author>
+		<ptr target="https://openai.com/index/chatgpt" />
+		<imprint>
+			<date type="published" when="2022-11-30">2022 Nov 30. 2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">A Comprehensive Overview of Large Language Models</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Naveed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Saqib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Usman</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2307.06435v9</idno>
+		<ptr target="http://arxiv.org/abs/2307.06435" />
+		<imprint>
+			<date type="published" when="2024-05-08">2024. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<author>
+			<persName><surname>Deci</surname></persName>
+		</author>
+		<ptr target="https://deci.ai/blog/list-of-large-language-models-in-open-source/" />
+		<title level="m">Top Large Language Models Reshaping the Open-Source Arena</title>
+		<imprint>
+			<date type="published" when="2024-03-27">2024 Mar 27. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Chatbot Arena: Benchmarking LLMs in the Wild with Elo Ratings. LMSYS Org</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stoica</surname></persName>
+		</author>
+		<ptr target="https://lmsys.org/blog/2023-05-03-arena" />
+		<imprint>
+			<date type="published" when="2023-05-03">2023 May 3. 2023 Oct 15</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Why open-source generative AI models are an ethical way forward for science</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Spirling</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/d41586-023-01295-4</idno>
+		<idno type="PMID">37072520</idno>
+		<ptr target="https://doi.org/10.1038/d41586-023-01295-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">616</biblScope>
+			<biblScope unit="issue">7957</biblScope>
+			<biblScope unit="page">413</biblScope>
+			<date type="published" when="2023-04">2023 Apr</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feng</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2310.05694v1</idno>
+		<ptr target="http://arxiv.org/abs/2310.05694" />
+		<title level="m">A Survey of Large Language Models for Healthcare: from Data, Technology, and Applications to Accountability and Ethics</title>
+		<imprint>
+			<date type="published" when="2023">2023. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Towards Expert-Level Medical Question Answering with Large Language Models</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gottweis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sayres</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wulczyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2305.09617v1</idno>
+		<ptr target="http://arxiv.org/abs/2305.09617" />
+		<imprint>
+			<date type="published" when="2023">2023. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Labrak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bazoge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Morin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Gourraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rouvier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dufour</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Biomistral</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2402.10373v1[Preprint].2024</idno>
+		<ptr target="http://arxiv.org/abs/2402.10373" />
+		<title level="m">A Collection of Open-Source Pretrained Large Language Models for Medical Domains</title>
+		<imprint>
+			<date type="published" when="2024-05-08">2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.findings-emnlp.725</idno>
+		<ptr target="https://doi.org/10.18653/v1/2023.findings-emnlp.725" />
+		<title level="m">Findings of the Association for Computational Linguistics: EMNLP 2023</title>
+		<imprint>
+			<publisher>Singapore. Association for Computational Linguistics</publisher>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="page" from="10859" to="10885" />
+		</imprint>
+	</monogr>
+	<note>Towards Taming Language Model to Be a Doctor</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Visual Med-Alpaca: A Parameter-Efficient Biomedical LLM with Visual Capabilities. University of Cambridge</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shareghi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Collier</surname></persName>
+		</author>
+		<ptr target="https://cambridgeltl.github.io/visual-med-alpaca/" />
+		<imprint>
+			<date type="published" when="2024-05-08">2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The future landscape of large language models in medicine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clusmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Kolbinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Muti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">I</forename><surname>Carrero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Eckardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Laleh</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s43856-023-00370-1</idno>
+		<idno type="PMID">37816837</idno>
+		<ptr target="https://doi.org/10.1038/s43856-023-00370-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun Med (Lond)</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">141</biblScope>
+			<date type="published" when="2023-10-10">2023 Oct 10</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">La sanidad privada en Andalucı ´a sigue su ascenso. Portal de Andalucı ´a</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Martı ´n</surname></persName>
+		</author>
+		<ptr target="https://portaldeandalucia.org/opinion/la-sanidad-privada-en-andalucia-sigue-su-ascenso/" />
+		<imprint>
+			<date type="published" when="2021-08-01">2021 Aug 1. 2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">A guide to sharing open healthcare data under the General Data Protection Regulation. Sci Data</title>
+		<author>
+			<persName><forename type="first">Jwtm</forename><surname>De Kok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">La</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hoz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>´a</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>De Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brokke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pwg</forename><surname>Elbers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thoral</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41597-023-02256-2</idno>
+		<ptr target="https://doi.org/10.1038/s41597-023-02256-2PMID" />
+		<imprint>
+			<date type="published" when="2023-06-24">2023 Jun 24</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">37355751</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<author>
+			<persName><surname>Intellilung</surname></persName>
+		</author>
+		<ptr target="https://intellilung-project.eu/" />
+		<title level="m">Intelligent Lung Support for Mechanically Ventilated Patients in the Intensive Care Unit</title>
+		<imprint>
+			<date type="published" when="2023">2023. 2024 May 8</date>
+		</imprint>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">HealthTech Implications of the New EU AI Act. Healthcare Digital</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Price</surname></persName>
+		</author>
+		<ptr target="https://www.healthcare.digital/single-post/healthtech-implications-of-the-new-eu-ai-act-2024" />
+		<imprint>
+			<date type="published" when="2024-02-05">2024 Feb 5. 2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Assess-Dht</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Internet</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<ptr target="https://assess-dht.eu/" />
+		<title level="m">Development &amp; harmonisation of methodologies for assessing digital health technologies in Europe</title>
+		<imprint>
+			<date type="published" when="2024-05-08">2024. 2024 May 8</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Benefits and Risks of AI in Health Care: Narrative Review</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>JMIR Publications Inc.</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2024-11-18">2024-11-18</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><roleName>MBA</roleName><forename type="first">Margaret</forename><surname>Chustecki</surname></persName>
+							<email>margaret.chustecki@imgnh.com</email>
+							<idno type="ORCID">0009-0000-7137-4008</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Yale School of Medicine</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Internal Medicine</orgName>
+								<orgName type="institution">Yale School of Medicine</orgName>
+								<address>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Benefits and Risks of AI in Health Care: Narrative Review</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Interactive Journal of Medical Research</title>
+						<title level="j" type="abbrev">Interact J Med Res</title>
+						<idno type="eISSN">1929-073X</idno>
+						<imprint>
+							<publisher>JMIR Publications Inc.</publisher>
+							<biblScope unit="volume">13</biblScope>
+							<biblScope unit="page">e53616</biblScope>
+							<date type="published" when="2024-11-18" />
+						</imprint>
+					</monogr>
+					<idno type="MD5">51697A5DAAD407803FFAF199820D37BE</idno>
+					<idno type="DOI">10.2196/53616</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>safety risks</term>
+					<term>biases</term>
+					<term>AI</term>
+					<term>benefit</term>
+					<term>risk</term>
+					<term>health care</term>
+					<term>safety</term>
+					<term>ethics</term>
+					<term>transparency</term>
+					<term>data privacy</term>
+					<term>accuracy</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Background:</head><p>The integration of artificial intelligence (AI) into health care has the potential to transform the industry, but it also raises ethical, regulatory, and safety concerns. This review paper provides an in-depth examination of the benefits and risks associated with AI in health care, with a focus on issues like biases, transparency, data privacy, and safety.</p><p>Objective: This study aims to evaluate the advantages and drawbacks of incorporating AI in health care. This assessment centers on the potential biases in AI algorithms, transparency challenges, data privacy issues, and safety risks in health care settings.</p><p>Methods: Studies included in this review were selected based on their relevance to AI applications in health care, focusing on ethical, regulatory, and safety considerations. Inclusion criteria encompassed peer-reviewed articles, reviews, and relevant research papers published in English. Exclusion criteria included non-peer-reviewed articles, editorials, and studies not directly related to AI in health care. A comprehensive literature search was conducted across 8 databases: OVID MEDLINE, OVID Embase, OVID PsycINFO, EBSCO CINAHL Plus with Full Text, ProQuest Sociological Abstracts, ProQuest Philosopher's Index, ProQuest Advanced Technologies &amp; Aerospace, and Wiley Cochrane Library. The search was last updated on June 23, 2023. Results were synthesized using qualitative methods to identify key themes and findings related to the benefits and risks of AI in health care. Results: The literature search yielded 8796 articles. After removing duplicates and applying the inclusion and exclusion criteria, 44 studies were included in the qualitative synthesis. This review highlights the significant promise that AI holds in health care, such as enhancing health care delivery by providing more accurate diagnoses, personalized treatment plans, and efficient resource allocation. However, persistent concerns remain, including biases ingrained in AI algorithms, a lack of transparency in decision-making, potential compromises of patient data privacy, and safety risks associated with AI implementation in clinical settings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions:</head><p>In conclusion, while AI presents the opportunity for a health care revolution, it is imperative to address the ethical, regulatory, and safety challenges linked to its integration. Proactive measures are required to ensure that AI technologies are developed and deployed responsibly, striking a balance between innovation and the safeguarding of patient well-being.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Artificial intelligence (AI) has rapidly proliferated across various sectors in recent years, with the health care industry emerging as a primary arena for its transformative potential. This technological advancement holds promise for revolutionizing patient care and administrative operations by leveraging vast longitudinal patient data <ref type="bibr" target="#b0">[1]</ref>. AI encompasses a spectrum of technologies, including machine learning (ML), natural language processing (NLP), rule-based expert systems (RBES), physical robots, and robotic process automation, each offering unique capabilities from predictive modeling and disease detection to</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Eligibility Criteria</head><p>Specific inclusion and exclusion criteria were established to guide the selection of studies for this narrative review. Studies were included if they were relevant to the 3 core concepts of AI, ethics, and health and were written in the English language.</p><p>Articles were excluded if they did not explicitly address each of the core concepts of AI, ethics, and health or if they were not written in English. In addition, studies focusing solely on ethics and big data without explicit mention of AI methods or applications were excluded. Non-peer-reviewed academic literature, such as letters and non-peer-reviewed conference proceedings, as well as books and book chapters, were also excluded as they were deemed irrelevant to this review. No restrictions were applied regarding the publication date or study design to ensure a broad overview of the topic.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Information Sources</head><p>The literature search used 8 electronic databases: OVID MEDLINE (1946-present), OVID Embase (1947-present), OVID PsycINFO (1806-present), EBSCO CINAHL Plus with Full Text (1937-present), ProQuest Sociological Abstracts (1952-present), ProQuest Philosopher's Index (1940-present), ProQuest Advanced Technologies &amp; Aerospace (1962-present), and Wiley Cochrane Library. Search strategies were tailored to each database (Multimedia Appendix 1), using controlled vocabulary, Medical Subject Headings (MeSH) terms, EMTREE terms, American Psychological Association's Thesaurus of Psychological Index Terms, CINAHL headings, Sociological Thesaurus, Philosopher's Index subject headings, and Advanced Technologies &amp; Aerospace subject headings. The searches were limited to English language-only articles, and filters excluding animal studies were applied to specific databases. In addition, a filter for health or medicine-related studies was applied to the Advanced Technologies &amp; Aerospace database.</p><p>The final searches of the peer-reviewed literature were completed on June 23, 2023. Gray literature was not searched in this narrative review.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Selection and Sources of Evidence</head><p>All identified records from the academic literature searches were imported into the reference management software EndNote (Clarivate). After removing duplicate records, screening was conducted in 2 steps: initial title and abstract screening followed by full-text review. Full-text reviews were conducted to ensure that the selected studies provided substantial insights for the narrative synthesis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Charting Process</head><p>Data charting forms were developed and refined based on the narrative review research question. The forms included fields for recording data such as the objective of each paper, institutional affiliations of authors, publication year, country of the first and corresponding authors, conflict of interest disclosures, health context of interest, AI applications or technologies discussed, ethical concepts, issues or implications raised, reference to global health, and recommendations for future research, policy, or practice. Data were recorded directly into the data charting form with corresponding page numbers to ensure accuracy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Synthesis of Results</head><p>Data analysis included thematic components. Thematic analysis was conducted inductively, generating open descriptive codes from a sample of records. Codes were applied to relevant data points across all records, with new codes added as needed. These codes were then organized into themes, allowing for the identification of commonalities and gaps in the literature. Results are presented in a narrative format.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Overview</head><p>Within the realm of integrating AI into health care, this narrative review has revealed a broad range of insights that span a spectrum of possibilities and challenges. This section categorizes the findings into 2 overarching categories: "Benefits" and "Risks." Each category encapsulates a tapestry of themes that emerged from an exploration of academic literature. As these themes are explored, the multifaceted landscape of AI's influence on health care is illuminated. The "Benefits" section unveils the potential for AI to revolutionize health care delivery, ushering in more accurate diagnoses, personalized treatment regimens, and streamlined resource allocation. Conversely, the "Risks" section delves into the intricate ethical, privacy, and safety concerns that accompany the integration of AI into clinical settings. Through a comprehensive examination of these themes, this review provides a nuanced perspective on the implications and imperatives in harnessing AI's potential for the betterment of health care.</p><p>The systematic literature review process, as illustrated in the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) flow diagram (Figure <ref type="figure" target="#fig_0">1</ref>), outlines a thorough and rigorous methodology. Initial searches across multiple databases-MEDLINE, Embase, PsycINFO, ProQuest Sociological Abstracts, CINAHL, ProQuest Philosopher's Index, ProQuest Advanced Technologies &amp; Aerospace, and Cochrane Library-yielded a total of 8796 articles. After removing 4798 duplicates using Endnote, 3738 unique records were screened for relevance. Of these, 3155 articles were excluded based on title and abstract review for not meeting the inclusion criteria. The remaining 583 articles underwent full-text assessment for eligibility. Further evaluation led to the exclusion of 539 articles due to various reasons, such as unavailability of full text (n=171), irrelevance to the primary outcome (n=290), non-English language (n=22), not being peer-reviewed (n=29), and not being original research (n=27). Ultimately, 44 studies were included in the qualitative synthesis and data extraction. This meticulous selection process ensured that the final set of studies provided a robust and representative foundation for examining the integration of AI in health care. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Benefits of AI in Health Care</head><p>Textbox 1 below describes the main benefits of implementing AI in health care. The benefits are explained in detail below.</p><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 4 <ref type="url" target="https://www.i-jmr.org/2024/1/e53616">https://www.i-jmr.org/2024/1/e53616</ref> (page number not for citation purposes) Chustecki INTERACTIVE JOURNAL OF MEDICAL RESEARCH XSL • FO RenderX Textbox 1. Benefits of artificial intelligence (AI) in health care. Medical benefits • Helps in prediction of various risks and diseases • Helps in prevention and control of various diseases • Leads to better data-driven decisions within the health care system • Assists in improving surgery • Supports mental health Economic and social benefits • Reduction in posttreatment expenditures • Cost saving through early diagnosis • Cost saving with enhanced clinical trials • Patient empowerment • Relieving medical practitioners' workload</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Medical Benefits</head><p>AI adoption in health care offers various medical, economic, and social benefits. This section discusses some of the key medical benefits of AI.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prediction of Risks and Diseases</head><p>AI leverages big data to predict diseases and assess risk exposure among patients. For example, Google collaborates with health delivery networks to develop prediction models that alert clinicians of high-risk illnesses like sepsis and heart failure <ref type="bibr" target="#b18">[18]</ref>. ML models can also be used to forecast populations at risk of specific diseases or accidents <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b20">20]</ref>. In addition, AI algorithms, such as deep learning, aid in disease classification and enable more personalized care <ref type="bibr" target="#b21">[21]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Prevention and Control of Diseases</head><p>AI can play a significant role in the prevention and control of diseases. For instance, AI can enhance sexually transmitted infection (STI) prevention and control by improving surveillance and intervention. By analyzing publicly available social media data, AI can predict county-level syphilis prevalence, enabling faster and more efficient monitoring <ref type="bibr" target="#b22">[22]</ref>. AI can also analyze trends in web data to reduce the stigma associated with STI prevention and care and identify and flag STI-related misinformation <ref type="bibr" target="#b22">[22]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data-Driven Decision Making</head><p>AI enables better data-driven decisions within the health care system. In a digitalized health care environment, the quality of decision-making relies on the availability and accuracy of underlying data <ref type="bibr" target="#b23">[23]</ref>. AI can assist in decision-making by offering real-time recommendations based on clinical guidelines or advancements, reducing the likelihood of medical mistakes <ref type="bibr" target="#b24">[24]</ref>. For example, IBM Watson Health uses ML to provide clinical decision support and achieved a high level of agreement with physician recommendations <ref type="bibr" target="#b25">[25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Improvement in Surgery</head><p>AI has made significant advancements in surgical procedures.</p><p>Robotic surgery, such as in gynecologic, prostate, and oral and maxillofacial surgery, enhances surgical precision and predictability <ref type="bibr" target="#b7">[7,</ref><ref type="bibr" target="#b26">26]</ref>. Telesurgical techniques driven by AI enable remote surgery and provide better supervision of surgeons <ref type="bibr" target="#b27">[27]</ref>. AI-powered surgical mentorship allows skilled surgeons to offer real-time advice and guidance to other surgeons during procedures, improving surgical outcomes <ref type="bibr" target="#b28">[28]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mental Health Support.</head><p>AI use in mental health treatments is growing as patients prefer simple and quick feedback <ref type="bibr" target="#b29">[29]</ref>. According to Lovejoy et al <ref type="bibr" target="#b30">[30]</ref>, psychiatric professionals have historically relied on therapeutic discourse and patient narrative to assess mental health since language is the primary means to communicate our emotional and mental well-being. Recent advancements in AI have opened up new perspectives on the subject by enabling technology to infer emotional meaning from more data sources <ref type="bibr" target="#b30">[30]</ref>. According to Habermann <ref type="bibr" target="#b31">[31]</ref>, with a unique combination of NLP and sentiment analysis, data scientists have developed algorithms to comprehend human emotion from the text. Le Glaz et al <ref type="bibr" target="#b32">[32]</ref> mentions that in recent years, NLP models have been used to track mental self-disclosure on Twitter, forecast suicide risk online, and identify suicidal thoughts in clinical notes. These models are used in medicine to give complete details about a patient's emotional and psychological health <ref type="bibr" target="#b31">[31]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Economic and Social Benefits</head><p>In addition to the medical health benefits, using AI in health care has other economic and social advantages, as discussed below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Reduction in Posttreatment Expenditures.</head><p>AI-powered systems can analyze posttreatment result patterns and identify the most effective remedies based on patient profiles. This personalized approach to care can significantly reduce the expenses associated with posttreatment complications, which are a major cost driver in health care</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>XSL • FO</head><p>RenderX systems worldwide <ref type="bibr" target="#b33">[33]</ref>. By providing immediate diagnosis and appropriate interventions, AI can help minimize the financial burden of posttreatment complications and lead to substantial cost savings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost Saving Through Early Diagnosis.</head><p>AI has demonstrated superior accuracy and speed in analyzing medical images, such as mammograms, leading to the early detection of diseases like breast cancer. By enabling prompt diagnosis and action before issues escalate, AI can help reduce health care costs associated with late-stage diagnoses <ref type="bibr" target="#b28">[28]</ref>. In addition, AI's ability to process and interpret various medical tests, such as computed tomography scans, with high accuracy reduces the likelihood of physician errors, contributing to cost savings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cost Saving with Enhanced Clinical Trials.</head><p>AI-powered programs can simulate and evaluate numerous potential treatments to predict their effectiveness against various diseases, optimizing the drug development process in clinical trials <ref type="bibr" target="#b34">[34]</ref>. By leveraging biomarker monitoring frameworks and analyzing large volumes of patient data, AI accelerates the evaluation of potential treatments, leading to significant cost savings in the development of life-saving medications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Patient Empowerment.</head><p>AI has the potential to empower individuals in managing their health. Wearable devices, such as smartwatches, can collect standard health data, which AI algorithms can analyze to provide personalized health recommendations and warnings for potential diseases <ref type="bibr" target="#b35">[35]</ref>. Smartphone apps that use ML algorithms can help patients with chronic diseases better manage their conditions, leading to healthier populations and reduced health care expenses <ref type="bibr" target="#b36">[36]</ref>.</p><p>Relieving Medical Practitioners' Workload.</p><p>AI technologies can alleviate the burden on health care workers by assisting with administrative tasks, data analysis, and image interpretation. AI can automate clerical responsibilities, analyze patient data more efficiently, and aid in diagnosing various medical conditions <ref type="bibr" target="#b37">[37,</ref><ref type="bibr" target="#b38">38]</ref>. By reducing manual labor and prioritizing critical cases, AI helps save time and resources for medical practitioners, ultimately leading to increased productivity and improved patient care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Risks of AI in Health Care</head><p>The risks of AI in health care are listed in Textbox 2.</p><p>Textbox 2. Risks of artificial intelligence (AI) in health care.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Risks of AI in health care</head><p>• AI diagnosis is not always superior to human diagnosis • AI programs may be difficult to understand and overly ambitious • Implementation issues • Transparency issues and risks with data sharing • Biases • Mistakes in disease diagnosis or AI cannot be held accountable • Data availability and accessibility • Regulatory concerns • Social challenges</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AI Diagnosis Is Not Always Superior to Human Diagnosis.</head><p>While AI has the potential to improve accurate diagnosis, it is not always superior to human diagnosis. Early AI systems, such as the MYCIN program developed in the 1970s, showed promise in diagnosing and treating diseases but did not outperform human diagnosticians <ref type="bibr" target="#b39">[39]</ref>. These RBES needed better integration with clinical workflows and medical record systems to be practical and effective. In addition, AI models can suffer from overfitting, generating irrelevant correlations between patient characteristics and outcomes, which can lead to incorrect predictions when applied to new cases <ref type="bibr" target="#b40">[40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Challenges in Understanding and Ambition of AI Programs</head><p>Physicians may find it challenging to understand AI programs, particularly in complex domains like cancer diagnosis and treatment. IBM's Watson program, which combines ML and NLP, garnered attention for its focus on precision medicine. However, integrating Watson into care processes and systems and programming it to handle certain types of cancer has proven difficult <ref type="bibr" target="#b41">[41]</ref>. The ambition of AI programs, such as tackling complex cancer therapy, may exceed their current capabilities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implementation Issues</head><p>Implementing AI in health care faces several challenges. RBES embedded in electronic health care systems are commonly used but may lack the accuracy of algorithmic systems based on ML. These RBES struggle to keep up with evolving medical knowledge and handle large amounts of data <ref type="bibr" target="#b42">[42]</ref>. The lack of empirical evidence confirming the efficacy of AI-based treatments in prospective clinical trials hinders successful implementation <ref type="bibr" target="#b43">[43]</ref>. Much of the AI research in health care is preclinical and lacks real-world validation <ref type="bibr" target="#b44">[44]</ref>.</p><p>Integration into physician workflow is crucial for successful implementation, but there are limited examples of AI integration into clinical Interact J Med Res 2024 | vol. 13 | e53616 | p. 6 <ref type="url" target="https://www.i-jmr.org/2024/1/e53616">https://www.i-jmr.org/2024/1/e53616</ref> (page number not for citation purposes) Chustecki INTERACTIVE JOURNAL OF MEDICAL RESEARCH XSL • FO RenderX treatment, and training physicians to use AI effectively can be a time-consuming process [45].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Transparency Issues and Risks With Data Sharing</head><p>The use of intelligent machines in health care decision-making raises concerns about accountability, transparency, permission, and privacy <ref type="bibr" target="#b1">[2]</ref>. Understanding and interpreting AI systems, such as deep learning algorithms used in image analysis, can be challenging <ref type="bibr" target="#b1">[2]</ref>. Physicians who lack comprehension of the inner workings of AI models may struggle to communicate the medical treatment process to patients <ref type="bibr" target="#b46">[46]</ref>. Increased reliance on AI may lead to automated decision-making, limiting the contact and communication between health care workers and patients <ref type="bibr" target="#b46">[46]</ref>.</p><p>The rapid emergence of new technologies in health care has sparked skepticism due to the risks associated with data sharing <ref type="bibr" target="#b17">[17]</ref>. There is a need for public norms that ensure data governance and openness, as well as improve patient understanding of how and why data are used <ref type="bibr" target="#b17">[17]</ref>. Concerns about privacy violations arise from the collection of large data sets and the potential for AI to anticipate personal information <ref type="bibr" target="#b47">[47]</ref>. Patients may perceive this as a violation of their privacy, especially if the findings are made public to third parties <ref type="bibr" target="#b48">[48]</ref>.</p><p>Respecting patient confidentiality and acquiring informed consent for data use are ethically required <ref type="bibr" target="#b49">[49]</ref>. AI systems should be protected from privacy breaches to prevent psychological and reputational harm to patients <ref type="bibr" target="#b49">[49]</ref>. Recent incidents, such as the misuse of Facebook personal data by Cambridge Analytica and the sharing of patient data without explicit consent by the Royal Free London NHS Foundation Trust, have raised concerns about privacy violations <ref type="bibr" target="#b49">[49,</ref><ref type="bibr" target="#b50">50]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Biases</head><p>ML systems in health care can be prone to algorithmic bias, leading to predictions based on noncausal factors like gender or ethnicity <ref type="bibr" target="#b51">[51]</ref>. Prejudice and inequality are among the risks associated with health care AI <ref type="bibr" target="#b28">[28]</ref>. Biases present in the data used to train AI systems can result in inaccurate outcomes, especially if certain races or genders are underrepresented <ref type="bibr" target="#b28">[28]</ref>. Unrepresentative data can further perpetuate health inequities and lead to risk underestimation or overestimation in specific patient populations <ref type="bibr" target="#b52">[52]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mistakes in Disease Diagnosis and Lack of Accountability</head><p>AI systems can make mistakes in patient diagnosis and treatment, creating potential harm <ref type="bibr" target="#b28">[28]</ref>. Holding AI systems accountable can be challenging, as liability concerns arise regarding errors and the allocation of responsibility <ref type="bibr" target="#b53">[53]</ref>. The lack of explanation from deep learning algorithms can hinder both legal accountability and scientific understanding, potentially eroding patients' trust in the system <ref type="bibr" target="#b54">[54]</ref>.</p><p>Determining accountability for AI failures is an ongoing challenge, as holding the physician accountable may seem unjust, while holding the developer accountable may be too removed from the clinical setting <ref type="bibr" target="#b24">[24]</ref>. The question of who should be held accountable when AI systems fail remains to be answered <ref type="bibr" target="#b24">[24]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability and Accessibility</head><p>Large amounts of data from various sources are required to train AI algorithms in health care <ref type="bibr" target="#b55">[55]</ref>. However, accessing health data can be challenging due to fragmentation across different platforms and systems <ref type="bibr" target="#b55">[55]</ref>. Data availability in health care is limited, and there is often a reluctance to share data between hospitals <ref type="bibr" target="#b56">[56]</ref>. The continuous availability of data for ongoing improvement of ML-based systems can be difficult due to organizational resistance <ref type="bibr" target="#b57">[57]</ref>. Technological advancements and improved algorithms can help address the problem of limited data sets <ref type="bibr" target="#b57">[57]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Regulatory Concerns</head><p>The autolearn feature of AI software poses regulatory challenges as algorithms evolve continuously with use <ref type="bibr" target="#b58">[58]</ref>. This creates the need for additional policies and procedures to ensure patient safety <ref type="bibr" target="#b58">[58]</ref>. Many countries have yet to formalize regulatory guidelines for assessing AI algorithmic safety, which can hinder AI adoption and lead to risky practices <ref type="bibr" target="#b59">[59]</ref>. The lack of industry rules on the ethical usage of AI in health care further complicates the accountability issue <ref type="bibr" target="#b60">[60]</ref>. Efforts by the Food and Drug Administration and National Health Service to establish guidelines and standards are ongoing but pose barriers to regulatory approval <ref type="bibr" target="#b60">[60,</ref><ref type="bibr" target="#b61">61]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Social Challenges</head><p>Misconceptions about AI replacing health care jobs lead to skepticism and aversion to AI-based interventions <ref type="bibr" target="#b43">[43]</ref>. However, the arrival of AI does not necessarily mean job obsolescence but rather job reengineering <ref type="bibr" target="#b62">[62]</ref>. Overcoming skepticism and fostering trust in AI requires a better understanding of its capabilities and meaningful public discourse <ref type="bibr" target="#b62">[62]</ref>. Improving public and health care professionals' understanding of AI is essential to managing expectations and addressing concerns.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Principal Findings</head><p>This narrative review delves into the dynamic landscape of AI integration in health care, aiming to uncover a spectrum of perspectives, concerns, and opportunities. This exploration encompasses a diverse range of health care settings from different countries and regions, unveiling a rich tapestry of AI adoption. Overall, AI offers tremendous potential and will continue to play a crucial role in future health care decisions. If AI is successfully used, it can reduce pressure on health care workers while improving work quality by lowering mistakes and improving precision. It has the potential to give people more control over their health decisions and can lower avoidable hospitalizations. It can broaden the scope of medical knowledge and build on the present clinical guidelines. Given its advantages and capability to drive the development of precision medicine, it is universally acknowledged to be a much-needed enhancement in medicine. AI is anticipated to eventually master most of the essential domains within health care.</p><p>However, there are some difficulties associated with incorporating AI in health care. Acquiring enough data to train precise algorithms is a continual effort that necessitates a shift in attitude towards data sharing that promotes technical advancement. Specific guidelines on how to securely adopt and evaluate AI technology and research on AI's potential and limitations are required. Robust research is also required to empirically demonstrate the benefits of AI use in the actual world. While the perfect conditions for successful AI adoption may not yet exist, there is still room for AI advancement in health care.</p><p>Given that AI has tremendous potential and is the future, there are a few crucial points to consider when using AI in health care. First, given the need for more general agreement in AI governance, it may be impossible to develop AI-based systems whose algorithms can be generalized across all health care domains. As a result, it may be wise to concentrate on systems that can be implemented and used effectively in the health care institutions for which they were designed. Fundamentally, patient care must take priority over the excitement of cutting-edge technology. The AI system's safety and competence must be weighed for use only when appropriate and valuable to patients.</p><p>Second, AI in health care must still be complemented with human input. Although AI has advantages in speed and accuracy, physicians are still needed for more cognitively complex or psychological elements and activities. Similarly, although the detection and monitoring of vital disease symptoms are now automated, the objective behind AI is not to eliminate physician input but to focus their expertise on areas where they are more necessary and on what computers cannot and may never imitate. Therefore, focusing on developing complementarity between the use of AI and physicians by training is essential.</p><p>In addition, while it is critical to lower expectations, it is also critical not to be excessively gloomy about the role of AI in health care. While physicians may need to comprehend the processes of AI algorithms, most physicians understand magnetic resonance imaging or computed tomography to some level. Despite a lack of individual physician comprehension of their specific process, these studies are extensively used. The lack of transparency in ML algorithms may thus be tolerable if the algorithm's efficacy can be demonstrated. Again, this can be achieved with training and familiarizing the physician with the AI system.</p><p>Rather than putting AI to a standard of either perfect or nil results, one should compare the outcomes of using AI to those of the natural world, where physicians can and will make mistakes. Importantly, AI is dynamic in nature and can improve using more extensive data sets. As a result, it is entirely possible that the combined usage of physician and AI input would be more successful over time. However, it is critical not to overstate the status of AI. Its implementation in health care will be a careful, deliberate, and progressive process, including strict control and monitoring of its use and efficacy. AI can help patients and increase the quality of care when combined with input and oversight from health care professionals. AI systems will not wholly replace human clinicians but will supplement their efforts to care for patients. Human therapists may eventually shift towards jobs and job designs that require distinctly human skills, such as enthusiasm and knowledge to use AI in health care.</p><p>As global communities live longer lives and the prevalence of chronic disease rises, the rising cost of health care will remain a hot topic among health care stakeholders. It is time to seek the assistance of machines as they can potentially reduce economic costs. Furthermore, coordination between government and private sector industry partners is vital to realize this potential and take advantage of AI's full potential in health care delivery.</p><p>With all this, the key challenge for AI in many sectors of health care is ensuring its adoption in daily clinical practice rather than whether the technologies will be equipped to be effective. AI systems must be approved by regulators, linked with electronic health record systems, standardized to the point that similar products perform similarly, taught to medical practitioners, paid for by public or private payer organizations, and modified in the field over time for widespread adoption to occur shortly. Since AI has a significant and lasting impact on lives and is the future of health care, it is essential to address the associated concerns. Given its importance, AI needs proper policy guidelines and regulations regarding its usage in health care to reap its maximum benefits.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Comparison With Previous Literature</head><p>In comparing the findings of this review with existing literature, several key similarities and differences emerge. This review aligns with Gazquez-Garcia et al <ref type="bibr" target="#b63">[63]</ref> and Mooghali et al <ref type="bibr" target="#b64">[64]</ref> in highlighting the crucial role of health care professional training for effective AI integration. Both emphasize the need for proficiency in AI fundamentals, data analytics, and ethical considerations, reinforcing the notion that successful AI adoption requires a well-prepared workforce. The review also echoes Sapci and Sapci's <ref type="bibr" target="#b65">[65]</ref> advocacy for incorporating AI education into medical curricula to address future challenges.</p><p>However, this review diverges in its emphasis on practical AI implementation challenges. While Moghadasi et al <ref type="bibr" target="#b66">[66]</ref> and Muley et al <ref type="bibr" target="#b67">[67]</ref> discuss the risks associated with AI, including the need for enhanced transparency and stakeholder collaboration, this review adds a nuanced perspective on balancing AI's potential benefits with its ethical risks. For instance, this review highlights the importance of human oversight and the complementarity of AI with clinician expertise, which aligns with Morley et al <ref type="bibr" target="#b68">[68]</ref> and Zhang and Zhang <ref type="bibr" target="#b69">[69]</ref> but also offers additional insights into practical implementation issues not fully covered in the previous reviews.</p><p>In terms of public perception, this review supports Kerstan <ref type="bibr" target="#b70">[70]</ref> and Castagno and Khalifa <ref type="bibr" target="#b71">[71]</ref> by acknowledging that trust in AI is influenced by knowledge and transparency. However, it further explores the dynamic interaction between AI's promise and the necessity for rigorous validation and ethical governance, as discussed by Macrae <ref type="bibr" target="#b72">[72]</ref> and Tulk Jesso et al <ref type="bibr" target="#b73">[73]</ref>. This review underscores that while AI has the potential to revolutionize health care, its integration must be handled with careful consideration of both practical and ethical dimensions</p><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 8 <ref type="url" target="https://www.i-jmr.org/2024/1/e53616">https://www.i-jmr.org/2024/1/e53616</ref> (page number not for citation purposes) Chustecki INTERACTIVE JOURNAL OF MEDICAL RESEARCH XSL • FO RenderX to achieve meaningful improvements in patient care and outcomes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Strengths and Limitations</head><p>First, the generalizability of the findings may be affected by the inherent variations in study methodologies, AI implementations, and health care settings across different regions. This heterogeneity introduces variability that could influence the applicability of the conclusions. To mitigate this limitation, rigorous search strategies were used across multiple databases to include a diverse range of studies. Future reviews could benefit from incorporating more standardized studies to enhance generalizability. Second, the reliance on published literature from electronic databases introduces potential publication bias. Studies with positive outcomes related to AI integration in health care may be more likely to be published, which could skew perceptions of AI effectiveness and adoption rates. Efforts were made to address this bias by including a broad range of databases and emphasizing recent literature. Future research should aim to include unpublished studies or grey literature to provide a more balanced view. Third, the rapid evolution of AI technologies means that newer developments and implementations may not have been fully captured in this review. The review focused on the most current literature available at the time of the search to address this issue. Regular updates will be necessary to incorporate the latest advancements and ensure the review remains relevant. In addition, the absence of details around stakeholder engagement could have enriched the study by providing additional depth and perspective. Engaging stakeholders in such a dynamic field would offer diverse viewpoints and further validate the conclusions. Future research should consider incorporating stakeholder engagement to enhance the robustness and applicability of the findings. Despite these limitations, this review offers several notable strengths. It provides a comprehensive overview of AI integration in health care, leveraging rigorous search strategies across multiple databases to ensure a diverse and current collection of literature. This approach contributes to a nuanced understanding of AI's potential and limitations. Furthermore, the emphasis on recent developments helps ensure that the review reflects the most current trends and advancements in AI technologies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Future Directions</head><p>Moving forward, further research in the field of AI integration in health care should address several key areas to advance understanding and application. First, studies should prioritize incorporating stakeholder engagement, including health care providers, patients, policymakers, and technology developers, to provide diverse perspectives on AI adoption and implementation strategies, enhancing relevance and acceptance in clinical practice. Second, longitudinal studies are crucial to assess the long-term impacts of AI technologies in health care settings, providing insights into sustainability, scalability, and real-world effectiveness over time. Third, comprehensive research focusing on the ethical implications of AI, including data privacy, algorithm bias, patient consent, and regulatory frameworks, is needed to build trust and ensure responsible deployment. In addition, comparative effectiveness research comparing AI-assisted interventions with standard care protocols can provide evidence of AI's impact on clinical outcomes, patient safety, and health care efficiency. Interdisciplinary collaboration between computer scientists, health care professionals, social scientists, and ethicists is essential to foster innovative approaches aligned with health care needs. Education and training programs for health care professionals on AI technologies will ensure proficiency in interpreting AI-generated insights and integrating them into patient care effectively. Finally, research should explore how AI can reduce health care disparities and improve access to quality care, particularly in underserved communities and low-resource settings. Addressing these priorities will realize AI's potential in transforming health care delivery and improving patient outcomes globally.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>In summary, AI presents a transformative force in health care, with the potential to enhance patient care, reduce errors, and broaden medical knowledge. However, its successful integration requires adaptability; complementarity with human expertise; transparency; and a deliberate, incremental approach. AI's impact on health care is evolutionary, not revolutionary, and collaboration between stakeholders, standardization, education, and robust policies are essential to harness its full potential while upholding patient-centric care and innovation.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) study selection flow diagram outlining the literature review process when searching for articles on various databases.</figDesc><graphic coords="4,56.69,92.52,481.91,473.28" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 3 https://www.i-jmr.org/2024/1/e53616 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 5 https://www.i-jmr.org/2024/1/e53616 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 7 https://www.i-jmr.org/2024/1/e53616 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>(page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 11 https://www.i-jmr.org/2024/1/e53616 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 12 https://www.i-jmr.org/2024/1/e53616 (page number not for citation purposes)</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Interact J Med Res 2024 | vol. 13 | e53616 | p. 13 https://www.i-jmr.org/2024/1/e53616 (page number not for citation purposes)</p></note>
+		</body>
+		<back>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability</head><p>All data generated or analyzed during this study are included in this published paper and its supplementary information files.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Authors' Contributions</head><p>As the sole author of this manuscript, MC was responsible for all aspects of the study, including conceptualization, literature review, writing, and editing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflicts of Interest</head><p>None declared. ©Margaret Chustecki. Originally published in the Interactive Journal of Medical Research (<ref type="url" target="https://www.i-jmr.org/">https://www.i-jmr.org/</ref>), <ref type="bibr">18.11.2024.</ref> This is an open-access article distributed under the terms of the Creative Commons Attribution License (<ref type="url" target="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ref>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work, first published in the Interactive Journal of Medical Research, is properly cited. The complete bibliographic information, a link to the original publication on <ref type="url" target="https://www.i-jmr.org/">https://www.i-jmr.org/</ref>, as well as this copyright and license information must be included.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Multimedia Appendix 1</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Public perceptions on data sharing: key insights from the UK and the USA</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghafur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Dael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Darzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sheikh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S2589-7500(20)30161-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="444" to="e446" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The potential for artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kalakota</surname></persName>
+		</author>
+		<idno type="DOI">10.7861/futurehosp.6-2-94</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Future Healthc J</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="94" to="98" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 31363513</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A machine learning approach to integrate big data for precision medicine in acute myeloid leukemia</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Celik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Logsdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lundberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Martins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Oehler</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-02465-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">42</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 29298978</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Introduction to Neural Networks in Healthcare</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sordo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Open Clinical Knowledge Management for Medical Care</title>
+		<meeting><address><addrLine>Boston, MA. Margarita Sordo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Using deep learning to enhance cancer diagnosis and classification</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fakoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ladhak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The 30th International Conference on Machine Learning (ICML 2013)</title>
+		<imprint>
+			<publisher>WHEALTH Workshop</publisher>
+			<date type="published" when="2013-06-16">2013. June 16-21, 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Atlanta</surname></persName>
+		</author>
+		<ptr target="https://www.researchgate.net/publication/281857285_Using_deep_learning_to_enhance_cancer_diagnosis_and_classification" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The role of deep learning and radiomic feature extraction in cancer-specific predictive modelling: a review</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stirling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Field</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ros</forename><forename type="middle">M</forename><surname>Ritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carolan</forename><forename type="middle">M</forename></persName>
+		</author>
+		<idno type="DOI">10.21037/tcr.2018.05.02</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Transl Cancer Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="803" to="816" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Just-in-time delivery comes to knowledge management</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Glaser</surname></persName>
+		</author>
+		<idno>Medline: 12140850</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Harv Bus Rev</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="107" to="111" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Trust and medical AI: the challenges we face and the expertise needed to overcome them</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Senadeera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Coghlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Le</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocaa268</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="890" to="894" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 33340404</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A systematic review of trustworthy and explainable artificial intelligence in healthcare: assessment of quality, bias risk, and data fusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Albahri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Duhaim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Fadhel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alnoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Baqer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alzubaidi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.inffus.2023.03.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Information Fusion</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="156" to="191" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Risks and opportunities to ensure equity in the application of big data research in public health</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wesson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hswen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Valdes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stojanovski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Handley</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-publhealth-051920-110928</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Annu Rev Public Health</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="59" to="78" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 34871504</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Source of data for artificial intelligence applications in vascular surgery -a scoping review</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Powezka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Slater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gkoutos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Juszczak</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2023.10.03.23296506</idno>
+	</analytic>
+	<monogr>
+		<title level="j">medRxiv. Preprint posted online on October</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Near real-time natural language processing for the extraction of abdominal aortic aneurysm diagnoses from radiology reports: algorithm development and validation study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaviria-Valencia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Kaggal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mcbane</forename><surname>Ii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Rooke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Chaudhry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.2196/40964</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 36826984</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Using a classification model for determining the value of liver radiological reports of patients with colorectal cancer</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fonc.2022.913806</idno>
+		<idno>Medline: 36479085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Oncol</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">913806</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A large language model for electronic health records</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Pournejatian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parisien</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-022-00742-2</idno>
+		<idno>Medline: 36572766</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">194</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Chatbots and large language models in radiology: a practical primer for clinical and research applications</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bhayana</surname></persName>
+		</author>
+		<idno type="DOI">10.1148/radiol.232756</idno>
+		<idno>Medline: 38226883</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radiology</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2024">2024. 232756</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Improving large language models for clinical named entity recognition via prompt engineering</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Keloth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zuo</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocad259</idno>
+		<idno>Medline: 38281112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1812" to="1820" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Approval of artificial intelligence and machine learning-based medical devices in the USA and Europe (2015-20): a comparative analysis</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">J</forename><surname>Muehlematter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Daniore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Vokinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S2589-7500(20)30292-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="195" to="e203" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 33478929</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Evidence-based medicine: a science of uncertainty and an art of probability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rysavy</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/virtualmentor.2013.15.1.fred1-1301</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Virtual Mentor</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="8" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 23356799</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Scalable and accurate deep learning with electronic health records</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajkomar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oren</forename><forename type="middle">E</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hajaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-018-0029-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 31304302</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Effect of a machine learning-based severe sepsis prediction algorithm on patient survival and hospital length of stay: a randomised clinical trial</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Shimabukuro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Mataraso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjresp-2017-000234</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open Respir Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">234</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 29435343</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Computer-aided diagnosis with deep learning architecture: applications to breast lesions in US images and pulmonary nodules in CT scans</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Tiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/srep24454</idno>
+		<idno>Medline: 27079888</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">24454</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and sexual health in the USA</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Vermund</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S2589-7500(21)00117-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="467" to="e468" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 34325852</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Data-Driven Healthcare: How Analytics and BI are Transforming The Industry</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Madsen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<publisher>Wiley Publishing</publisher>
+			<pubPlace>Hoboken, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The promise of artificial intelligence: a review of the opportunities and challenges of artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">Yym</forename><surname>Aung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dcs</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsw</forename><surname>Ting</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bmb/ldab016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Br Med Bull</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="4" to="15" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 34405854</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence, machine learning and the evolution of healthcare: A bright future or cause for concern?</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Golan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramachandran</surname></persName>
+		</author>
+		<idno type="DOI">10.1302/2046-3758.73.BJR-2017-0147.R1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bone and Joint Research</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="223" to="225" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The role of artificial intelligence in surgery</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Meireles</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.yasu.2020.05.010</idno>
+		<idno>Medline: 32713441</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Surg</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="89" to="101" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Toward deep secure tele-surgery system</title>
+		<author>
+			<persName><forename type="first">Akbar</forename><surname>Safav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fekri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Setoodeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename></persName>
+		</author>
+		<ptr target="https://www.researchgate.net/publication/346502758_Toward_Deep_Secure_Tele-surgery_System" />
+	</analytic>
+	<monogr>
+		<title level="m">The 16th International Conference on Scientific Computing (CSC&apos;18); October 13</title>
+		<meeting><address><addrLine>Las Vegas, NV</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018">2018. 2024</date>
+		</imprint>
+	</monogr>
+	<note>Presented</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">AI in healthcare: medical and socioeconomic benefits and challenges. OSF</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Shaheen</surname></persName>
+		</author>
+		<idno type="DOI">10.31219/osf.io/um38t</idno>
+		<imprint>
+			<date type="published" when="2021-09-28">September 28, 2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">An introduction to artificial intelligence in behavioral and mental health care</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Luxton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence in Behavioral and Mental Health Care</title>
+		<imprint>
+			<biblScope unit="volume">2016</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<publisher>Elsevier Academic Press</publisher>
+			<pubPlace>London, United Kingdom</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Technology and mental health: the role of artificial intelligence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Lovejoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Buch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maruthappu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eurpsy.2018.08.004</idno>
+		<idno>Medline: 30384105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2019-01">Jan 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Language and psycho-social well-being. Knowledge Common Works. Preprint posted online in 2021</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Habermann</surname></persName>
+		</author>
+		<idno type="DOI">10.17613/gb58-rx71</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Machine learning and natural language processing in mental health: systematic review</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Glaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haralambous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim-Dufor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Lenca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Billot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ryan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename></persName>
+		</author>
+		<idno type="DOI">10.2196/15708</idno>
+		<idno>Medline: 33944788</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2021">2021. 15708</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Artificial Intelligence in Healthcare: A New Technology Benefit for Patients and Doctors</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tth</forename><surname>Do</surname></persName>
+		</author>
+		<idno type="DOI">10.23919/picmet.2019.8893884</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Portland International Conference on Management of Engineering and Technology (PICMET)</title>
+		<meeting>the Portland International Conference on Management of Engineering and Technology (PICMET)<address><addrLine>Portland, OR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-08-25">2019. August 25-29, 2019</date>
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence tool for optimizing eligibility screening for clinical trials in a large community cancer center</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rammage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Preininger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dankwa-Mullan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Roebuck</surname></persName>
+		</author>
+		<idno type="DOI">10.1200/CCI.19.00079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JCO Clin Cancer Inform</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="50" to="59" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 31977254</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">How can machine-learning methods assist in virtual screening for hyperuricemia? A healthcare machine-learning approach</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ichikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ujita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Oyama</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbi.2016.09.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Biomed Inform</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="20" to="24" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 27658886</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Machine learning and artificial intelligence research for patient benefit: 20 critical questions on transparency, replicability, ethics, and effectiveness</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vollmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Mateen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bohner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Király</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jonsson</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmj.l6927</idno>
+		<idno>Medline: 32198138</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">What this computer needs is a physician: humanism and artificial intelligence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Verghese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harrington</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.19198</idno>
+		<idno>Medline: 29261830</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="20" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medicine and cardiac imaging: harnessing big data and advanced computing to provide personalized medical diagnosis and treatment</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Dilsizian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Siegel</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11886-013-0441-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr Cardiol Rep</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">441</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 24338557</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">How AI is taking the scut work out of health care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bush</surname></persName>
+		</author>
+		<idno>2024-10-04</idno>
+		<ptr target="https://hbr.org/2018/03/how-ai-is-taking-the-scut-work-out-of-health-care" />
+	</analytic>
+	<monogr>
+		<title level="j">Harvard Business Review</title>
+		<imprint>
+			<date type="published" when="2018-03-05">Mar 5, 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Machine learning for healthcare: on the verge of a major shift in healthcare epidemiology</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wiens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Shenoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/cid/cix731</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Infect Dis</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="149" to="153" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 29020316</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">IBM pitched its Watson supercomputer as a revolution in cancer care. It&apos;s nowhere close</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Swetlitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ross</surname></persName>
+		</author>
+		<idno>2017-09-05</idno>
+		<ptr target="https://www.statnews.com/2017/09/05/watson-ibm-cancer/" />
+	</analytic>
+	<monogr>
+		<title level="j">STAT</title>
+		<imprint>
+			<date type="published" when="2017-09-05">Sep 5, 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">The AI Advantage: How to Put the Artificial Intelligence Revolution to Work</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Davenport</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>The MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Mapping the challenges of artificial intelligence in the public sector: evidence from public healthcare</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Medaglia</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.giq.2018.09.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Government Information Quarterly</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="368" to="383" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence powers digital medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Fogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kvedar</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-017-0012-2</idno>
+		<idno>Medline: 31304291</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence and machine learning in emergency medicine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sprivulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dwivedi</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/1742-6723.13145</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Emerg Med Australas</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="870" to="874" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 30014578</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Machine learning in medicine: Addressing ethical challenges</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vayena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blasimme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pmed.1002689</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Med</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2018">2018. 1002689</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Security enhancement in healthcare cloud using machine learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kartit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ouahmane</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2018.01.136</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="388" to="397" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">How artificial intelligence and machine learning can help healthcare systems respond to COVID-19</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Der Schaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Alaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Floto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gimson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scholtes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wood</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10994-020-05928-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach Learn</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 33318723</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Artificial Intelligence Australia&apos;s Ethics Framework A Discussion Paper</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schleiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mclaughlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Quezada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scowcroft</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<pubPlace>Eveleigh, Australia</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Data 61 CSIRO</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Google deepMind and healthcare in an age of algorithms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Powles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hodson</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12553-017-0179-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Technol (Berl)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="351" to="367" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 29308344</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">AI will change radiology, but it won&apos;t replace radiologists</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Davenport</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kjd</forename><surname>Dreyer</surname></persName>
+		</author>
+		<idno>2024-10-08</idno>
+		<ptr target="https://hbsp.harvard.edu/search?action=&amp;author=Keith+J+Dreyer+DO&amp;activeTab=products" />
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Harvard Business Publishing Education</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Angwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Machine</surname></persName>
+		</author>
+		<title level="m">Ethics of Data and Analytics</title>
+		<editor>
+			<persName><forename type="first">K</forename><surname>Martin</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Auerbach Publications</publisher>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence-enabled healthcare delivery</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Purohit</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0141076818815510</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Med</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="28" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 30507284</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">AI in health: state of the art, challenges, and future directions</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Preininger</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0039-1677908</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Yearb Med Inform</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="26" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 31419814</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Data-driven analytics for personalized healthcare</title>
+		<author>
+			<persName><forename type="first">Jianying</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Apfw</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-20765-0_31</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Healthcare Information Management Systems</title>
+		<imprint>
+			<biblScope unit="page" from="529" to="554" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in cardiology</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Torres</forename><surname>Soto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Glicksberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Shameer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miotto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacc.2018.03.521</idno>
+		<idno>Medline: 29880128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Coll Cardiol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page" from="2668" to="2679" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Reducing annotation burden through multimodal learning. Front Big Data</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lopez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Fodeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Allam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Brandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krauthammer</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fdata.2020.00019</idno>
+		<idno>Medline: 33693393</idno>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">19</biblScope>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">Deciding when to submit a 510(k) for a software change to an existing device. Food and Drug Administration</title>
+		<idno>2024-11-06</idno>
+		<ptr target="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/deciding-when-submit-510k-software-change-existing-device" />
+		<imprint>
+			<date type="published" when="2017-10">Oct 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Regulation of predictive analytics in medicine</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Parikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Obermeyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Navathe</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaw0029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">6429</biblScope>
+			<biblScope unit="page" from="810" to="812" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in healthcare: past, present and future</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/svn-2017-000101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stroke Vasc Neurol</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="230" to="243" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 29507784</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Ramesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kambhampati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jrt</forename><surname>Monson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Drew</surname></persName>
+		</author>
+		<idno type="DOI">10.1308/147870804290</idno>
+		<idno>Medline: 15333167</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann R Coll Surg Engl</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="334" to="338" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">High-performance medicine: the convergence of human and artificial intelligence</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41591-018-0300-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="56" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 30617339</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in the health sector: key skills for future health professionals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gazquez-Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Sánchez-Bocanegra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Sevillano</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/preprints.58161</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Preprints. Preprint posted online on</title>
+		<imprint>
+			<date type="published" when="2024-03-07">March 7, 2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Barriers and facilitators to trustworthy and ethical AI-enabled medical care from patient&apos;s and healthcare provider&apos;s perspectives: a literature review. medRxiv</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mooghali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Stroud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Grimshaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ross</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/2023.10.02.23296447</idno>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence education and tools for medical and health informatics students: systematic review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Sapci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Sapci</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/19285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JMIR Med Educ</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2020">2020. 19285</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text Medline: 32602844</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Risk analysis of artificial intelligence in medicine with a multilayer concept of system order</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moghadasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Valdez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moghaddasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Linkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Polmateer</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/systems12020047</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Risk of AI in healthcare: a comprehensive literature review and study framework</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Muzumdar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kurian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Basyal</surname></persName>
+		</author>
+		<idno type="DOI">10.9734/ajmah/2023/v21i10903</idno>
+		<idno>Medline: 39250570</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AJMAH</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="276" to="291" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">The ethics of AI in health care: a mapping review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Morley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ccv</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Burr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cowls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taddeo</surname></persName>
+		</author>
+		<idno type="DOI">10.2139/ssrn.3830408</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRN Journal</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Ethics and governance of trustworthy medical artificial intelligence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-023-02103-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Inform Decis Mak</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="7" to="7" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Choosing human over AI doctors? how comparative trust associations and knowledge relate to risk and benefit perceptions of AI in healthcare</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kerstan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bienefeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grote</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/risa.14216</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Risk Anal</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="939" to="957" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 37722964</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Perceptions of artificial intelligence among healthcare staff: a qualitative survey study</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Castagno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Khalifa</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/frai.2020.578983</idno>
+		<idno>Medline: 33733219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Artif Intell</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">578983</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Governing the safety of artificial intelligence in healthcare</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Macrae</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjqs-2019-009484</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Qual Saf</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="495" to="498" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>Medline: 30979783</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Inclusion of clinicians in the development and evaluation of clinical artificial intelligence tools: a systematic literature review</title>
+		<author>
+			<persName><forename type="first">Tulk</forename><surname>Jesso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kelliher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sanghavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Henrickson</forename><surname>Parker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fpsyg.2022.830345</idno>
+		<idno>Medline: 35465567</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Psychol</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">830345</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>FREE Full text</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

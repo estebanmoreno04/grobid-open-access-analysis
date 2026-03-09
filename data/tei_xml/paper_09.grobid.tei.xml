@@ -1,0 +1,2203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Artificial intelligence in healthcare: applications, challenges, and future directions. A narrative review informed by international, multidisciplinary expertise</title>
+				<funder>
+					<orgName type="full">Insel Gruppe, Bern, Switzerland</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Frontiers Media SA</publisher>
+				<availability  status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2025-11-06">06 November 2025</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ata</forename><surname>Mohajer-Bastami</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="institution">Brompton Primary Care Network</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sarah</forename><surname>Moin</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of General Surgery</orgName>
+								<orgName type="institution">East Surrey Hospital</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Suhaib</forename><surname>Ahmad</surname></persName>
+							<email>suhaibsami94@gmail.com</email>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Health Education and Improvement Wales (HEIW)</orgName>
+								<address>
+									<settlement>Wales</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ahmed</forename><forename type="middle">R</forename><surname>Ahmed</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Sjaak</forename><surname>Pouwels</surname></persName>
+							<affiliation key="aff8">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Bielefeld University-Campus Detmold</orgName>
+								<address>
+									<settlement>Detmold</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Intensive Care Medicine</orgName>
+								<orgName type="institution">Elisabeth-Tweesteden Hospital</orgName>
+								<address>
+									<settlement>Tilburg</settlement>
+									<region>Netherlands</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shahab</forename><surname>Hajibandeh</surname></persName>
+							<affiliation key="aff10">
+								<orgName type="department">Department of General Surgery</orgName>
+								<orgName type="institution">Morriston Hospital</orgName>
+								<address>
+									<settlement>Swansea</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wah</forename><surname>Yang</surname></persName>
+							<affiliation key="aff11">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">The First Affiliated Hospital of Jinan University</orgName>
+								<address>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chetan</forename><surname>Parmar</surname></persName>
+							<affiliation key="aff12">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Whittington Hospital</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff13">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff14">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Apollo Hospitals</orgName>
+								<address>
+									<region>Telengana</region>
+									<country key="IN">India</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammad</forename><surname>Kermansaravi</surname></persName>
+							<affiliation key="aff15">
+								<orgName type="department" key="dep1">Department of Surgery</orgName>
+								<orgName type="department" key="dep2">Division of Minimally Invasive and Bariatric Surgery</orgName>
+								<address>
+									<addrLine>Hazrat-e Fatemeh Hospital</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Miriam</forename><surname>Khalil</surname></persName>
+							<affiliation key="aff16">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">Iran University of Medical Sciences</orgName>
+								<address>
+									<settlement>Tehran</settlement>
+									<country key="IR">Iran</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ali</forename><forename type="middle">Waleed</forename><surname>Khalid</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">St James University Hospital</orgName>
+								<address>
+									<settlement>Leeds</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ameer</forename><surname>Khamise</surname></persName>
+							<affiliation key="aff17">
+								<orgName type="department">School of Medicine</orgName>
+								<orgName type="institution">St James University Hospital</orgName>
+								<address>
+									<settlement>Leeds</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Rawaf</surname></persName>
+							<affiliation key="aff18">
+								<orgName type="department">WHO Collaborating Centre for Public Health Education and Training</orgName>
+								<orgName type="institution">University of Buckingham</orgName>
+								<address>
+									<settlement>Buckingham</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Farzad</forename><surname>Hosseini</surname></persName>
+							<affiliation key="aff19">
+								<orgName type="institution">Imperial College London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anurag</forename><surname>Agarwal</surname></persName>
+							<affiliation key="aff20">
+								<orgName type="department">Department of General Surgery</orgName>
+								<orgName type="institution">Kingsmill Hospital</orgName>
+								<address>
+									<settlement>Nottingham</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Anil</forename><surname>Lala</surname></persName>
+							<affiliation key="aff20">
+								<orgName type="department">Department of General Surgery</orgName>
+								<orgName type="institution">Kingsmill Hospital</orgName>
+								<address>
+									<settlement>Nottingham</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shafi</forename><surname>Ahmed</surname></persName>
+							<affiliation key="aff21">
+								<orgName type="institution">Betsi Cadwaladr University Health Board</orgName>
+								<address>
+									<settlement>Wales</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bijendra</forename><surname>Patel</surname></persName>
+							<affiliation key="aff21">
+								<orgName type="institution">Betsi Cadwaladr University Health Board</orgName>
+								<address>
+									<settlement>Wales</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Barbara</forename><surname>Fyntanidou</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Richard</forename><surname>Egan</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Department of Surgery</orgName>
+								<orgName type="institution">Health Education and Improvement Wales (HEIW)</orgName>
+								<address>
+									<settlement>Wales</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stavroula</forename><forename type="middle">G</forename><surname>Mougiakakou</surname></persName>
+							<affiliation key="aff23">
+								<orgName type="institution">Aristotle University of Thessaloniki</orgName>
+								<address>
+									<settlement>Thessaloniki</settlement>
+									<country key="GR">Greece</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dominik</forename><forename type="middle">Andreas</forename><surname>Jakob</surname></persName>
+							<affiliation key="aff25">
+								<orgName type="department">Department of Emergency Medicine</orgName>
+								<orgName type="institution">Inselspital University Hospital of Bern</orgName>
+								<address>
+									<settlement>Bern</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Vincent</forename><surname>Ribordy</surname></persName>
+							<affiliation key="aff26">
+								<orgName type="department">Department of Emergency Medicine</orgName>
+								<orgName type="institution">HFR Fribourg-Cantonal Hospital</orgName>
+								<address>
+									<settlement>Villars-sur-Glâne</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wolf</forename><forename type="middle">E</forename><surname>Hautz</surname></persName>
+							<affiliation key="aff25">
+								<orgName type="department">Department of Emergency Medicine</orgName>
+								<orgName type="institution">Inselspital University Hospital of Bern</orgName>
+								<address>
+									<settlement>Bern</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aristomenis</forename><forename type="middle">K</forename><surname>Exadaktylos</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Al-Iraqia University</orgName>
+								<address>
+									<country key="IQ">Iraq</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Rotterdam University</orgName>
+								<address>
+									<addrLine>Netherlands Cornelius G. Wittal</addrLine>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Roche Pharma AG</orgName>
+								<address>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">GUMA ALI</orgName>
+								<orgName type="institution" key="instit2">Muni University</orgName>
+								<address>
+									<country key="UG">Uganda</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff22">
+								<orgName type="department">University Emergency Department</orgName>
+								<orgName type="institution">Bart&apos;s Health NHS Trust</orgName>
+								<address>
+									<addrLine>19 Director</addrLine>
+									<settlement>London</settlement>
+									<country key="GB">United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff24">
+								<orgName type="institution" key="instit1">ARTORG Center for Biomedical Engineering Research</orgName>
+								<orgName type="institution" key="instit2">AI in Health and Nutrition</orgName>
+								<orgName type="institution" key="instit3">University of Bern</orgName>
+								<address>
+									<settlement>Bern</settlement>
+									<country key="CH">Switzerland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Artificial intelligence in healthcare: applications, challenges, and future directions. A narrative review informed by international, multidisciplinary expertise</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Frontiers in Digital Health</title>
+						<title level="j" type="abbrev">Front. Digit. Health</title>
+						<idno type="eISSN">2673-253X</idno>
+						<imprint>
+							<publisher>Frontiers Media SA</publisher>
+							<biblScope unit="volume">7</biblScope>
+							<date type="published" when="2025-11-06">06 November 2025</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">346CD47E0E9658D52FBB122358B365D5</idno>
+					<idno type="DOI">10.3389/fdgth.2025.1644041</idno>
+					<note type="submission">RECEIVED 09 June 2025 ACCEPTED 20 October 2025</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T18:01+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>artificial intelligence</term>
+					<term>machine learning</term>
+					<term>deep learning</term>
+					<term>large language models</term>
+					<term>generative AI</term>
+					<term>digital health</term>
+					<term>healthcare</term>
+					<term>surgery</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Objectives: This narrative review evaluates the role of artificial intelligence (AI) in healthcare, summarizing its historical evolution, current applications across medical and surgical specialties, and implications for allied health professions and biomedical research. Methods: We conducted a structured literature search in Ovid MEDLINE (2018-2025) using terms related to AI, machine learning, deep learning, large language models, generative AI, and healthcare applications. Priority was given to peerreviewed articles providing novel insights, multidisciplinary perspectives, and coverage of underrepresented domains. Key findings: AI is increasingly applied to diagnostics, surgical navigation, risk prediction, and personalized medicine. It also holds promise in allied health, drug discovery, genomics, and clinical trial optimization. However, adoption</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Artificial Intelligence (AI) has been a rapidly growing scientific field which effectively aims to create machine technology to perform tasks that normally require human intelligence. Artificial intelligence has risen in visibility due to its significant capability in performing tasks requiring normally human cognition, using deep learning models. The use of artificial intelligence has been noticed across different sectors from the creative arts to silence. The complex mergence with healthcare systems proves highly promising but it also comes with its own challenges, with the potential to improve patient outcomes while raising many ethical and regulatory challenges <ref type="bibr" target="#b0">(1)</ref>.</p><p>Healthcare is undergoing a transformational shift due to growing demands, healthcare costs and increasingly strained systems <ref type="bibr" target="#b1">(2)</ref>. Particularly after the recent Covid-19 pandemic which seemed to worsen existing health inequalities <ref type="bibr" target="#b2">(3)</ref>, there has never seemed a better opportunistic time to implement an emerging technology to augment clinical practice. From potential time and cost savings in drug discovery and medical diagnostics <ref type="bibr" target="#b3">(4,</ref><ref type="bibr" target="#b4">5)</ref>, to revolutionary insights into genomic sequencing and disease susceptibility <ref type="bibr" target="#b4">(5)</ref>, AI has been recently emerging into all areas of healthcare from preventative medicine and public health to acute hospital medicine and surgery. Since the development of machine learning and deep learning, applications of AI in healthcare have expanded beyond an algorithm-based model of medicine to a more personalised approach <ref type="bibr" target="#b5">(6)</ref>.</p><p>Recently, improved AI systems have led to the potential of AI improving or even replacing current functions of doctors <ref type="bibr" target="#b7">(7)</ref>. There are, however, several barriers that restrict its universal adoption, including lack of transparency in AI algorithms, which goes against the medical ethos of clinical medicine relying on transparency in decision making with current use of evidence-based medicine in clinical practice.</p><p>The motivation for this review stems from the rapid pace of AI adoption in non-medical sectors compared to healthcare, despite healthcare being one of the areas with the greatest need for innovation. While prior reviews have addressed AI in specific domains such as radiology or surgery, few have comprehensively examined its cross-disciplinary impact, including underrepresented fields such as allied health professions and generative AI. This paper aims to provide a multidisciplinary synthesis of AI applications across medicine, surgery, allied health, and biomedical research. Furthermore, we also aimed to critically evaluate the limitations and regulatory challenges of implementation. And finally we aimed to propose future research directions that can guide safe, equitable, and responsible AI integration. The review is structured to first present the history and evolution of AI, followed by its clinical and research applications, limitations, and finally, directions for future integration into healthcare systems.</p><p>This paper aims to discuss the history of AI and its increasingly prominent role in clinical practice, particularly in recent history. It discusses the role of AI across various domains of healthcare including medical and surgical specialties, as well as health prevention and health promotion. This paper also addresses the current limitations to the use of AI in clinical practice and explores possible solutions. Furthermore, this review considers potential future applications and strategies for more streamlined implementation into wider healthcare systems.</p><p>In addition, this review examines underrepresented domains such as allied healthcare professions and Generative AI (GenAI). In contrast to the traditional focus on physician-led applications, this review explores the role of AI in physiotherapy, speech therapy, nutrition and mental health. We also aim to explore the role of large language models (LLMs) in automating and improving documentation, communication and decision making. This provides a realistic oversight on the possible future integration of AI in healthcare.</p><p>We conducted a literature search in Ovidmedline up to July 2025. Search terms included combinations of "artificial intelligence," "machine learning," "deep learning," "large language models," "generative AI," "digital health," and "healthcare" alongside specialty-specific terms such as "surgery," "radiology," "mental health," "allied health professions," "ethics," "regulation," and "clinical applications." Boolean operators (AND, OR) were used to refine results. Priority was given to peer-reviewed articles published between 2018 and 2025 that provided novel insights, multidisciplinary perspectives, and coverage of underrepresented domains such as allied healthcare and AI regulation.</p><p>2 Understanding AI and its history AI has significantly evolved since the first AI program was developed by Christopher Strachey in 1951. It was initially mainly an academic research topic and in the following two decades, there were great innovative advances in engineering such as electronic arms in assembly lines and the first simple robot able to follow basic instructions <ref type="bibr" target="#b5">(6)</ref>. Despite this progression, medicine was slow to adopt this technology during this period. There were however major advancements in medicine during this time which would help establish the foundations of AI in medicine in the future; these include the development of medical record systems and clinical informatics databases <ref type="bibr" target="#b8">(8)</ref>. The web-based search engine PubMed was created in this time by the National Library of Medicine and was a fundamental digital resource which facilitated the acceleration of biomedicine as we know it (8) (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>The following decades saw a shift towards Machine Learning, which is a subfield of AI which focuses on pattern identification and analysis, aiming to improve machines with experience from data sets. Subsequently following this, Natural Language Processing, another AI subfield which involves computers extracting data from human language and based on that information making decisions was developed <ref type="bibr" target="#b9">(9)</ref>.</p><p>From the late 1990s and 2000s onwards, Machine Learning had progressed into Deep Learning, a system of multi-layer neural networks which enables machines to learn and make decisions on their own, acting similarly to the human brain <ref type="bibr" target="#b9">(9)</ref>. The 2000s started to see seminal advancements in AI. In 2007, the International Business Machines Corporation (IBM) developed Watson, a question-answering system that relied on a technology called DeepQA, which used Natural Language Processing to analyse data and generate answers <ref type="bibr" target="#b10">(10)</ref>. This system was easily maintainable and was more cost-effective.</p><p>Utilising information stored in electronic medical records as well as other available electronic resources, DeepQA technology opened the door and revolutionised new possibilities in clinical decision making backed by evidence-based medicine (11). This was exactly demonstrated by Bakkar et al. <ref type="bibr" target="#b11">(12)</ref> who used this technology in amyotrophic lateral sclerosis (ALS) to identify RNA-binding proteins that were altered.</p><p>With previous limitations in computing power and funding, applications of AI such as this was non-existent before. However, in more recent times with enhancement of computational power, greater volume of data and further funding; there is a more optimistic view for the use of AI in medicine 8 .</p><p>From diagnostics to operational management of healthcare, these recent emergences have made stakeholders more invested in its use in clinical medicine and beyond. The general population has generally met this with great enthusiasm as it gives more patient autonomy by enabling the "4P" model of medicine (predictive, preventive, personalised and participatory) <ref type="bibr" target="#b12">(13)</ref>, in a way that was previously difficult to achieve. This paper will now consider specific areas of medicine whereby AI has been utilised in an effective manner with better patient outcomes.</p><p>3 Current applications of artificial intelligence in modern clinical practice</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">AI in surgical specialities</head><p>Surgeons are often needing to make complex decisions under the constraints of time pressure and diagnostic uncertainty which can have a great effect on patient outcomes (Figure <ref type="figure" target="#fig_1">2</ref>; Table <ref type="table" target="#tab_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.1">Plastic and reconstructive surgery</head><p>Artificial intelligence has demonstrated potential in preoperative planning, risk assessment, outcome prediction in surgical simulation. Nevertheless, when operating in the field of plastic surgery AI-assisted robots enable increased precision and technical capabilities especially in the field of microsurgery. AI's image processing capabilities are used to objectively assess postoperative symmetry, volume, and aesthetic outcomes. Furthermore, AI-driven diagnostic systems are aiding in the early identification of complications such as flap ischemia, often detecting issues sooner than traditional clinical methods <ref type="bibr" target="#b14">(14)</ref>. Mohajer-Bastami et al. 10.3389/fdgth.2025.1644041</p><p>Frontiers in Digital Health</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2">General surgery</head><p>The field of general surgery includes high risk operations where dexterity is vital. Artificial intelligence allows intra operative risk stratification and assistance by allowing real time identification of anatomical structures and offering surgeons guidance during various complex procedures reducing the potential error <ref type="bibr" target="#b15">(15)</ref>. A systematic review by Yagi et al. explored the role of real time instrument tracking on personalised surgical training enhancing the technical proficiency and clinical outcomes <ref type="bibr" target="#b16">(16)</ref>.</p><p>Preoperative decision-making has also been significantly improved through AI's capacity to enhance existing risk prediction models. There are several established scoring systems such as APACHE III and POSSUM and they remain fundamental tools in assessing surgical morbidity and mortality. However it has been highlighted by many conditions in the field that those systems don't take individualised risk into consideration <ref type="bibr">(17,</ref><ref type="bibr" target="#b17">18)</ref>. Machine learning can refine these models, increasing their predictive power and allowing for more individualized risk assessment <ref type="bibr" target="#b19">(19)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.3">Gastrointestinal surgery</head><p>AI has delivered some of its most impactful innovations in gastrointestinal (GI) surgery, particularly in the realm of endoscopic imaging. Endoscopic ultrasound (EUS), a key modality for differentiating between pancreatic cancer and chronic pancreatitis, has seen its diagnostic precision substantially improved through AI-based models <ref type="bibr" target="#b20">(20)</ref><ref type="bibr" target="#b21">(21)</ref><ref type="bibr" target="#b22">(22)</ref>.</p><p>In lower GI endoscopy, AI-assisted colonoscopy has shown clear clinical benefit. Computer-aided detection (CADe) systems have improved the adenoma detection rate and facilitated the differentiation of benign vs. malignant lesions <ref type="bibr" target="#b23">(23)</ref>. A randomized controlled trial further confirmed a significant increase in adenoma detection with AI-guided colonoscopy compared to conventional methods <ref type="bibr" target="#b24">(24)</ref>. Similarly, AI tools applied to upper GI endoscopy have achieved 89% accuracy (90% sensitivity and 88% specificity) in identifying neoplastic Barrett's esophagus, enhancing early detection and intervention (25).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.4">Oncological surgery</head><p>In oncologic surgery, artificial intelligence has been able to predict outcomes in patients with cancers by incorporating multiple tumour related and patient related variables. The models had strong prediction of patient survival and was able to identify variable that had impact on outcomes. This was achieved by integrating clinical, imaging and history pathological data enabling a tailored treatment strategy making a substantial leap forward in the practise of precision oncology <ref type="bibr" target="#b20">(20)</ref>.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.5">Surgical education and skill assessment</head><p>AI is redefining surgical education across disciplines. Through computer vision, AI can track surgeon hand and instrument movements in real-time, offering performance metrics and feedback that are both objective and scalable. Such technology holds the potential to standardize training globally and raise the bar for surgical competency. Machine learning and its subcategories including supervised learning, unsupervised learning, reinforced learning, and deep learning as well as various sensors including optical, inertial, electromagnetic, ultrasonic and hybrid sensors offer unique strengths and it could be applied in various surgical training and patient care settings <ref type="bibr" target="#b16">(16)</ref>.</p><p>The incorporation of AI into surgical practice offers a transformative potential across all stages of the surgical process, from preoperative risk assessment to intra-operative guidance and postoperative outcomes. As the technology matures, its thoughtful integration into clinical workflows will be crucial. Continued research, rigorous clinical trials, and strong regulatory oversight are essential to maximize its benefits while ensuring safe and ethical application which is discussed further in this review.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">AI in medical specialties</head><p>AI technologies have been integrated into numerous medical specialties, each benefiting from improved diagnostic accuracy, predictive modeling, and personalized treatment planning. The following section classifies current applications by physiological system or clinical domain.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1">Cardiovascular system</head><p>AI has been instrumental in cardiovascular diagnostics and risk prediction. Atrial fibrillation (AF) detection was among the earliest and most impactful applications. The REHEARSE-AF trial demonstrated that AF was more accurately detected using Kardia, an AI-enabled mobile ECG device, compared to routine care <ref type="bibr" target="#b26">(26)</ref>. Although wearable ECG devices have been critiqued for high false-positive rates <ref type="bibr" target="#b27">(27)</ref>, they remain valuable tools for large-scale screening. Additionally, AI applied to electronic health records (EHRs) has outperformed traditional risk calculators in predicting cardiovascular conditions such as acute coronary syndrome and heart failure (28).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2">Neurological system</head><p>In neurology, AI-powered wearable sensors have proven useful in monitoring and assessing motor symptoms associated with Parkinson's disease, Huntington's disease, and multiple sclerosis <ref type="bibr" target="#b29">(29)</ref>. These devices quantify gait abnormalities, tremors, and posture with high sensitivity, supporting both diagnosis and disease progression tracking. AI also shows promise in seizure monitoring for epilepsy. Continuous ambulatory systems powered by AI algorithms can detect seizure events more reliably than conventional methods (28).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3">Gastrointestinal system (endoscopy &amp; imaging)</head><p>Artificial intelligence has significantly enhanced the diagnostic precision when it comes to diagnosing gastrointestinal pathologies. For example, the detection of colonic polyps I'm being able to distinguish whether they are benign and malignant using artificial intelligence has a higher accuracy compared to the normal clinician <ref type="bibr" target="#b23">(23)</ref>. A randomized controlled trial showed a substantial improvement in adenoma detection rates when using AI compared to standard colonoscopy <ref type="bibr" target="#b24">(24)</ref>. In upper gastrointestinal diagnostics, AI has been employed to distinguish neoplastic from non-dysplastic Barrett's esophagus with an accuracy of 89% (90% sensitivity, 88% specificity) (25).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4">Oncology</head><p>Precision medicine is a clinical approach of choice, aiming to customise the treatment based on the genomic profile of the individual patient with tumour. Imagine that computational method that is able to predict the drug response based on the genomic profile of the target cells. I study by Huang et al. Revealed that artificial intelligence models were able to predict patient responses with more than 80% accuracy. The high positive predictive value suggests that a I could be used to identify promising second line treatment for options failing standard of care first line therapies <ref type="bibr" target="#b30">(30,</ref><ref type="bibr" target="#b31">31)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.5">Mental health</head><p>In the mental health domain, it is important to identify organised treatment programmes an monitor the treatment that he rents and guidance from mental health specialists. AI-assisted platforms support early detection, risk stratification, and treatment planning. AI-enhanced online cognitive behavioral therapy (CBT) tools have shown clinical effectiveness in treating common mental health disorders <ref type="bibr" target="#b32">(32)</ref>. Furthermore, AI models can analyze behavioral patterns and linguistic cues to assist clinicians in diagnosing depression, anxiety, and schizophrenia (9).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.6">Radiology and medical imaging</head><p>Medical imaging is indispensable in providing diagnostic information but it is heavily dependent on clinical interpretation and is subject to an increasing resource challenges. Automated diagnosis from medical imaging, through artificial intelligence is the future. Many studies have revealed that deep learning models have matched and exceeded human diagnostic performance leading to considerable excitement amongst clinicians and scientists. Despite the promises, a 2019 meta-analysis revealed that 99% of these studies lacked rigorous methodology, limiting their clinical reliability <ref type="bibr" target="#b33">(33)</ref>. These findings underscore the critical need for high-quality clinical trials to validate AI applications in radiology before routine adoption.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.7">Pathology</head><p>Artificial intelligence is being used in cancer diagnosis, providing faster, higher quality and accurate diagnosis. With the help of advanced artificial intelligence, algorithms on diagnostic techniques are being used to assist, augment and empower the computational histopathology. Whole slide imaging scanners are now providing high resolution images for the entire glass slides, combining them with digital pathology tools integrating all aspects off pathology reporting including anatomical clinical and molecular pathology <ref type="bibr" target="#b34">(34,</ref><ref type="bibr">35)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.8">AI applications in allied healthcare professions</head><p>It is indispensable to mention that artificial intelligence is increasingly being used by various allied health professionals including, physiotherapy, dieticians, speech and language therapist, and mental health providers. For instance, wearable AI devices are being utilized by physiotherapist to support remote rehabilitation and analysis of gait. Dieticians are also creating personalized nutrition plans based on individual genetics and lifestyle. Furthermore, speech and language therapists are using artificial intelligence to detect language impairment and to detect progress (36).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.9">Generative AI and large language models (LLMs) in clinical practice</head><p>Generative artificial intelligence and large language models, including ChatGPT, Med-PaLM and BioGPT, are increasingly being utilised in healthcare systems. They are being used to summarise clinical notes, generate discharge summaries, transcribe dictations, and even assist in decision making. A recent study published by Danqing Hu et al. demonstrated the ability of large language models to interpret radiology scans and they were found to produce impressions with high completeness and correctness but fell short in conciseness and verisimilitude, indicating that the traditional physician cannot be replaced yet (37).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">AI in biomedical research and innovation</head><p>With limited resources available, public health and population health strategies rely on prospective analytical data to aid in guiding health initiatives effectively. This could be potentially fundamental in using predictive analytics to successfully identify patients at higher risk of developing chronic health conditions such as endocrine disorders like type 2 diabetes or cardiac conditions like heart failure. AI technology can be used to develop effective algorithms to more precisely analyse data and develop a more robust predictive model; which can reduce costs and improve patient prognoses <ref type="bibr" target="#b9">(9)</ref>. With analysis of data such as a patient's medical history and lifestyle factors, predictive models can assist in utilising targeted interventions to patients who are deemed at higher risk <ref type="bibr" target="#b37">(38)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">AI in biomedical research</head><p>Among the most transformative roles of artificial intelligence (AI) in healthcare is its application in biomedical research. As a driver of innovation, AI is streamlining and revolutionizing multiple stages of the research pipeline, from discovery through clinical translation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.1">Drug discovery and repurposing</head><p>A landmark example is DeepMind's AlphaFold, which has significantly advanced protein structure prediction, an essential component in target identification for drug development <ref type="bibr" target="#b38">(39)</ref>. Artificial intelligence on the and the deep learning network has demonstrated ability to identify distinct antibacterial molecule structure allowing for the expansion of the antibiotics arsenal. Machine learning models are now employed to design new molecules, predict drug-target interactions, and assess toxicity and pharmacokinetics in silico, reducing the time and cost associated with early-stage drug discovery (40, 41).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.2">Clinical trial optimization</head><p>AI contributes to the efficiency and success of clinical trials by supporting patient recruitment, through phenotype matching and stratification, Through predictive modelling. Variable devices and mobile apps have also been used to monitor adherence. The large language models also allow for the search of unstructured clinical data increasing the inclusivity and accuracy of the trial. Predictive modeling enables adaptive trial designs, allowing dynamic modifications based on interim data, which can increase trial efficiency and reduce operational costs <ref type="bibr" target="#b40">(42)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.3">Genomics and precision medicine</head><p>AI, particularly deep learning, is central to the analysis of large-scale genomic data. It facilitates the identification of pathogenic variants, enables patient stratification based on molecular signatures, and informs personalized treatment strategies. These advances are pivotal in the development of precision medicine initiatives <ref type="bibr" target="#b41">(43,</ref><ref type="bibr" target="#b42">44)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.4">Natural language processing in scientific literature</head><p>Natural language processing (NLP) tools allow AI systems to rapidly analyze and synthesize findings from vast repositories of scientific literature, by recognising and summarising key findings. These system can't accelerate systematic reviews and meta-analysis enabling clinicians and non-clinicians to keep up to date with the literature. This enhances hypothesis generation, accelerates systematic reviews, and supports evidence-based clinical decision-making by providing real-time insights into emerging research trends (45).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.5">Promoting equity in research</head><p>Recent efforts have focused on leveraging AI to reduce bias and improve inclusivity in biomedical research. AI tools are being developed to identify and correct demographic underrepresentation in clinical datasets, thereby improving the generalizability and equity of research findings across diverse populations. Machine learning models usually learn from historically collected data. Thus, data that has already experienced human biases in the past will be susceptible to incorrect predictions or withholding of resources <ref type="bibr" target="#b43">(46)</ref>. This concludes us that machine learning systems should be used proactively to advance equity. This could be achieved by incorporating distributive justice to the model design and deployment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Limitations of AI in healthcare</head><p>AI has demonstrated its ability to enhance medical practice across many different fields. Despite this, it has been met with certain resistance, particularly from healthcare professionals more so than from patients <ref type="bibr" target="#b28">(28)</ref>.</p><p>Firstly, one needs to consider a medico-legal framework in which AI applies. From an ethical viewpoint, there needs to be a degree of accountability, particularly for errors that are made. The current regulations in place already make it a difficult task to validate clear lines of responsibilities where a medical error has occurred <ref type="bibr" target="#b7">(7)</ref>, and it becomes even less clear with AI systems. This is certainly a key area that will need close collaboration with legal authorities, healthcare staff and other key stakeholders in healthcare in order to have more clarification than there currently is.</p><p>Healthcare staff should not just be closely involved in the development of further AI services in healthcare, they should lead it. This will ensure that any data generated from algorithms can be scrutinised and therefore allow for a fairer degree of responsibility <ref type="bibr" target="#b7">(7)</ref>. Further to this, allowing clinicians to be more involved in the testing of and design of AI applications can help build a sense of trust with the system in use. Clinicians historically adopt any new technology in healthcare slowly and rely on tried and trusted methods for clinical care (47), however, with more involvement early on, this could hopefully reduce the barriers in implementing a new system for clinicians to use in everyday care.</p><p>A different general argument of the rapid introduction of AI in healthcare is the general lack of training and education in the field of digital medicine (48). There is concern about there being a general unpreparedness for this shift due to the lack of education in this field. There is also fear of AI taking the place of clinicians and "taking over"; however, more recent opinion is that AI will be complementing and contributing to clinician ability and intelligence in the future <ref type="bibr" target="#b42">(44)</ref><ref type="bibr">(45)</ref><ref type="bibr" target="#b43">(46)</ref><ref type="bibr" target="#b44">(47)</ref><ref type="bibr">(48)</ref><ref type="bibr" target="#b45">(49)</ref><ref type="bibr" target="#b46">(50)</ref>.</p><p>Other challenges include reliance on institution-specific data, which may not translate well across healthcare systems; the risk of models losing accuracy over time as practice patterns change; difficulties linking AI with existing electronic records; and the potential to add rather than reduce workload if systems are poorly integrated. These issues highlight the need for careful validation before widespread use.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Potential for future</head><p>There has been a clear seismic shift toward digital medicine and AI technologies incorporated in healthcare, particularly in recent times. It seems a hugely opportunistic time to guide future systems to automate and overall improve healthcare delivery.</p><p>We expect artificial intelligence to support public health and analysing patient data and environmental factors predicting potential diseases. We also expect AI to have improved ability for analysis of medical images such as x-rays MRI's and CT scans improving the sensitivity and specificity of for those tests. Other areas include personalised medicine where you receive treatment based on your genetic makeup. Artificial intelligence will also be applied in administrative tasks to streamline billing son appointment scheduling and answering patient queries <ref type="bibr" target="#b47">(51)</ref>. We will also be able to collect patient data through wearable devices and rely on telemedicine platforms for remote consultations.</p><p>There is also the consideration of the ethical implications of the wide incorporation of AI in healthcare. From a revenue perspective, it is one of the most promising markets of the modern day, with a market value reaching a thousand billion dollars in 2019 <ref type="bibr" target="#b28">(28)</ref>. A growing percentage of revenue comes from sales of medical devices, such as the ECG monitors. Governments and insurance companies are therefore striking deals with these companies. The ethical implications of medical monitoring are frequently discussed, with the potential for violation of privacy and the ongoing monitoring posing a risk to increase stigma against more disadvantaged patients or patients with more chronic illnesses <ref type="bibr" target="#b48">(52)</ref>. Data protection and ownership are clear concepts that should be strongly considered to mitigate these risks going forward.</p><p>Several different universities have created new medical curriculums to start addressing the need to educate future medical leaders about the challenges faced with AI systems <ref type="bibr" target="#b49">(53)</ref>. Both healthcare institutions and society as a whole could greatly benefit from these clinicians with a broader skillset to not only act as a safety tool for AI systems in clinical delivery but also to drive further future research in this field <ref type="bibr" target="#b28">(28)</ref>.</p><p>There is a massive potential for further cost-efficiency in healthcare with the use of AI. Although there are relatively limited cost-benefit reports currently for the use of AI in healthcare <ref type="bibr" target="#b50">(54)</ref>, there are specific examples where successful cost-effectiveness has been demonstrated.</p><p>Using AI for personalized medicine and developing predictive algorithms to forecast each patient's response to medical or surgical treatment by evaluating their genetic and environmental factors can be an effective strategy for optimizing treatment outcomes <ref type="bibr" target="#b51">(55)</ref>.</p><p>AI can play a fundamental role in drug development and manufacturing; with dose optimisation and recognition of adverse drug reactions <ref type="bibr" target="#b52">(56)</ref> which can enhance treatment outcomes and patient safety. By utilising AI algorithms, the process of optimizing medication dosages tailored to each individual will not only improve patient safety but improve on efficiency and cost saving targets for healthcare providers. The development of new drugs and their entry into the market have been accelerated by the use of AI <ref type="bibr" target="#b53">(57)</ref>.</p><p>Furthermore, one of the greatest potentials for AI use is in robotics, with different types of robots such as mobile autonomous and educational robots being used in healthcare <ref type="bibr" target="#b7">(7)</ref>. The wider use of robotics can contribute to further cost-effectiveness. Surgical robots are becoming more in use, and as such, common minor surgical procedures may well be led by robotic systems in the future (58, 59).</p><p>Future directions include: (1) Explainable AI to improve trust; (2) Federated learning to protect privacy while training across institutions; (3) Wider integration with robotics; (4) AI tailored for low-resource settings; and (5) Green AI to reduce environmental impact. These avenues require international collaboration and robust policies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Ensuring responsible AI: data integrity, privacy, and bias mitigation</head><p>The integration of AI into healthcare demands systems that are reliable, safe, and transparent, grounded in strong ethical principles and values. This requirement is a key reason why the adoption of AI in healthcare has lagged its technological advancements. As a highstakes domain, healthcare involves sensitive and complex data, including electronic health records, medical imaging databases, wearable device outputs, and public health datasets, which necessitate careful handling and regulation <ref type="bibr" target="#b55">(60)</ref>.</p><p>Given that personal medical information is among the most private and legally protected forms of data, there are significant concerns regarding how it can be accessed, controlled, or used, particularly for training AI systems, until truly autonomous, selftraining AI models are developed. A key requirement is the robust anonymisation of data, which involves removing all identifiable information, including personal details and patient record numbers.</p><p>In the European Union, such practices must comply with the General Data Protection Regulation (GDPR), which mandates transparency, informed consent, and a clear legal basis for processing this type of sensitive data <ref type="bibr" target="#b56">(61)</ref>.</p><p>Consent is not always required for AI training when using patients data under the GDPR however GDPR strictly applies if the data is not fully anonymised. According to the information Commission office it's very important to differentiate between artificial intelligence development and deployment phase this is because they are distinct and separate purposes and they involve different laws for example if an AI system was developed for a general purpose task and then you deploy it in a different context as an example a facial recognition system that could be trained to recognise recognise faces and this can be applied in many places such as prevention of crimes authentication tagging friends in social media but each application requires a different law. Processing of personal data for the purposes of training of the artificial intelligence model may not directly affect the individuals but once the model is deployed it automatically makes decisions which have significant effects and so consequences as a result law also applies here.</p><p>Under the General Data Protection Regulation (GDPR), consent is not always required for training artificial intelligence (AI) models using patient data-provided the data is fully anonymised. However, GDPR applies strictly when data is not fully anonymised, as such data is still considered personal and subject to protection.</p><p>According to the UK Information Commissioner's Office (ICO), it is crucial to distinguish between the development and deployment phases of AI. These phases represent distinct purposes and are governed by different legal considerations. For example, an AI system trained for a general task-such as facial recognition-may later be deployed in different contexts, including crime prevention, authentication, or social media tagging. Each of these applications involves separate legal frameworks and must be assessed independently for compliance.</p><p>Importantly, while the training phase of an AI model may not have a direct impact on individuals, its deployment phase often does. Once deployed, AI systems can automatically make decisions that have significant effects on individuals, such as determining eligibility for services or influencing legal outcomes. As a result, GDPR and other laws apply at the deployment stage, especially where automated decision-making or profiling is involved <ref type="bibr" target="#b57">(62)</ref>.</p><p>One critical yet underexplored aspect in the literature is algorithmic bias in artificial intelligence (AI). AI systems behave according to the data on which they are trained. If an AI is trained on datasets that reflect existing societal inequalities, it may perpetuate or even amplify those biases. For instance, an AI model trained predominantly on data from white male patients may produce inaccurate or unfair outcomes when applied to female or Black patients. Addressing this issue requires intentional diversification of training datasets, regular bias audits, and model adaptation when transferring AI systems across different populations or institutions. One approach is to fine-tune models using representative data from the new target population or allow the AI to train across multiple heterogeneous datasets. However, this raises concerns around data privacy, governance, and patient consent, especially when multiple health records are involved. Furthermore, many AI systems operate as "black boxes," providing outputs without transparency regarding how decisions were made. This has led to growing interest in explainable AI (XAI), which aims to enhance model interpretability and ensure clinicians and patients can understand the rationale behind algorithmic decisions. XAI aims to bridges the gap between decision-making and the human interpretation of outputs <ref type="bibr" target="#b58">(63)</ref>.</p><p>The World Health Organization's guidance represents the collaborative work of global experts in ethics and digital technology, offering a framework for the responsible use of artificial intelligence in public health. It supports governments in carrying out essential public health functions, including disease surveillance, while placing ethics, human rights, and equity at the core of AI system design, deployment, and implementation <ref type="bibr" target="#b59">(64)</ref>.</p><p>The EU artificial intelligence act classifies AI systems by risk and obligates transparency, assurance of quality and traceability, especially when AI is applied in high-risk settings such as in healthcare. The medical device regulation identified the risk of the utilization of AI by further requiring conformity assessments and CE marking before utilization. In the United States, the confidentiality and breach protection, when applying AI systems, is governed by the Health Insurance Portability and Accountability. These frameworks are not there to stop the so called (progression in technology) but to ensure accountability <ref type="bibr" target="#b60">(65)</ref><ref type="bibr" target="#b61">(66)</ref><ref type="bibr" target="#b62">(67)</ref>. This review evaluates the use of AI in healthcare, with emphasis on underrepresented fields. By incorporating Generative AI and allied health applications, we highlight its expanding role in an evolving healthcare landscape. As with any novel tool introduced into clinical practice, concerns remain regarding the limited initial evidence base. Despite multiple successes, resistance and lack of trust toward AI's benefits persist. Yet, its rapid adoption in other sectors demonstrates the transformative potential of this technology, and its pace of advancement has been remarkable. In the post-COVID-19 era, where healthcare faces rising demands and constrained resources, this is an opportune moment to integrate AI to strengthen service delivery. While the narrative review approach introduces the possibility of selection bias and reduced reproducibility, the multidisciplinary expertise of the authors ensured a balanced and comprehensive synthesis.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1</head><label>1</label><figDesc>FIGURE 1Timeline of major milestones in AI and healthcare.</figDesc><graphic coords="3,70.47,624.87,454.28,111.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2</head><label>2</label><figDesc>FIGURE 2Timeline of major milestones in AI and healthcare.</figDesc><graphic coords="4,130.22,95.36,334.77,147.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1</head><label>1</label><figDesc>Summary of AI applications in healthcare.</figDesc><table><row><cell>Specialty</cell><cell>Applications</cell><cell>Benefits</cell><cell>Challenges</cell></row><row><cell>Mental Health</cell><cell>CBT tools, behavioral pattern analysis</cell><cell>Early diagnosis, treatment stratification</cell><cell>Overgeneralization, clinician trust</cell></row><row><cell>Pathology</cell><cell>Digital histopathology, cancer detection</cell><cell>Increased accuracy, faster turnaround</cell><cell>Interpretability, validation standards</cell></row><row><cell>Allied Health</cell><cell>Remote rehab, nutrition planning, speech therapy</cell><cell>Improved care access, individualization</cell><cell>Limited data, uneven access to tech</cell></row><row><cell>Administrative Tasks</cell><cell>Scheduling, billing, report generation</cell><cell>Operational efficiency, reduced burden</cell><cell>Interoperability, data privacy</cell></row></table><note><p>General Surgery Intra-operative guidance, risk stratification Enhanced precision, reduced errors Training needs, regulatory concerns Gastrointestinal Endoscopy Polyp detection, lesion classification Higher adenoma detection rates False positives, trust building Oncology Predicting treatment response and survival Personalized treatment, improved outcomes Data diversity, model transparency Radiology Automated image analysis, diagnosis support Faster diagnostics, reduced workload Over-reliance, bias, legal concerns Cardiology Arrhythmia detection, risk calculators Early diagnosis, better screening False positives, device reliability Neurology Seizure detection, motor symptom tracking Continuous monitoring, accurate tracking Privacy concerns, model reliability</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Frontiers in Digital Health</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Frontiers in Digital Health 04 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Frontiers in Digital Health 05 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Frontiers in Digital Health 06 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_5"><p>Frontiers in Digital Health 07 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_6"><p>Mohajer-Bastami et al. 10.3389/fdgth.2025.1644041 Frontiers in Digital Health 09 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_7"><p>Frontiers in Digital Health 10 frontiersin.org</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_8"><p>Frontiers in Digital Health 11 frontiersin.org</p></note>
+		</body>
+		<back>
+
+			<div type="funding">
+<div><head>Funding</head><p>The author(s) declare that financial support was received for the research and/or publication of this article. The authors declare that this study received funding from <rs type="funder">Insel Gruppe, Bern, Switzerland</rs>. The funder was not involved in the study design, collection, analysis, interpretation of data, the writing of this article, or the decision to submit it for publication.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Author contributions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Correction Note</head><p>This article has been corrected with minor changes. These changes do not impact the scientific content of the article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Generative AI statement</head><p>The author(s) declare that Generative AI was used in the creation of this manuscript. ChatGPT (OpenAI) was used to assist with grammar correction and sentence restructuring during the drafting of this manuscript. ChatGPT was not used for data analysis, interpretation, or content generation related to the scientific conclusions of this work. All data collection, analysis, interpretation, and scientific writing were performed by the authors.</p><p>Any alternative text (alt text) provided alongside figures in this article has been generated by Frontiers with the support of artificial intelligence and reasonable efforts have been made to ensure accuracy, including review by the authors wherever possible. If you identify any issues, please contact us.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Publisher's note</head><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Drazen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kohane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T-Y</forename><surname>Leong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Manrai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Rubin</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/nejme2206291</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1220" to="1221" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Drawbacks of artificial intelligence and their potential solutions in the healthcare sector</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fatima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Qureshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hanan</forename><forename type="middle">A</forename><surname>Hussain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s44174-023-00063-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed Mater Devices</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="731" to="738" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">COVID-19 and the widening gap in health inequity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Krouse</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0194599820926463</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Otolaryngol Head Neck Surg</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="66" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Advancing drug discovery via artificial intelligence</title>
+		<author>
+			<persName><forename type="first">Hcs</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dahoun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tips.2019.06.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Pharmacol Sci</title>
+		<imprint>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="592" to="604" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence can cut costs while maintaining accuracy in colorectal cancer genotyping</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Kacew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Strohbehn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saulsberry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Laiteerapong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Cipriani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kather</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fonc.2021.630953</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Oncol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">630953</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">History of artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kaul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Enslin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Gross</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/j.gie.2020.06.040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gastrointest Endosc</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="807" to="812" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence-enabled healthcare delivery</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Purohit</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0141076818815510</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J R Soc Med</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="28" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Beginnings of artificial intelligence in medicine (AIM): computational artifice assisting scientific inquiry and clinical art-with reflections on present aim challenges</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Kulikowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1055/s-0039-1677895</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Yearb Med Inform</title>
+		<imprint>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="249" to="256" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Revolutionizing healthcare: the role of artificial intelligence in clinical practice</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Alowais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Alghamdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alsuhebany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alqahtani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Alshaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Almohareb</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12909-023-04698-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Educ</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Introduction to artificial intelligence in medicine</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ferrucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Levas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bagchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gondek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Et ;</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brodie</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/13645706.2019.1575882</idno>
+		<idno>doi: 10.1080/13645706.2019. 1575882</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Minim Invasive Ther Allied Technol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="73" to="81" />
+			<date type="published" when="2013">2013. 2019</date>
+		</imprint>
+	</monogr>
+	<note>Watson: beyond jeopardy! Artif Intell.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in neurodegenerative disease research: use of IBM watson to identify additional RNA-binding proteins altered in amyotrophic lateral sclerosis</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bakkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kovalik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lorenzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Spangler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lacoste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sponaugle</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00401-017-1785-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Neuropathol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="227" to="247" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Opinion: redefining the role of the physician in laboratory medicine in the context of emerging technologies, personalised medicine and patient autonomy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Orth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Averina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chatzipanagiotou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Faure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Haushofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kusec</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1136/jclinpath-2017-204734</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Clin Pathol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="191" to="197" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in plastic surgery: analysis of applications, perspectives, and psychological impact</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Bernardis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Persichetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s00266-024-03988-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Aesthetic Plast Surg</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1637" to="1639" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence for intraoperative guidance</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Madani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Namazi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Altieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Rivera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Pucher</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/sla.0000000000004594</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Surg</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="363" to="369" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence integration in surgery through hand and instrument tracking: a systematic literature review. Front Surg</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yangi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>On</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Gholami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Reed</surname></persName>
+		</author>
+		<idno type="DOI">10.1378/chest.100.6.1619</idno>
+		<idno>doi: 10.1378/ chest.100.6.1619</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chest</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1619" to="1636" />
+			<date type="published" when="1991">2025. 1991</date>
+		</imprint>
+	</monogr>
+	<note>The apache III prognostic system</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Possum: a scoring system for surgical audit</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Copeland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walters</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Surg</forename><surname>Br</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/bjs.1800780327</idno>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="355" to="360" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in surgery: the future is now</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fehervari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ashrafian</surname></persName>
+		</author>
+		<idno type="DOI">10.1159/000536393</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur Surg Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="22" to="39" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Prediction of survival in patients with esophageal carcinoma using artificial neural networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shimada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Selaru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Watanabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/cncr.20938</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cancer</title>
+		<imprint>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1596" to="1605" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Differentiation of pancreatic cancer and chronic pancreatitis using computer-aided diagnosis of endoscopic ultrasound (EUS) images: a diagnostic test</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0063820</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">63820</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence in pancreatic cancer: toward precision diagnosis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Saftoiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cazacu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Udristoiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gruionu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Iacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gruionu</surname></persName>
+		</author>
+		<idno type="DOI">10.4103/eus.eus_76_19</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<publisher>Endosc Ultrasound</publisher>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">357</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence-assisted gastroenterologypromises and pitfalls</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Ruffle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Farmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Aziz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41395-018-0268-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Gastroenterol</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="422" to="428" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Real-time automatic detection system increases colonoscopic polyp and adenoma detection rates: a prospective randomised controlled study</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Berzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glissen</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Bharadwaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Becq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+		<idno type="DOI">10.1136/gutjnl-2018-317500</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gut</title>
+		<imprint>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1813" to="1819" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Deep-learning system detects neoplasia in patients with barrett&apos;s esophagus with higher accuracy than endoscopists in a multistep training and validation study with benchmarking</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>De Groof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Struyvenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Der Putten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Van Der Sommen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">N</forename><surname>Fockens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Curvers</surname></persName>
+		</author>
+		<idno type="DOI">10.1053/j.gastro.2019.11.030</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Gastroenterology</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="915" to="929" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Assessment of remote heart rhythm sampling using the AliveCor heart monitor to screen for atrial fibrillation</title>
+		<author>
+			<persName><forename type="first">Jpj</forename><surname>Halcox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wareham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cardew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gilmore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/circulationaha.117.030583</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="1784" to="1794" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Apple watch, wearables, and heart rhythm: where do we stand?</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Raja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Elsakr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Pour-Ghaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nanda</surname></persName>
+		</author>
+		<idno type="DOI">10.21037/atm.2019.06.79</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Transl Med</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page" from="417" to="417" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence in medicine: today and tomorrow</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Briganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Moine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+		<idno type="DOI">10.3389/fmed.2020.00027</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front Med (Lausanne)</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">509744</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Teleneurology and mobile technologies: the future of neurological care</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Dorsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Glidden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Birbeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Schwamm</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrneurol.2018.31</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Neurology</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="285" to="297" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Precision medicine, AI, and the future of personalized health care</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weeraratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Frisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Misulis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rhee</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/cts.12884</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Transl Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="86" to="93" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Machine learning predicts individual cancer patient responses to therapeutic drugs with high accuracy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Clayton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Matyunina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Mcdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Benigno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vannberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-018-34753-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">16444</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The effectiveness of internet cognitive behavioural therapy (ICBT) for depression in primary care: a quality assurance study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Andrews</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0057447</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">57447</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A comparison of deep learning performance against health-care professionals in detecting diseases from medical imaging: a systematic review and meta-analysis</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Faes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">U</forename><surname>Kale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bruynseels</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s2589-7500(19)30123-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet Digit Health</title>
+		<imprint>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="271" to="297" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A multimodal generative AI copilot for human pathology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Av ;</forename><surname>Parwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dfk</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Chow</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-024-07618-3</idno>
+		<idno>doi: 10.1038/s41586-024-07618-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diagn Pathol</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">8033</biblScope>
+			<biblScope unit="page" from="466" to="473" />
+			<date type="published" when="2023">2023. 2024</date>
+		</imprint>
+	</monogr>
+	<note>Artificial intelligence in diagnostic pathology Nature.</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Large language models in summarizing radiology report impressions for lung cancer in Chinese: evaluation study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.2196/65547</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Med Internet Res</title>
+		<imprint>
+			<biblScope unit="page">65547</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Using artificial intelligence to improve healthcare delivery in select allied health disciplines: a scoping review protocol</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Raghunathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Wani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Edvardsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peiris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fowler-Davis</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjopen-2024-098290</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Open</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">98290</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Using predictive analytics to guide patient care and research in a national health system</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">T</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Zulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Rubenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Kirkland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Fihn</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11606-019-04961-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1379" to="1380" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Highly accurate protein structure prediction with AlphaFold</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jumper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pritzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Figurnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ronneberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-021-03819-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="issue">7873</biblScope>
+			<biblScope unit="page" from="583" to="589" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Deep learning enables rapid identification of potent DDR1 kinase inhibitors</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhavoronkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Ivanenkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aliper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Veselov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Aladinskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Aladinskaya</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2020.01.021</idno>
+		<idno>doi: 10.1016/j.cell.2020.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="475" to="483" />
+			<date type="published" when="2019">2019. 2020. 2020 April 16</date>
+		</imprint>
+	</monogr>
+	<note>A deep learning approach to antibiotic discovery Cell. Erratum in Cell</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Adaptive designs for clinical trials</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Bhatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mehta</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMra1510061</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="65" to="74" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Machine learning applications in genetics and genomics</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Libbrecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Noble</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg3920</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Rev Genet</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="321" to="332" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">High-performance medicine: the convergence of human and artificial intelligence</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Beltagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cohan</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/D19-1371</idno>
+		<idno>doi: 10.18653/v1/D19-1371</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)</title>
+		<meeting>the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)<address><addrLine>Hong Kong, China</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2019">2019. 2019</date>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="44" to="56" />
+		</imprint>
+	</monogr>
+	<note>SciBERT: a pretrained language model for scientific text Pages</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Ensuring fairness in machine learning to advance health equity</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajkomar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chin</surname></persName>
+		</author>
+		<idno type="DOI">10.7326/M18-1990</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Intern Med</title>
+		<imprint>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="866" to="872" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">of the German Association for Medical Informatics, Biometry and Epidemiology (gmds) and the German Informatics Society (GI). Digital teaching and digital medicine: a national initiative is needed</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lapointe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Igel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mr ; Gma)</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Committee</forename></persName>
+		</author>
+		<idno type="DOI">10.3205/zma001189</idno>
+		<idno>doi: 10.3205/zma001189</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Getting physicians to accept new information technology: insights from case studies</title>
+		<imprint>
+			<publisher>German Medical Education Society</publisher>
+			<date type="published" when="2006">2006. 2018</date>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page">43</biblScope>
+		</imprint>
+	</monogr>
+	<note>Can Med Assoc J. Digitization -Technology-Assisted Learning and Teaching&quot;; Joint working group GMS J Med Educ</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">What this computer needs is a physician</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Verghese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harrington</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.19198</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Bridging the gaps: overcoming challenges of implementing AI in healthcare</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eils</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.medj.2025.100666</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Med</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">100666</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Recent advances in large language models for healthcare</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nassiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Akhloufi</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/biomedinformatics4020062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioMedInformatics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1097" to="1143" />
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Ethics of the health-related internet of things: a narrative review</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mittelstadt</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10676-017-9426-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ethics Inf Technol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="157" to="175" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Ai added to the curriculum for doctors-to-be</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brouillette</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41591-019-0648-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1808" to="1809" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Key challenges for delivering clinical impact with artificial intelligence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karthikesalingam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Suleyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12916-019-1426-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">195</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">International expert consensus on the current status and future prospects of artificial intelligence in metabolic and bariatric surgery</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kermansaravi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chiappetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shahabi</forename><surname>Shahmiri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Varas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Parmar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-025-94335-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">9312</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Validation of artificial intelligence to support the automatic coding of patient adverse drug reaction reports, using nationwide pharmacovigilance data</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jouganous</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Savidan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bellec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Goehrs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Benkebil</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40264-022-01153-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Drug Saf</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="535" to="548" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A $3 trillion challenge to computational scientists: transforming healthcare delivery</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shademan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Decker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Opfermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leonard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krieger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/scitranslmed.aad9398</idno>
+		<idno>doi: 10.1126/scitranslmed.aad9398</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Intell Syst</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="82" to="87" />
+			<date type="published" when="2014">2014. 2016</date>
+		</imprint>
+	</monogr>
+	<note>Supervised autonomous robotic soft tissue surgery Sci Transl Med.</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Large language models in medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Thirunavukarasu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsj</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Elangovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gutierrez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dsw</forename><surname>Ting</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41591-023-02448-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Med</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1930" to="1940" />
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Editorial: trustworthy AI for healthcare. Front Digit Health</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Agafonov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Babic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alagaratnam</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fdgth.2024.1427233</idno>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1427233</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Privacy and artificial intelligence: challenges for protecting health information in a new era</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Murdoch</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12910-021-00687-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med Ethics. (2021)</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">122</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Information Commissioner&apos;s Office. How Do We Ensure Lawfulness in AI?</title>
+		<ptr target="https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/artificial-intelligence/guidance-on-ai-and-data-protection/how-do-we-ensure-lawfulness-in-ai/" />
+		<imprint>
+			<date type="published" when="2025-05-09">May 9, 2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A systematic literature review of blockchain-based e-voting system</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Sattar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Ahmed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjs</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wahid</surname></persName>
+		</author>
+		<idno type="DOI">10.22052/SCJ.2021.242836.0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="81" to="88" />
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Ethics and Governance of Artificial Intelligence for Health: WHO Guidance</title>
+		<ptr target="https://www.who.int/publications/i/item/9789240029200" />
+		<imprint>
+			<date type="published" when="2021-10-25">2021. October 25, 2025</date>
+			<publisher>World Health Organization</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Act</surname></persName>
+		</author>
+		<ptr target="https://artificialintelligenceact.eu/the-act/" />
+		<title level="m">The Act Texts. AI Act Explorer</title>
+		<imprint>
+			<date type="published" when="2024-07-27">2024. July 27, 2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Regulation (EU) 2017/745 of the European parliament and of the council of 5 April 2017 on medical devices …</title>
+		<ptr target="//eur-lex.europa.eu/eli/reg/2017/745/oj/eng" />
+	</analytic>
+	<monogr>
+		<title level="j">Off J Eur Union</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="1" to="175" />
+			<date type="published" when="2017-07-27">2017. July 27, 2025</date>
+			<publisher>European Union</publisher>
+		</imprint>
+	</monogr>
+	<note>Available online at: ht tps</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">HIPAA for Professionals: Privacy, Laws &amp; Regulations</title>
+		<ptr target="https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html" />
+	</analytic>
+	<monogr>
+		<title level="j">HHS.gov</title>
+		<imprint>
+			<date type="published" when="2025-07-27">July 27, 2025</date>
+			<publisher>Department of Health and Human Services (HHS)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
