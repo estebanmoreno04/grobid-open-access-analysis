@@ -31,7 +31,6 @@ The PDF files are stored in:
 - `data/metadata/`: metadata about selected articles
 - `src/`: Python scripts for extraction and analysis
 - `results/`: generated outputs
-- `notebooks/`: optional exploratory notebooks
 
 ## Requirements
 - Python 3.10+
