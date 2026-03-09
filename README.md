@@ -149,10 +149,10 @@ If Grobid does not respond, make sure the Docker container is running on `localh
 
 ## Future improvements
 Possible improvements for future versions of the project include:
-- adding Docker support for the full experiment
-- including a `CITATION.cff` file
-- adding richer software metadata such as `codemeta.json`
-- extending the analysis with additional statistics or text mining steps
+- Adding Docker support for the full experiment
+- Including a `CITATION.cff` file
+- Adding richer software metadata such as `codemeta.json`
+- Extending the analysis with additional statistics or text mining steps
 
 ## Acknowledgements
 Course: Open Science and AI in Research Software Engineering
