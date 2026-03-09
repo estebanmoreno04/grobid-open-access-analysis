@@ -1,0 +1,5 @@
+pandas
+matplotlib
+wordcloud
+beautifulsoup4
+lxml
